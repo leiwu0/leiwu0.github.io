@@ -1,0 +1,86 @@
+# jemdoc: menu{MENU}{papers.html}
+
+
+
+*: indicating equal contribution or alphabetic ordering.
+
+
+= Published
+- [https://arxiv.org/abs/1912.12777 Machine learning from a continuous viewpoint, I]\n
+Weinan E\*, Chao Ma\*, Lei Wu\* \n
+/Science China Mathematics, 2020/
+
+- [http://proceedings.mlr.press/v107/ma20a.html The Slow Deterioration of the Generalization Error of the Random Feature Model]\n
+Chao Ma\*, Lei Wu\*, Weinan E\n
+/Mathematical and Scientific Machine Learning (MSML), 2020/
+
+- [https://arxiv.org/abs/1906.08039 Barron Spaces and Flow-induced Function Spaces for Neural Network Models]\n
+Weinan E\*, Chao Ma\*, Lei Wu\* \n 
+/Constructive Approximation, 2020/
+
+
+- [https://arxiv.org/abs/1904.04326 A comparative analysis of the optimization and generalization property of two-layer neural network and random feature models under gradient descent dynamics]\n
+Weinan E\*, Chao Ma\*, Lei Wu\* \n
+/Science China Mathematics, 2020/
+
+- [https://arxiv.org/abs/1912.06987 On the generalization properties of minimum-norm solutions for over-parameterized neural network models]\n
+Weinan E\*, Chao Ma\*, Lei Wu\* \n
+/Journal of Pure and Applied Functional Analysis, 2020/
+
+
+- [https://arxiv.org/abs/1911.00645 Global Convergence of Gradient Descent for Deep Linear Residual Networks]\n
+Lei Wu\*, Qingcan Wang\*, Chao Ma\n
+/Neural Information Processing Systems (NeurIPS), 2019/
+
+
+- [https://arxiv.org/abs/1810.06397 A Priori Estimates of the Population Risk for Two-layer Neural Networks]\n
+Weinan E\*, Chao Ma\*, Lei Wu\*\n 
+/Communications in Mathematical Sciences, 2019/
+
+- [https://arxiv.org/abs/1803.00195 The anisotropic noise in stochastic gradient descent: Its behavior of escaping from minima and regularization effects]\n
+Zhanxing Zhu, Jingfeng Wu, Bing Yu, Lei Wu, Jinwen Ma\n
+/International Conference on Machine Learning (ICML), 2019/
+
+- [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective How SGD Selects the Global Minima in Over-parameterized Learning: A Stability Perspective]\n
+Lei Wu\*, Chao Ma, Weinan E\n 
+/Advances in Neural Information Processing Systems (NeurIPS), 2018/
+
+- [https://arxiv.org/abs/1802.09707 Understanding and enhancing the transferability of adversarial examples]\n
+Lei Wu\*, Zhanxing Zhu\n
+/Asian Conference on Machine Learning (ACML), 2020/
+
+- [https://arxiv.org/abs/1608.05973 Irreversible Samplers from Jump and Continuous Markov processes]\n
+Yi-An Ma, Emily B Fox, Tianqi Chen, Lei Wu\n
+/Statistics and Computing, 2018/
+
+- [https://arxiv.org/pdf/1512.00138.pdf Smoothed dissipative particle dynamics model for mesoscopic multiphase flows in the presence of thermal fluctuations]\n
+Huan Lei, Nathan A Baker, Lei Wu, Gregory K Schenter, Christopher J Mundy, Alexandre M Tartakovsky\n
+/Physical Review E, 2016/
+
+
+
+
+
+
+= Preprint
+
+
+- [https://arxiv.org/abs/2006.14450 The Quenching-Activation Behavior of the Gradient Descent Dynamics for Two-layer Neural Network Models]\n
+Chao Ma\*, Lei Wu\*, Weinan E\n
+/Preprint, arxiv:2006.14450/
+
+- [https://arxiv.org/abs/2003.03672 Machine learning based non-Newtonian fluid model with molecular fidelity]\n
+Huan Lei, Lei Wu, Weinan E\n
+/Preprint, arxiv:2003.03672/
+
+
+- [https://arxiv.org/abs/1904.05263 Analysis of the gradient descent algorithm for a deep neural network model with skip-connections]\n
+Weinan E\*, Chao Ma\*, Lei Wu\* \n
+/Preprint, arxiv:1904.05263/
+
+- [https://arxiv.org/abs/1706.10239 Towards understanding generalization of deep learning: perspective of loss landscapes]\n
+Lei Wu\*, Zhanxing Zhu, Weinan E\n
+/ICML 2017, Workshop on Principled Approaches to Deep Learning/
+
+
+
