@@ -2,7 +2,7 @@
 
 
 
-*: indicating equal contribution or alphabetic ordering.
+* indicates  equal contribution or alphabetical author order.
 
 
 = Published
@@ -59,6 +59,10 @@ Lei Wu\*, Zhanxing Zhu\n
 Yi-An Ma, Emily B Fox, Tianqi Chen, Lei Wu\n
 /Statistics and Computing, 2018/
 
+- [https://arxiv.org/abs/1706.10239 Towards understanding generalization of deep learning: perspective of loss landscapes]\n
+Lei Wu\*, Zhanxing Zhu, Weinan E\n
+/Workshop on Principled Approaches to Deep Learning, ICML2017/
+
 - [https://arxiv.org/pdf/1512.00138.pdf Smoothed dissipative particle dynamics model for mesoscopic multiphase flows in the presence of thermal fluctuations]\n
 Huan Lei, Nathan A Baker, Lei Wu, Gregory K Schenter, Christopher J Mundy, Alexandre M Tartakovsky\n
 /Physical Review E, 2016/
@@ -70,20 +74,24 @@ Huan Lei, Nathan A Baker, Lei Wu, Gregory K Schenter, Christopher J Mundy, Alexa
 
 = Preprint
 
+- [https://arxiv.org/abs/2009.10713 Towards a Mathematical Understanding of Neural Network-Based Machine Learning: what we know and what we don't]\n
+Weinan E\*, Chao Ma\*, Stephan Wojtowytsch\*, Lei Wu\* \n
+/Preprint arxiv:2009.10713/
+
+- [https://arxiv.org/abs/2009.06132 Complexity Measures for Neural Networks with General Activation Functions Using Path-based Norms]\n
+Zhong Li\*, Chao Ma\*, Lei Wu\*\n
+/Preprint arxiv:2009.06132/\n
 
 - [https://arxiv.org/abs/2006.14450 The Quenching-Activation Behavior of the Gradient Descent Dynamics for Two-layer Neural Network Models]\n
 Chao Ma\*, Lei Wu\*, Weinan E\n
 /Preprint, arxiv:2006.14450/
 
 
-
 - [https://arxiv.org/abs/1904.05263 Analysis of the gradient descent algorithm for a deep neural network model with skip-connections]\n
 Weinan E\*, Chao Ma\*, Lei Wu\* \n
 /Preprint, arxiv:1904.05263/
 
-- [https://arxiv.org/abs/1706.10239 Towards understanding generalization of deep learning: perspective of loss landscapes]\n
-Lei Wu\*, Zhanxing Zhu, Weinan E\n
-/ICML 2017, Workshop on Principled Approaches to Deep Learning/
+
 
 
 
