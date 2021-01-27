@@ -8,64 +8,69 @@
 = Published
 
 
-- [https://arxiv.org/abs/2003.03672 Machine learning based non-Newtonian fluid model with molecular fidelity]\n
+- *Towards a mathematical understanding of neural network-based machine learning: what we know and what we don't* \n
+Weinan E\*, Chao Ma\*, Stephan Wojtowytsch\*, Lei Wu\* \n
+CSIAM Trans. Appl. Math., 2020. \[[https://arxiv.org/abs/2009.10713  arXiv]\] \[[https://doi.org/10.4208/csiam-am.SO-2020-0002 journal]\]
+
+
+- *Machine learning based non-Newtonian fluid model with molecular fidelity* \n
 Huan Lei, Lei Wu, Weinan E\n
-/Physical Review E, 2020/
+Physical Review E, 2020. \[[https://arxiv.org/abs/2003.03672 arXiv]\] \[[https://doi.org/10.1103/PhysRevE.102.043309 journal]\]
 
-- [https://arxiv.org/abs/1912.12777 Machine learning from a continuous viewpoint, I]\n
+- *Machine learning from a continuous viewpoint, I*\n
 Weinan E\*, Chao Ma\*, Lei Wu\* \n
-/Science China Mathematics, 2020/
+Science China Mathematics, 2020. \[[https://arxiv.org/abs/1912.12777 arXiv]\] \[[https://doi.org/10.1007/s11425-020-1773-8 journal]\]
 
-- [http://proceedings.mlr.press/v107/ma20a.html The Slow Deterioration of the Generalization Error of the Random Feature Model]\n
+- *The slow deterioration of the generalization error of the random feature model* \n
 Chao Ma\*, Lei Wu\*, Weinan E\n
-/Mathematical and Scientific Machine Learning (MSML), 2020/
+Mathematical and Scientific Machine Learning (MSML), 2020. \[[https://arxiv.org/abs/2008.05621 arXiv]\] \[[http://proceedings.mlr.press/v107/ma20a.html proceedings]\]
 
-- [https://arxiv.org/abs/1906.08039 Barron Spaces and Flow-induced Function Spaces for Neural Network Models]\n
+- *Barron spaces and flow-induced function spaces for neural network models* \n
 Weinan E\*, Chao Ma\*, Lei Wu\* \n 
-/Constructive Approximation, 2020/
+Constructive Approximation, 2020 (In press). \[[https://arxiv.org/abs/1906.08039 arXiv]\]
 
 
-- [https://arxiv.org/abs/1904.04326 A comparative analysis of the optimization and generalization property of two-layer neural network and random feature models under gradient descent dynamics]\n
+- *A comparative analysis of the optimization and generalization property of two-layer neural network and random feature models under gradient descent dynamics*\n
 Weinan E\*, Chao Ma\*, Lei Wu\* \n
-/Science China Mathematics, 2020/
+Science China Mathematics, 2020. \[[https://arxiv.org/abs/1904.04326 arXiv]\] \[[https://doi.org/10.1007/s11425-019-1628-5 journal]\]
 
-- [https://arxiv.org/abs/1912.06987 On the generalization properties of minimum-norm solutions for over-parameterized neural network models]\n
+- *On the generalization properties of minimum-norm solutions for over-parameterized neural network models*\n
 Weinan E\*, Chao Ma\*, Lei Wu\* \n
-/Journal of Pure and Applied Functional Analysis, 2020/
+Journal of Pure and Applied Functional Analysis, 2020 (In press). \[[https://arxiv.org/abs/1912.06987 arXiv]\]
 
 
-- [https://arxiv.org/abs/1911.00645 Global Convergence of Gradient Descent for Deep Linear Residual Networks]\n
+- *Global convergence of gradient descent for deep linear residual networks*\n
 Lei Wu\*, Qingcan Wang\*, Chao Ma\n
-/Neural Information Processing Systems (NeurIPS), 2019/
+Neural Information Processing Systems (NeurIPS), 2019. \[[https://arxiv.org/abs/1911.00645 arXiv]\] \[[https://papers.nips.cc/paper/2019/hash/14da15db887a4b50efe5c1bc66537089-Abstract.html proceedings]\]
 
 
-- [https://arxiv.org/abs/1810.06397 A Priori Estimates of the Population Risk for Two-layer Neural Networks]\n
+- *A priori estimates of the population risk for two-layer neural networks*\n
 Weinan E\*, Chao Ma\*, Lei Wu\*\n 
-/Communications in Mathematical Sciences, 2019/
+Communications in Mathematical Sciences, 2019. \[[https://arxiv.org/abs/1810.06397 arXiv]\] \[[https://dx.doi.org/10.4310/CMS.2019.v17.n5.a11 journal]\]
 
-- [https://arxiv.org/abs/1803.00195 The anisotropic noise in stochastic gradient descent: Its behavior of escaping from minima and regularization effects]\n
+- *The anisotropic noise in stochastic gradient descent: Its behavior of escaping from minima and regularization effects* \n
 Zhanxing Zhu, Jingfeng Wu, Bing Yu, Lei Wu, Jinwen Ma\n
-/International Conference on Machine Learning (ICML), 2019/
+International Conference on Machine Learning (ICML), 2019. \[[https://arxiv.org/abs/1803.00195 arXiv]\] \[[http://proceedings.mlr.press/v97/zhu19e.html proceedings]\]
 
-- [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective How SGD Selects the Global Minima in Over-parameterized Learning: A Stability Perspective]\n
+- *How SGD selects the global minima in over-parameterized learning: A stability perspective* \n
 Lei Wu\*, Chao Ma, Weinan E\n 
-/Advances in Neural Information Processing Systems (NeurIPS), 2018/
+Advances in Neural Information Processing Systems (NeurIPS), 2018. \[[http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective proceedings]\]
 
-- [https://arxiv.org/abs/1802.09707 Understanding and enhancing the transferability of adversarial examples]\n
+- *Understanding and enhancing the transferability of adversarial examples*\n
 Lei Wu\*, Zhanxing Zhu\n
-/Asian Conference on Machine Learning (ACML), 2020/
+Asian Conference on Machine Learning (ACML), 2020. \[[https://arxiv.org/abs/1802.09707 arXiv]\] \[[http://proceedings.mlr.press/v129/wu20a.html proceedings]\]
 
-- [https://arxiv.org/abs/1608.05973 Irreversible Samplers from Jump and Continuous Markov processes]\n
+- *Irreversible samplers from jump and continuous Markov processes* \n
 Yi-An Ma, Emily B Fox, Tianqi Chen, Lei Wu\n
-/Statistics and Computing, 2018/
+Statistics and Computing, 2018. \[[https://arxiv.org/abs/1608.05973  arXiv]\] \[[https://doi.org/10.1007/s11222-018-9802-x journal]\]
 
-- [https://arxiv.org/abs/1706.10239 Towards understanding generalization of deep learning: perspective of loss landscapes]\n
+- *Towards understanding generalization of deep learning: perspective of loss landscapes* \n
 Lei Wu\*, Zhanxing Zhu, Weinan E\n
-/Workshop on Principled Approaches to Deep Learning, ICML2017/
+Workshop on Principled Approaches to Deep Learning, ICML2017. \[[https://arxiv.org/abs/1706.10239  arXiv]\]
 
-- [https://arxiv.org/pdf/1512.00138.pdf Smoothed dissipative particle dynamics model for mesoscopic multiphase flows in the presence of thermal fluctuations]\n
+- *Smoothed dissipative particle dynamics model for mesoscopic multiphase flows in the presence of thermal fluctuations*\n
 Huan Lei, Nathan A Baker, Lei Wu, Gregory K Schenter, Christopher J Mundy, Alexandre M Tartakovsky\n
-/Physical Review E, 2016/
+Physical Review E, 2016. \[[https://arxiv.org/pdf/1512.00138.pdf arXiv]\] \[[https://doi.org/10.1103/PhysRevE.94.023304 journal]\]
 
 
 
@@ -74,22 +79,18 @@ Huan Lei, Nathan A Baker, Lei Wu, Gregory K Schenter, Christopher J Mundy, Alexa
 
 = Preprint
 
-- [https://arxiv.org/abs/2009.10713 Towards a Mathematical Understanding of Neural Network-Based Machine Learning: what we know and what we don't]\n
-Weinan E\*, Chao Ma\*, Stephan Wojtowytsch\*, Lei Wu\* \n
-/Preprint arxiv:2009.10713/
-
-- [https://arxiv.org/abs/2009.06132 Complexity Measures for Neural Networks with General Activation Functions Using Path-based Norms]\n
+- *Complexity measures for neural networks with general activation functions using path-based norms* \n
 Zhong Li\*, Chao Ma\*, Lei Wu\*\n
-/Preprint arxiv:2009.06132/\n
+arxiv preprint, 2020. \[[https://arxiv.org/abs/2009.06132 arXiv]\]
 
-- [https://arxiv.org/abs/2006.14450 The Quenching-Activation Behavior of the Gradient Descent Dynamics for Two-layer Neural Network Models]\n
+- *The quenching-activation behavior of the gradient descent dynamics for two-layer neural network models* \n
 Chao Ma\*, Lei Wu\*, Weinan E\n
-/Preprint, arxiv:2006.14450/
+arXiv Preprint, 2020. \[[https://arxiv.org/abs/2006.14450 arXiv]\]
 
 
-- [https://arxiv.org/abs/1904.05263 Analysis of the gradient descent algorithm for a deep neural network model with skip-connections]\n
+- *Analysis of the gradient descent algorithm for a deep neural network model with skip-connections* \n
 Weinan E\*, Chao Ma\*, Lei Wu\* \n
-/Preprint, arxiv:1904.05263/
+arXiv preprint, 2019 \[[https://arxiv.org/abs/1904.05263 arXiv]\]
 
 
 
