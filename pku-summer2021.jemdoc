@@ -9,6 +9,9 @@
 == Lecture notes
  . [lecture-note/lec-1.pdf A brief introduction to supervised learning]
  . [lecture-note/lec-2.pdf Concentration inequalities ]
+    .. Sub-Gaussian, Chernoff bound, Hoeffding's inequality, McDiarmid's inequalty
+ . [lecture-note/lec-3.pdf Uniform bounds and empirical processes]
+    .. Rademacher complexity, Covering number, Dudley entropy integral
 
 
 
