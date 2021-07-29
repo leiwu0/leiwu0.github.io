@@ -12,6 +12,7 @@
     .. Sub-Gaussian, Chernoff bound, Hoeffding's inequality, McDiarmid's inequalty
  . [lecture-note/lec-3.pdf Uniform bounds and empirical processes]
     .. Rademacher complexity, Covering number, Dudley entropy integral
+ . [lecture-note/lec-4.pdf Kernel methods, representer theorem and RKHSs]
 
 
 
