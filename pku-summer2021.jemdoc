@@ -20,6 +20,9 @@
     .. [lecture-note/lec-8.pdf lecture note],
     .. [lecture-note/resnet-approx.pdf Approximation theory of deep ResNets] 
     .. [lecture-note/slide-depth-separation.pdf Depth separations]
+ . Training neural networks: Convergence?
+    .. [lecture-note/gd-brief-overview.pdf A brief overview of GD convergence]
+    .. [lecture-note/slide-9.pdf Slide]
 
 
 
