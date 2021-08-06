@@ -23,6 +23,8 @@
  . Training neural networks: Convergence?
     .. [lecture-note/gd-brief-overview.pdf A brief overview of GD convergence]
     .. [lecture-note/slide-9.pdf Slide]
+ . Training neural networks beyond the kernel regime
+    .. [lecture-note/slide-10.pdf Slide]
 
 
 
