@@ -1,0 +1,24 @@
+# jemdoc: menu{MENU}{index.html}
+# jemdoc: addcss{jemdoc.css}, notime
+
+=== 
+
+= Mathematical Introduction to Data Science
+
+== Summary 
+*Instructor*: Lei Wu \n 
+*Teaching Assistant*: \n
+*Time*: \n
+*Location*: \n
+*Office Hour*: By appointment
+
+Data-driven approaches have played more and more critical roles in modern scientific research. In particular, neural network-based methods have achieved unprecedented successes in many areas, such as computer vision, scientific computing. This course will introduce popular data analysis and machine learning models, including but not limited to supervised learning, unsupervised learning, classification, neural network models, as well as the underlying mathematical principles.
+
+== Schedule (subject to change)
+
+
+
+
+== Reference Readings
+ - Trevor Hastie, Robert Tibshirani, Jerome Friedman: [https://hastie.su.domains/ElemStatLearn The Elements of Statistical Learning: Data Mining, Inference, and Prediction]
+ - S. Shalev-Shwartz and S Ben-David, [https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html Understanding Machine Learning: From Theory to Algorithms]. 

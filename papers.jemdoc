@@ -7,73 +7,82 @@
 
 = Published
 
-- *A qualitative study of the dynamic behavior of adaptive gradient algorithms* \n
-Chao Ma\*, Lei Wu\*, Weinan E\n
-Mathematical and Scientific Machine Learning (MSML), 2021. \[[https://arxiv.org/abs/2009.06125 arXiv]\]
+- [https://arxiv.org/abs/2108.04964 A spectral-based analysis of the separation between two-layer neural networks and linear methods]\n 
+Lei Wu, Jihao Long \n 
+Accepted by Journal of Machine Learning Research, 2022
 
-- *Towards a mathematical understanding of neural network-based machine learning: what we know and what we don't* \n
+
+- Learning a single neuron for non-monotonic activation functions \n 
+Lei Wu \n 
+In International Conference on Artificial Intelligence and Statistics (AISTATS), 2022
+
+
+- [https://msml21.github.io/papers/id24.pdf  proceedings A qualitative study of the dynamic behavior of adaptive gradient algorithms] \n
+Chao Ma\*, Lei Wu\*, Weinan E\n
+Mathematical and Scientific Machine Learning (MSML), 2021
+
+- [https://arxiv.org/abs/2009.10713 Towards a mathematical understanding of neural network-based machine learning: what we know and what we don't] \n
 Weinan E\*, Chao Ma\*, Stephan Wojtowytsch\*, Lei Wu\* \n
-CSIAM Trans. Appl. Math., 2020. \[[https://arxiv.org/abs/2009.10713  arXiv]\] \[[https://doi.org/10.4208/csiam-am.SO-2020-0002 journal]\]
+CSIAM Trans. Appl. Math., 2020
 
 
-- *Machine learning based non-Newtonian fluid model with molecular fidelity* \n
+- [https://arxiv.org/abs/2003.03672 Machine learning based non-Newtonian fluid model with molecular fidelity] \n
 Huan Lei, Lei Wu, Weinan E\n
-Physical Review E, 2020. \[[https://arxiv.org/abs/2003.03672 arXiv]\] \[[https://doi.org/10.1103/PhysRevE.102.043309 journal]\]
+Physical Review E, 2020
 
-- *Machine learning from a continuous viewpoint, I*\n
+- [https://arxiv.org/abs/1912.12777 Machine learning from a continuous viewpoint, I]\n
 Weinan E\*, Chao Ma\*, Lei Wu\* \n
-Science China Mathematics, 2020. \[[https://arxiv.org/abs/1912.12777 arXiv]\] \[[https://doi.org/10.1007/s11425-020-1773-8 journal]\]
+Science China Mathematics, 2020
 
-- *The slow deterioration of the generalization error of the random feature model* \n
+- [http://proceedings.mlr.press/v107/ma20a.html The slow deterioration of the generalization error of the random feature model] \n
 Chao Ma\*, Lei Wu\*, Weinan E\n
-Mathematical and Scientific Machine Learning (MSML), 2020. \[[https://arxiv.org/abs/2008.05621 arXiv]\] \[[http://proceedings.mlr.press/v107/ma20a.html proceedings]\]
+Mathematical and Scientific Machine Learning (MSML), 2020
 
-- *Barron spaces and flow-induced function spaces for neural network models* \n
+- [https://arxiv.org/abs/1906.08039 Barron spaces and flow-induced function spaces for neural network models] \n
 Weinan E\*, Chao Ma\*, Lei Wu\* \n 
-Constructive Approximation, 2021. \[[https://arxiv.org/abs/1906.08039 arXiv]\] \[[https://link.springer.com/article/10.1007/s00365-021-09549-y journal]\]
+Constructive Approximation, 2021
 
 
-- *A comparative analysis of the optimization and generalization property of two-layer neural network and random feature models under gradient descent dynamics*\n
+- [https://arxiv.org/abs/1904.04326 A comparative analysis of the optimization and generalization property of two-layer neural network and random feature models under gradient descent dynamics]\n
 Weinan E\*, Chao Ma\*, Lei Wu\* \n
-Science China Mathematics, 2020. \[[https://arxiv.org/abs/1904.04326 arXiv]\] \[[https://doi.org/10.1007/s11425-019-1628-5 journal]\]
+Science China Mathematics, 2020
 
-- *The generalization error of minimum-norm solutions for over-parameterized neural networks*\n
+- [https://arxiv.org/abs/1912.06987 The generalization error of minimum-norm solutions for over-parameterized neural networks]\n
 Weinan E\*, Chao Ma\*, Lei Wu\* \n
-Journal of Pure and Applied Functional Analysis, 2020. \[[https://arxiv.org/abs/1912.06987 arXiv]\] \[[http://www.yokohamapublishers.jp/online2/oppafa/vol5/p1445.html journal]\]
+Journal of Pure and Applied Functional Analysis, 2020
 
 
-- *Global convergence of gradient descent for deep linear residual networks*\n
+- [https://arxiv.org/abs/1911.00645 Global convergence of gradient descent for deep linear residual networks] \n
 Lei Wu\*, Qingcan Wang\*, Chao Ma\n
-Neural Information Processing Systems (NeurIPS), 2019. \[[https://arxiv.org/abs/1911.00645 arXiv]\] \[[https://papers.nips.cc/paper/2019/hash/14da15db887a4b50efe5c1bc66537089-Abstract.html proceedings]\]
+Neural Information Processing Systems (NeurIPS), 2019 
 
-
-- *A priori estimates of the population risk for two-layer neural networks*\n
+- [https://arxiv.org/abs/1810.06397 A priori estimates of the population risk for two-layer neural networks] \n
 Weinan E\*, Chao Ma\*, Lei Wu\*\n 
-Communications in Mathematical Sciences, 2019. \[[https://arxiv.org/abs/1810.06397 arXiv]\] \[[https://dx.doi.org/10.4310/CMS.2019.v17.n5.a11 journal]\]
+Communications in Mathematical Sciences, 2019
 
-- *The anisotropic noise in stochastic gradient descent: Its behavior of escaping from minima and regularization effects* \n
+- [https://arxiv.org/abs/1803.00195 The anisotropic noise in stochastic gradient descent: Its behavior of escaping from minima and regularization effects] \n
 Zhanxing Zhu, Jingfeng Wu, Bing Yu, Lei Wu, Jinwen Ma\n
-International Conference on Machine Learning (ICML), 2019. \[[https://arxiv.org/abs/1803.00195 arXiv]\] \[[http://proceedings.mlr.press/v97/zhu19e.html proceedings]\]
+International Conference on Machine Learning (ICML), 2019
 
-- *How SGD selects the global minima in over-parameterized learning: A stability perspective* \n
+- [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective How SGD selects the global minima in over-parameterized learning: A stability perspective] \n
 Lei Wu\*, Chao Ma, Weinan E\n 
-Advances in Neural Information Processing Systems (NeurIPS), 2018. \[[http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective proceedings]\]
+Advances in Neural Information Processing Systems (NeurIPS), 2018 
 
-- *Understanding and enhancing the transferability of adversarial examples*\n
+- [http://proceedings.mlr.press/v129/wu20a.html Towards understanding and improving the transferability of adversarial examples in deep neural networks] \n
 Lei Wu\*, Zhanxing Zhu\n
-Asian Conference on Machine Learning (ACML), 2020. \[[https://arxiv.org/abs/1802.09707 arXiv]\] \[[http://proceedings.mlr.press/v129/wu20a.html proceedings]\]
+Asian Conference on Machine Learning (ACML), 2020 \[[https://arxiv.org/abs/1802.09707 arXiv version]\]
 
-- *Irreversible samplers from jump and continuous Markov processes* \n
+- [https://arxiv.org/abs/1608.05973 Irreversible samplers from jump and continuous Markov processes] \n
 Yi-An Ma, Emily B Fox, Tianqi Chen, Lei Wu\n
-Statistics and Computing, 2018. \[[https://arxiv.org/abs/1608.05973  arXiv]\] \[[https://doi.org/10.1007/s11222-018-9802-x journal]\]
+Statistics and Computing, 2018
 
-- *Towards understanding generalization of deep learning: perspective of loss landscapes* \n
+- [https://arxiv.org/abs/1706.10239 Towards understanding generalization of deep learning: perspective of loss landscapes] \n
 Lei Wu\*, Zhanxing Zhu, Weinan E\n
-Workshop on Principled Approaches to Deep Learning, ICML2017. \[[https://arxiv.org/abs/1706.10239  arXiv]\]
+Workshop on Principled Approaches to Deep Learning, ICML2017 
 
-- *Smoothed dissipative particle dynamics model for mesoscopic multiphase flows in the presence of thermal fluctuations*\n
+- [https://arxiv.org/pdf/1512.00138.pdf Smoothed dissipative particle dynamics model for mesoscopic multiphase flows in the presence of thermal fluctuations] \n
 Huan Lei, Nathan A Baker, Lei Wu, Gregory K Schenter, Christopher J Mundy, Alexandre M Tartakovsky\n
-Physical Review E, 2016. \[[https://arxiv.org/pdf/1512.00138.pdf arXiv]\] \[[https://doi.org/10.1103/PhysRevE.94.023304 journal]\]
+Physical Review E, 2016 
 
 
 
