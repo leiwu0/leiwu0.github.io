@@ -5,20 +5,21 @@
 
 = Mathematical Introduction to Data Science
 
-== Summary 
-*Instructor*: Lei Wu \n 
-*Teaching Assistant*: \n
-*Time*: \n
-*Location*: \n
-*Office Hour*: By appointment
+~~~
+*教师*: ~吴磊, leiwu@math.pku.edu.cn\n 
+*助教*: ~韩洋, hanyang2019@pku.edu.cn\n
+*时间*: ~每周周一 3-4节 (10:10-12:00), 双周周四 1-2节 (8:00-9:50)\n
+*地点*: ~二教302\n
+*答疑*: ~周一晚上7:00 - 8:00 @ 理科一号楼 1555W\n
+~~~
 
-Data-driven approaches have played more and more critical roles in modern scientific research. In particular, neural network-based methods have achieved unprecedented successes in many areas, such as computer vision, scientific computing. This course will introduce popular data analysis and machine learning models, including but not limited to supervised learning, unsupervised learning, classification, neural network models, as well as the underlying mathematical principles.
-
-== Schedule (subject to change)
-
-
+== 课程安排
+ - 第一周
+ - 第二周
 
 
-== Reference Readings
+
+
+== 参考书籍
  - Trevor Hastie, Robert Tibshirani, Jerome Friedman: [https://hastie.su.domains/ElemStatLearn The Elements of Statistical Learning: Data Mining, Inference, and Prediction]
  - S. Shalev-Shwartz and S Ben-David, [https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html Understanding Machine Learning: From Theory to Algorithms]. 
