@@ -1,0 +1,78 @@
+### 课程简介：
+
+数据驱动的思想已经深刻地影响和改变了现代科学研究。尤其，近年来深度学习技术在众多领域（包括：计算机视觉、自然语言等）都取得了突破性成果。本课程将介绍常见的数据分析和机器学习模型，包括但不局限于：监督学习、无监督学习、分类问题，神经网络模型及其数学理论。学习本课程不需要任何机器学习经验，但是需要之前选修过：数学分析、线性代数，概率论和常微分方程等课程。另外，本课程内容也需要一些初步的泛函分析（譬如Hilbert空间理论）和基于测度论的概率论（期望的定义）知识。
+
+### 英文简介：
+Data-driven approaches have played more and more critical roles in modern scientific research. In particular, neural network-based methods have achieved unprecedented successes in many areas, such as computer vision, scientific computing. This course will introduce popular data analysis and machine learning models, including but not limited to supervised learning, unsupervised learning, classification, neural network models, as well as the underlying mathematical principles.
+
+
+
+
+课程大纲：
+
+第一部分：基础内容
+1. 机器学习简介
+    a）An overview of machine learning
+    b) Supervised learning
+
+2. 线性方法
+    线性回归：LASSO, ridge regression, 
+    核方法：kernel methods, random feature models， representer theorem
+
+3. 分类问题
+    logistic regression, loss functions，margin，support vector machine (SVM)
+
+4. 无监督学习-1
+    分布估计：histgram estimator和kernel density estimation (KDE）
+    降维：PCA，kernel-PCA，random projection
+    聚类：K-means，Gaussian mixture model, spectral clustering
+    
+5. 优化算法介绍
+    GD and SGD
+    momentum：heavy-ball, Nesterov 
+    adaptive learning rates: RMSProp, Adagrad, ADAM
+
+第二部分：神经网络模型
+6. 神经网络模型简介
+    全连接网络，卷积网络，递归神经网络
+    残差网络，
+    symmetry-preserving 
+
+7. 神经网络训练
+    back-propogation 算法
+    vanishing gradient 问题
+    Xavier initialization
+    Batch normalization
+    Dropout
+
+8. 深度学习软件包介绍
+    PyTorch
+    自动微分
+    GPU加速
+
+9. 连续化视角下的机器学习
+
+10. 无监督学习-2
+    对抗生成网络（GAN）
+    变分自编码器（VAE）
+
+11. 深度学习常见范式介绍
+    self-supervised learning
+    distillation
+    transfer learning 
+    等等
+
+第三部分：理论分析
+12. 概率集中不等式和经验过程
+    Sub-Gaussian, Chernoff's inequality,  McDiarmid's inequality, Rademacher complexity
+
+13. 函数逼近理论
+    kernel method
+    two-layer neural networks
+    deep residual networks
+
+14. 算法的学习动力学
+    implicit regularization，double descent，minima selection
+
+15. Hardness of training
+
