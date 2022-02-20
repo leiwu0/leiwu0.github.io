@@ -11,68 +11,67 @@ Data-driven approaches have played more and more critical roles in modern scient
 课程大纲：
 
 第一部分：基础内容
-1. 机器学习简介
+1. 机器学习简介 [2学时]
     a）An overview of machine learning
     b) Supervised learning
 
-2. 线性方法
+2. 线性方法 [4学时]
     线性回归：LASSO, ridge regression, 
     核方法：kernel methods, random feature models， representer theorem
 
-3. 分类问题
+3. 分类问题 [2学时]
     logistic regression, loss functions，margin，support vector machine (SVM)
 
-4. 无监督学习-1
+4. 无监督学习-1 [4学时]
     分布估计：histgram estimator和kernel density estimation (KDE）
     降维：PCA，kernel-PCA，random projection
     聚类：K-means，Gaussian mixture model, spectral clustering
     
-5. 优化算法介绍
+5. 优化算法介绍 [4学时]
     GD and SGD
     momentum：heavy-ball, Nesterov 
     adaptive learning rates: RMSProp, Adagrad, ADAM
 
 第二部分：神经网络模型
-6. 神经网络模型简介
+6. 神经网络模型简介 [3学时]
     全连接网络，卷积网络，递归神经网络
     残差网络，
     symmetry-preserving 
 
-7. 神经网络训练
+7. 神经网络训练 [4学时]
     back-propogation 算法
     vanishing gradient 问题
     Xavier initialization
     Batch normalization
     Dropout
 
-8. 深度学习软件包介绍
+8. 深度学习软件包介绍 [1学时]
     PyTorch
     自动微分
     GPU加速
 
-9. 连续化视角下的机器学习
 
-10. 无监督学习-2
+9. 无监督学习-2 [3学时]
     对抗生成网络（GAN）
     变分自编码器（VAE）
 
-11. 深度学习常见范式介绍
+10. 深度学习常见范式介绍 [3学时]
     self-supervised learning
     distillation
     transfer learning 
     等等
 
 第三部分：理论分析
-12. 概率集中不等式和经验过程
+12. 概率集中不等式和经验过程 [4学时]
     Sub-Gaussian, Chernoff's inequality,  McDiarmid's inequality, Rademacher complexity
 
-13. 函数逼近理论
+13. 函数逼近理论 [7学时]
     kernel method
     two-layer neural networks
     deep residual networks
 
-14. 算法的学习动力学
+14. 算法的学习动力学 [5学时]
     implicit regularization，double descent，minima selection
 
-15. Hardness of training
+15. Hardness of training [2学时]
 
