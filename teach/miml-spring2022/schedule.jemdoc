@@ -1,0 +1,6 @@
+# jemdoc: menu{MENU}{schedule.html}
+# jemdoc: addcss{jemdoc.css}, notime
+
+== Schedule
+ - Lecture 1: An overview of machine learning
+ - Lecture 2: Linear methods
