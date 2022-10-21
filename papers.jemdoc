@@ -7,14 +7,18 @@
 
 = Published
 
+- [https://arxiv.org/abs/2207.02628 The alignment property of SGD noise and how it helps select flat minima: A stability analysis]\n
+Lei Wu, Mingze Wang, Weijie Su\n
+NeurIPS 2022.
+
 - [https://arxiv.org/abs/2108.04964 A spectral-based analysis of the separation between two-layer neural networks and linear methods]\n 
 Lei Wu, Jihao Long \n 
-Accepted by Journal of Machine Learning Research, 2022
+JMLR 2022.
 
 
 - [https://arxiv.org/abs/2202.08064 Learning a single neuron for non-monotonic activation functions] \n 
 Lei Wu \n 
-In International Conference on Artificial Intelligence and Statistics (AISTATS), 2022
+AISTATS 2022.
 
 
 - [https://msml21.github.io/papers/id24.pdf  A qualitative study of the dynamic behavior of adaptive gradient algorithms] \n
@@ -54,7 +58,7 @@ Journal of Pure and Applied Functional Analysis, 2020
 
 - [https://arxiv.org/abs/1911.00645 Global convergence of gradient descent for deep linear residual networks] \n
 Lei Wu\*, Qingcan Wang\*, Chao Ma\n
-Neural Information Processing Systems (NeurIPS), 2019 
+NeurIPS 2019.
 
 - [https://arxiv.org/abs/1810.06397 A priori estimates of the population risk for two-layer neural networks] \n
 Weinan E\*, Chao Ma\*, Lei Wu\*\n 
@@ -62,11 +66,11 @@ Communications in Mathematical Sciences, 2019
 
 - [https://arxiv.org/abs/1803.00195 The anisotropic noise in stochastic gradient descent: Its behavior of escaping from minima and regularization effects] \n
 Zhanxing Zhu, Jingfeng Wu, Bing Yu, Lei Wu, Jinwen Ma\n
-International Conference on Machine Learning (ICML), 2019
+ICML 2019.
 
 - [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective How SGD selects the global minima in over-parameterized learning: A stability perspective] \n
 Lei Wu, Chao Ma, Weinan E\n 
-Advances in Neural Information Processing Systems (NeurIPS), 2018 
+NeurIPS 2018.
 
 - [http://proceedings.mlr.press/v129/wu20a.html Towards understanding and improving the transferability of adversarial examples in deep neural networks] \n
 Lei Wu, Zhanxing Zhu\n
