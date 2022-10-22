@@ -1,10 +1,8 @@
 # jemdoc: menu{MENU}{papers.html}
 
 
-
+\n
 * indicates  equal contribution or alphabetical author order.
-
-
 = Published
 
 - [https://arxiv.org/abs/2207.02628 The alignment property of SGD noise and how it helps select flat minima: A stability analysis]\n
