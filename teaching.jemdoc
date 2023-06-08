@@ -1,10 +1,6 @@
 # jemdoc: menu{MENU}{teaching.html}
 # jemdoc: addcss{jemdoc.css}, notime
-
-=== 
-=== 
-
-
+= Teaching
 
 == Courses
 - Fall 2023: [ Mathematical Introduction to Machine Learning]

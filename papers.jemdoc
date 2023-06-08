@@ -1,7 +1,7 @@
 # jemdoc: menu{MENU}{papers.html}
+= Publications
 
-
-\n
+== Publications and Preprints
 * indicates  equal contribution or alphabetical author order.
 
 
@@ -20,10 +20,10 @@ arXiv preprint, 2023.
 
 - [https://arxiv.org/abs/2305.17490 The Implicit Regularization of Dynamical Stability in Stochastic Gradient Descent]\n
 Lei Wu, Weijie J. Su.\n
-ICML 2023
+ICML 2023.
 
 - [https://arxiv.org/abs/2207.02628 The alignment property of SGD noise and how it helps select flat minima: A stability analysis]\n
-Lei Wu, Mingze Wang, Weijie Su\n
+Lei Wu, Mingze Wang, Weijie J. Su\n
 NeurIPS 2022.
 
 - [https://doc.global-sci.org/uploads/Issue/JML/v1n3/13_247.pdf?code=YEsY82RTD%2BI4klud4NqN0w%3D%3D Beyond the quadratic approximation: the multiscale structure of neural network loss landscapes]\n
