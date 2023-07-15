@@ -25,13 +25,11 @@ Email: leiwu (at) math (dot) pku (dot) edu (dot) cn\n
 I am  an Assistant Professor in the [https://www.math.pku.edu.cn/ School of Mathematical Sciences] and  [https://cmlr.pku.edu.cn// Center for Machine Learning Research] at [https://www.pku.edu.cn/ PKU]. 
 Previously, I was a postdoc at the [https://www.pacm.princeton.edu/ Program in Applied and Computational Mathematics (PACM)] of [https://www.princeton.edu/ Princeton University].  I completed my Ph.D. in computational mathematics at PKU in 2018, advised by [https://web.math.princeton.edu/~weinan/ Prof. Weinan E]. Before that, I received my B.S. degree in pure mathematics from [https://www.nankai.edu.cn/ Nankai University] in 2012. 
 
-== Research
-My research interests broadly lie in machine learning theory and applying machine learning to solve scientific computing problems. Currently, I am primarily focused  on:
-	- Analyzing the approximation and generalization capabilities of neural networks, such as fully-conncted networks, convolutional neural networks, and transformers.
-	- Exploring the particular structure of the loss landscape of neural networks.
-	- Understanding the dynamical behavior and implicit bias of (stochastic) gradient descent when training neural networks.
 
-~
-I am actively seeking self-motivated students. If you are interested in working with me, please feel free to contact me via email. 
-~
+My current research focused  on understanding how deep learning works, including 
+- Approximation and representation power of neural networks
+- Convergence and implicit bias of SGD
+- Foundation models and transformers
 
+== Students
+I am actively seeking self-motivated PhD and undergraduate students. If you are interested in working with me, please feel free to contact me via email. 
