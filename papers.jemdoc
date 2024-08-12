@@ -1,8 +1,29 @@
 # jemdoc: menu{MENU}{papers.html}
 = Publications
 
-== Publications and Preprints
 * indicates  equal contribution or alphabetical author order.
+
+- [https://arxiv.org/abs/2405.20763 Improving Generalization and Convergence by Enhancing Implicit Regularization]\n
+Mingze Wang, Haotian He, Jinbo Wang, Zilin Wang, Guanhua Huang, Feiyu Xiong, Zhiyu Li, Lei Wu\n
+arxiv preprint, 2024.
+
+- [https://arxiv.org/abs/2404.06391 Exploring Neural Network Landscapes: Star-Shaped and Geodesic Connectivity]\n
+Zhanran Lin\*, Puheng Li\*, Lei Wu\n
+arxiv preprint, 2024.
+
+- [https://arxiv.org/abs/2402.15718 A Duality Analysis of Kernel Ridge Regression in the Noiseless Regime]\n
+Jihao Long, Xiaojun Peng, Lei Wu\n
+arxiv preprint, 2024.
+
+- [https://arxiv.org/abs/2402.07193 Loss Symmetry and Noise Equilibrium of Stochastic Gradient Descent]\n
+Liu Ziyin, Mingze Wang, Li HongChao, Lei Wu\n
+arxiv preprint, 2024.
+
+
+
+- [https://arxiv.org/abs/2407.12332 Why Do You Grok? A Theoretical Analysis on Grokking Modular Addition]\n 
+Mohamad Amin Mohamadi, Zhiyuan Li, Lei Wu, Danica J. Sutherland\n
+ICML 2024.
 
 - [https://arxiv.org/abs/2311.15221 The Local Landscape of Phase Retrieval Under Limited Samples]\n 
 Kaizhao Liu, Zihao Wang, Lei Wu\n 
@@ -10,7 +31,7 @@ arXiv preprint, 2023.
 
 - [https://arxiv.org/abs/2311.14387 Achieving Margin Maximization Exponentially Fast via Progressive Norm Rescaling]\n 
 Mingze Wang, Zeping Min, Lei Wu\n 
-arXiv preprint, 2023.
+ICML 2024.
 
 - [https://arxiv.org/abs/2310.00692 The noise geometry of stochastic gradient descent: A quantitative and analytical characterization]\n
 Mingze Wang, Lei Wu\n 
