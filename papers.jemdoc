@@ -1,7 +1,8 @@
 # jemdoc: menu{MENU}{papers.html}
 = Publications
 
-* indicates  equal contribution or alphabetical author order.
+* indicates  equal contribution;\n 
+α-β indicates alphabetical author order.
 
 - [https://arxiv.org/abs/2405.20763 Improving Generalization and Convergence by Enhancing Implicit Regularization]\n
 Mingze Wang, Haotian He, Jinbo Wang, Zilin Wang, Guanhua Huang, Feiyu Xiong, Zhiyu Li, *Lei Wu*\n
