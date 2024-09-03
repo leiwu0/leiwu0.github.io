@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{papers.html}
+# jemdoc: menu{MENU}{publication.html}
 = Publications
 
 * indicates  equal contribution;\n 
@@ -56,7 +56,7 @@ Zihao Wang, *Lei Wu*\n
 NeurIPS 2023.
 
 - [https://arxiv.org/abs/2305.17490 The Implicit Regularization of Dynamical Stability in Stochastic Gradient Descent]\n
-*Lei Wu*, Weijie J. Su.\n
+*Lei Wu*, Weijie J. Su\n
 ICML 2023.
 
 - [https://arxiv.org/abs/2207.02628 The alignment property of SGD noise and how it helps select flat minima: A stability analysis]\n
