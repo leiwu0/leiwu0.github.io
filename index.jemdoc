@@ -18,13 +18,11 @@ Email: leiwu (at) math (dot) pku (dot) edu (dot) cn\n
 [https://scholar.google.com/citations?user=CMweeYcAAAAJ&hl=en Google Scholar] ~~~ [https://github.com/leiwu0 Github]\n
 ~~~
 
- 
 
-
-== About me
+== About Me
 I am  currently an Assistant Professor in the [https://www.math.pku.edu.cn/ School of Mathematical Sciences] and  [https://cmlr.pku.edu.cn// Center for Machine Learning Research] at [https://www.pku.edu.cn/ Peking University]. 
 
-Previously, I was a postdoc in PACM  at  Princeton University and in the Wharton Statistics and Data Science Department at the University of Pennsylvania.  I completed my Ph.D. in computational mathematics at Peking University in 2018, advised by [https://web.math.princeton.edu/~weinan/ Prof. Weinan E]. I received my B.S. degree in  mathematics from [https://www.nankai.edu.cn/ Nankai University] in 2012. 
+Previously, I was a postdoc in PACM  at  Princeton University and in the Wharton Statistics and Data Science Department at the University of Pennsylvania.  I completed my Ph.D. in computational mathematics at Peking University in 2018, advised by [https://web.math.princeton.edu/~weinan/ Prof. Weinan E]. I received my B.S. degree in  mathematics from  Nankai University in 2012. 
 
 
 My current research focuses  on understanding the mechanisms behind machine and deep learning, specifically: 
@@ -32,5 +30,31 @@ My current research focuses  on understanding the mechanisms behind machine and 
 - The convergence and implicit bias of optimization algorithms like SGD and Adam
 - The emergent phenomena observed in the training of foundation models
 
-== Openings
+== Recruiting
 We are actively seeking self-motivated postdocs, PhD students and interns to join our team, particularly those with backgrounds in computer science and physics. If you are interested in collaborating with me, please do not hesitate to reach out via email.
+
+
+== Selected Publications
+- [https://arxiv.org/abs/2305.08404 Theoretical Analysis of Inductive Biases in Deep Convolutional Networks]\n
+Zihao Wang, Lei Wu\n 
+NeurIPS 2023.
+
+- [https://arxiv.org/abs/2305.05642 A duality framework for generalization analysis of random feature models and two-layer neural networks]\n
+(α-β) Hongrui Chen, Jihao Long, Lei Wu\n
+arXiv preprint, 2023.
+
+- [https://arxiv.org/abs/2207.02628 The alignment property of SGD noise and how it helps select flat minima: A stability analysis]\n
+Lei Wu, Mingze Wang, Weijie J. Su\n
+NeurIPS 2022.
+
+- [https://arxiv.org/abs/1906.08039 The Barron space and flow-induced function spaces for neural network models] \n
+(α-β) Weinan E, Chao Ma, Lei Wu \n 
+Constructive Approximation, 2021.
+
+- [https://arxiv.org/abs/1904.04326 A comparative analysis of the optimization and generalization property of two-layer neural network and random feature models under gradient descent dynamics]\n
+(α-β) Weinan E, Chao Ma, Lei Wu\n
+Science China Mathematics, 2020.
+
+- [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective How SGD selects the global minima in over-parameterized learning: A dynamical stability perspective] \n
+Lei Wu, Chao Ma, Weinan E\n 
+NeurIPS 2018.
