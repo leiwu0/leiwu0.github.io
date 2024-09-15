@@ -43,6 +43,10 @@ NeurIPS 2023.
 (α-β) Hongrui Chen, Jihao Long, Lei Wu\n
 arXiv preprint, 2023.
 
+- [https://arxiv.org/abs/2305.17490 The implicit regularization of dynamical stability in stochastic gradient descent]\n
+Lei Wu, Weijie J. Su\n
+ICML 2023.
+
 - [https://arxiv.org/abs/2207.02628 The alignment property of SGD noise and how it helps select flat minima: A stability analysis]\n
 Lei Wu, Mingze Wang, Weijie J. Su\n
 NeurIPS 2022.
