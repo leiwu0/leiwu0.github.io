@@ -4,6 +4,10 @@
 * indicates  equal contribution;\n 
 α-β indicates alphabetical author order.
 
+- [https://arxiv.org/abs/2305.05642 A duality framework for analyzing random feature  and two-layer neural networks]\n
+(α-β) Hongrui Chen, Jihao Long, *Lei Wu*\n
+*Annals of Statistics* (to appear), 2025.
+
 - [https://arxiv.org/abs/2410.11474 How transformers implement induction heads: Approximation and optimization analysis]\n
 Mingze Wang\*, Ruoxi Yu\*, *Lei Wu*\n
 arXiv preprint arXiv:2410.11474
@@ -50,9 +54,7 @@ arXiv preprint, 2023.
 *Lei Wu*\n
 *Journal of Machine Learning*, 2023.
 
-- [https://arxiv.org/abs/2305.05642 A duality framework for analyzing random feature  and two-layer neural networks]\n
-(α-β) Hongrui Chen, Jihao Long, *Lei Wu*\n
-*Annals of Statistics* (to appear), 2025.
+
 
 
 - [https://arxiv.org/abs/2305.08404 Theoretical analysis of inductive biases in deep convolutional networks]\n
