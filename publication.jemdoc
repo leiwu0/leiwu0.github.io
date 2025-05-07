@@ -4,6 +4,10 @@
 * indicates  equal contribution;\n 
 α-β indicates alphabetical author order.
 
+- [https://arxiv.org/abs/2502.19002 The Sharpness Disparity Principle in Transformers for Accelerating Language Model Pre-Training]\n
+Jinbo Wang\*, Mingze Wang\*, Zhanpeng Zhou\*, Junchi Yan, Weinan E, *Lei Wu*\n 
+*ICML 2025*.
+
 - [https://arxiv.org/abs/2503.06001 Analyzing the role of permutation invariance in linear mode connectivity] \n
 Keyao Zhan\*, Puheng Li\*, *Lei Wu*\n 
 *AISTATS 2025*.
@@ -18,14 +22,14 @@ arXiv preprint arXiv:2410.11474
 
 
 - [https://arxiv.org/abs/2405.20763 Improving generalization and convergence by enhancing implicit regularization]\n
-Mingze Wang,Jinbo Wang, Haotian He,  Zilin Wang, Guanhua Huang, Feiyu Xiong, Zhiyu Li, *Lei Wu*\n
+Mingze Wang, Jinbo Wang, Haotian He,  Zilin Wang, Guanhua Huang, Feiyu Xiong, Zhiyu Li, *Lei Wu*\n
 *NeurIPS 2024*.
 
 - [https://arxiv.org/abs/2404.06391 Exploring neural network landscapes: star-shaped and geodesic connectivity]\n
 Zhanran Lin\*, Puheng Li\*, *Lei Wu*\n
 arxiv preprint, 2024.
 
-- [https://arxiv.org/abs/2402.15718 A duality analysis of kernel ridge regression in the noiseless regime]\n
+- [https://arxiv.org/abs/2402.15718 Optimal Rates and Saturation for Noiseless Kernel Ridge Regression]\n
 (α-β) Jihao Long, Xiaojun Peng, *Lei Wu*\n
 arxiv preprint, 2024.
 

@@ -20,9 +20,9 @@ Email: leiwu (at) math (dot) pku (dot) edu (dot) cn\n
 
 
 == About Me
-I am  currently an Assistant Professor in the [https://www.math.pku.edu.cn/ School of Mathematical Sciences] and  [https://cmlr.pku.edu.cn// Center for Machine Learning Research] at [https://www.pku.edu.cn/ Peking University]. 
+I am  currently an Assistant Professor in the [https://www.math.pku.edu.cn School of Mathematical Sciences] and  [https://cmlr.pku.edu.cn Center for Machine Learning Research] at [https://www.pku.edu.cn/ Peking University]. 
 
-Previously, I was a postdoc in PACM  at  Princeton University and in the Wharton Statistics and Data Science Department at the University of Pennsylvania.  I completed my Ph.D. in computational mathematics at Peking University in 2018, advised by [https://web.math.princeton.edu/~weinan/ Prof. Weinan E]. I received my B.S. degree in  mathematics from  Nankai University in 2012. 
+Previously, I was a postdoc in PACM  at  Princeton University and in the Wharton Statistics and Data Science Department at the University of Pennsylvania.  I completed my Ph.D. in computational mathematics at Peking University in 2018, advised by  Prof. Weinan E. I received my B.S. degree in  mathematics from  Nankai University in 2012. 
 
 
 My current research focuses  on understanding the mechanisms behind machine and deep learning, specifically: 
@@ -31,7 +31,7 @@ My current research focuses  on understanding the mechanisms behind machine and 
 - The emergent phenomena observed in the training of LLMs
 
 == Recruiting
-We are actively seeking self-motivated postdocs, PhD students and interns to join our team, particularly those with backgrounds in *computer science* and *physics*. If you are interested in collaborating with me, please send an email to me with your CV and transcript as well as a brief description of your research interests.
+We are actively seeking self-motivated postdocs, PhD students and interns to join our team. If you are interested in collaborating with me, please send an email to me with your CV and transcript as well as a brief description of your research interests.
 
 
 == Selected Publications
@@ -43,8 +43,6 @@ Annals of Statistics (to appear), 2025.
 - [https://arxiv.org/abs/2305.08404 Theoretical analysis of inductive biases in deep convolutional networks]\n
 Zihao Wang, Lei Wu\n 
 NeurIPS 2023.
-
-
 
 - [https://arxiv.org/abs/2305.17490 The implicit regularization of dynamical stability in stochastic gradient descent]\n
 Lei Wu, Weijie J. Su\n
@@ -65,3 +63,4 @@ Science China Mathematics, 2020.
 - [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective How SGD selects the global minima in over-parameterized learning: A dynamical stability perspective] \n
 Lei Wu, Chao Ma, Weinan E\n 
 NeurIPS 2018.
+
