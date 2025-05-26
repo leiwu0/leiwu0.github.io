@@ -1,0 +1,41 @@
+# jemdoc: menu{MENU}{tdl.html}
+# jemdoc: addcss{jemdoc.css}, notime
+
+=== 
+
+= Theoretical Deep Learning
+
+
+== Lecture notes
+ . [lecture-note/lec-1.pdf A brief introduction to supervised learning]
+ . [lecture-note/lec-2.pdf Concentration inequalities ]
+    .. Sub-Gaussian, Chernoff bound, Hoeffding's inequality, McDiarmid's inequalty
+ . [lecture-note/lec-3.pdf Uniform bounds and empirical processes]
+    .. Rademacher complexity, Covering number, Dudley entropy integral
+ . [lecture-note/lec-4.pdf Kernel methods, representer theorem and RKHSs]
+ . [lecture-note/lec-5.pdf RKHS II]
+ . [lecture-note/lec-6.pdf Two-layer neural networks and the Fourier analysis]
+ . [lecture-note/lec-7.pdf The Barron space]
+ . Deep neural networks
+    .. [lecture-note/lec-8.pdf lecture note],
+    .. [lecture-note/resnet-approx.pdf Approximation theory of deep ResNets] 
+    .. [lecture-note/slide-depth-separation.pdf Depth separations]
+ . Training neural networks: Convergence?
+    .. [lecture-note/gd-brief-overview.pdf A brief overview of GD convergence]
+    .. [lecture-note/slide-9.pdf Slide]
+ . Training neural networks beyond the kernel regime
+    .. [lecture-note/slide-10.pdf Slide]
+
+
+
+== References
+ - Peter Bartlett's course: [https://www.stat.berkeley.edu/~bartlett/courses/2014spring-cs281bstat241b/ Statistical Learning Theory]
+ - Matus Telgarsky's notes: [https://mjt.cs.illinois.edu/dlt/ Deep Learning Theory Lecture Notes]
+ - S. Shalev-Shwartz and S Ben-David, [https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html Understanding Machine Learning: From Theory to Algorithms],  2014. 
+ - Roman Vershynin, [https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html High-dimensional probability: An introduction with applications in data science], 2018.
+
+
+
+
+
+

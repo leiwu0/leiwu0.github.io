@@ -1,0 +1,61 @@
+# jemdoc: menu{MENU}{index.html}
+# jemdoc: addcss{jemdoc.css}, notime
+
+=== 
+
+= Topics in Deep Learning Theory
+
+
+== Course Description 
+This course builds a rigorous theoretical foundation for modern machine learning, tracing ideas from classical linear models to today’s large-scale neural networks. Through four connected modules, you will master the core mathematical tools, landmark results, and open research questions that shape deep-learning theory.
+
+
+== Prerequisites
+- Completion of the course [../mi2ml/index.html /Mathematical Introduction to Machine Learning/] or familiarity with machine learning and deep learning concepts. A formal background in machine learning theory is not required. 
+
+- This course is mathematically rigorous and requires a solid background in linear algebra, mathematical analysis, and familiarity  with high-dimensional probability and functional analysis. Please ensure you have the necessary preparation before enrolling.
+
+
+== Lecture Notes
+ - Part I: Foundational Framework
+ 	-- [./lecture-00.pdf Lecture 0: Concentration Inequalities]
+ 	-- [./lecture-01.pdf Lecture 1: Generalization via Uniform Concentration]
+ - Part II: Classical  Theory
+ 	-- [./lecture-02.pdf Lecture 2: Linear Methods for Regression]
+ 	-- [./lecture-03.pdf Lecture 3: Reproducing Kernel Hilbert Spaces]
+ 	-- [./lecture-04.pdf Lecture 4: Theoretical Analysis of KRR]
+ 	-- [./lecture-05.pdf Lecture 5: Learning in RKHS  with SGD]
+ 	-- [./lecture-06.pdf Lecture 6: Random Feature Models]
+ - Part III: Deep Learning Theory
+ 	-- [./lecture-07.pdf Lecture 7: Two-Layer Neural Networks]
+ 	-- [./lecture-08.pdf Lecture 8: Optimization of Neural Networks]
+ 	-- [./lecture-09.pdf Lecture 9: Deep Neural Networks]
+ 	-- [./lecture-10.pdf Lecture 10: Implicit Bias/Regularization I]
+ 	-- [./lecture-11.pdf Lecture 11: How GD/SGD Converges to Flat Minima]
+ 	-- [./lecture-12.pdf Lecture 12: GD Converges to Max-Margin Solutions]
+ - Part IV: Frontier Topics
+ 	-- [./lecture-13.pdf Lecture 13: Feature Learning]
+ 	-- [./lecture-14.pdf Lecture 14: Neural Network Landscape]
+ 	-- [./lecture-15.pdf Lecture 15: Emerging Phenomena in LLM]
+
+
+
+== Relevant Books and Courses
+- Introduction to ML from a theoretical perspective: 
+	-- Shai Shalev-Shwartz, Shai Ben-David, [https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning Understanding Machine Learning: From Theory to Algorithms].
+	-- Mehryar Mohri, Afshin Rostamizadeh, and Ameet Talwalkar, [https://cs.nyu.edu/~mohri/mlbook/ Foundations of Machine Learning].	
+
+- More theoretical textbooks:
+	-- Francis Bach, [https://www.di.ens.fr/~fbach/ltfp_book.pdf Learning Theory from First Principles].
+	-- Roman Vershynin, [https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html High-Dimensional Probability]	
+	-- Ramon van Handel, [https://web.math.princeton.edu/~rvan/APC550.pdf Probability in High Dimension].
+
+- Deep Learning Theory Courses:
+	-- Matus Telgarsky, [https://mjt.cs.illinois.edu/dlt/two.pdf Deep Learning Theory].
+	-- Joan Bruna's course: [https://cims.nyu.edu/~bruna/teaching/ Mathematics of Deep Learning]
+	
+
+
+
+
+

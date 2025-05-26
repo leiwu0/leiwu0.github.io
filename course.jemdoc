@@ -1,0 +1,16 @@
+# jemdoc: menu{MENU}{course.html}
+# jemdoc: addcss{jemdoc.css}, notime
+= Courses 
+
+== Current 
+
+- *Mathematical Introduction to Machine Learning* (since Fall 2023, [./courses/mi2ml/index.html homepage])  
+
+- *Topics in Deep Learning Theory* (since Spring 2024, [courses/dl-theory/index.html homepage]) 
+
+
+
+== Past 
+- Spring 2023: Advanced Mathematics B
+- Spring 2022: Introduction to Data Science
+- Summer 2021: [teach/pku-summer2021/tdl.html PKU Summer School 2021] 

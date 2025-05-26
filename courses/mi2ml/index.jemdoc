@@ -1,0 +1,46 @@
+# jemdoc: menu{MENU}{index.html}
+# jemdoc: addcss{jemdoc.css}, notime
+
+=== 
+
+= Mathematical Introduction to Machine Learning
+
+== Description and Objectives
+Machine learning (ML)  has emerged as a cornerstone methodology for addressing a wide range of real-world challenges, spanning fields such as computer vision, natural language processing,  scientific computing, and artificial intelligence. This course aims to provide a comprehensive introduction to popular ML models along with their mathematical underpinnings. In tandem with the theoretical content, students will also gain hands-on experience in constructing and training ML models through a series of homework assignments and term projects. This balanced approach is designed to equip students with both the theoretical insights and practical skills necessary for advanced work in ML and related disciplines.
+
+== Prerequisites
+ - Familiarity with linear algebra, calculus, and probability theory is required. Basic knowledge of Hilbert spaces is also recommended.
+
+ - The course will include Python-based exercises and projects. A good short tutorial of Python and Numpy is available  at [http://cs231n.github.io/python-numpy-tutorial http://cs231n.github.io/python-numpy-tutorial]. Particularly, the term project needs to use deep learning packages like [https://pytorch.org, PyTorch].
+
+
+== Lecture Notes
+ - Part I: Classical Machine Learning
+ 	-- [./lecture-01.pdf Lecture 1: An Overview of Machine Learning]
+ 	-- [./lecture-02.pdf Lecture 2: Linear Method for Regression]
+ 	-- [./lecture-03.pdf Lecture 3: Classification Problems]
+ 	-- [./lecture-04.pdf Lecture 4: Unsupervised Learning I]
+ 	-- [./lecture-05.pdf Lecture 5: Gradient Descent and Momentum Accelerations]
+ 	-- [./lecture-06.pdf Lecture 6: Stochastic Gradient Descent]
+ - Part II: Deep Learning
+ 	-- [./lecture-07.pdf Lecture 7: Neural Networks]
+ 	-- [./lecture-08.pdf Lecture 8: On the Training of Neural Networks]
+ 	-- [./lecture-09.pdf Lecture 9: A Quick Introduction to PyTorch]
+ 	-- [./lecture-10.pdf Lecture 10: Generative Models]
+ 	-- [./lecture-11.pdf Lecture 11: Diffusion Model and Score Matching]
+ 	-- [./lecture-12.pdf Lecture 12: Transformer and Large Language Models]
+ - Part III: Theoretical Foundation
+ 	-- [./lecture-13.pdf Lecture 13: Concentration Inequalities]
+ 	-- [./lecture-14.pdf Lecture 14: Uniform Generalization Bound]
+
+
+
+== References
+ - S. Shalev-Shwartz and S Ben-David, [https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html Understanding Machine Learning: From Theory to Algorithms],  2014. 
+ - Roman Vershynin, [https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html High-dimensional probability: An introduction with applications in data science], 2018.
+
+
+
+
+
+
