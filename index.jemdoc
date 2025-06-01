@@ -39,12 +39,12 @@ We are actively seeking self-motivated postdocs, PhD students and interns to joi
 
 == Selected Works
 - Understanding and improving LLM pre-training 
-	-- Design better optimizer: [https://arxiv.org/abs/2405.20763 NeurIPS 2024], [https://arxiv.org/abs/2502.19002 ICML 2025]
+	-- Optimizer design: [https://arxiv.org/abs/2405.20763 NeurIPS 2024], [https://arxiv.org/abs/2502.19002 ICML 2025]
 
 - A stability theory of implicit regularization
-	-- Stability ensures SGD only select flat minima: [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective NeurIPS 2028], [https://arxiv.org/abs/2207.02628 NeurIPS 2022]
+	-- Stability ensures SGD only select flat minima: [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective NeurIPS 2018], [https://arxiv.org/abs/2207.02628 NeurIPS 2022]
 	-- Flat minima can provably generalize well: [https://arxiv.org/abs/2305.17490 ICML 2023]
-	-- Discovery of the Edge of Stability (EoS) phenomenon: [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective NeurIPS 2028]
+	-- Discovery of the Edge of Stability (EoS) phenomenon: [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective NeurIPS 2018]
 
 - Approximation theory for machine learning 
 	-- Kernel and random features: [https://arxiv.org/abs/2305.05642 AoS 2025], [https://arxiv.org/abs/2402.15718 arXiv 2024]
