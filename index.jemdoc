@@ -38,23 +38,30 @@ We are actively seeking self-motivated postdocs, PhD students and interns to joi
 
 
 == Selected Works
-- **Understanding and improving LLM pre-training** 
+- *Understanding and improving LLM pre-training* 
 	-- Optimizer design: 
-		--- [https://arxiv.org/abs/2405.20763 AdmIRE] and [https://arxiv.org/abs/2502.19002 Blockwise LR]: Speed up training via amplifying the dynamics along flat directions.
-		--- [https://arxiv.org/abs/2505.24275 GradPower]: Boosts base optimizers using a sign-power transform, requiring only a single-line code change.
+		--- [https://arxiv.org/abs/2405.20763 AdmIRE] & [https://arxiv.org/abs/2502.19002 Blockwise LR]: Speed up convergence by amplifying the dynamics along flat directions.
+		--- [https://arxiv.org/abs/2505.24275 GradPower]: Make gradients more informative for faster convergence, requiring only a single-line code change.
 
 - *A stability theory of implicit regularization*
-	-- SGD prefers flat minima via stability: Introduced the ***stability-based view of flatness bias***: [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective NeurIPS 2018]
+	-- SGD prefers flat minima via stability: Introduced the *stability-based view of flatness bias*: [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective NeurIPS 2018]
 	--  The anisotropic  SGD noise is crucial for sharpness control.: [https://arxiv.org/abs/2207.02628 NeurIPS 2022]
 	-- Flat minima provably generalize well for two-layer ReLU and diagonal linear nets: [https://arxiv.org/abs/2305.17490 ICML 2023]
-	-- Stability-inspired algorithms for seeking flatter minima [https://arxiv.org/abs/2405.20763 NeurIPS 2024]
-	--  Discovery of the ***Edge of Stability (EoS)*** phenomenon: [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective NeurIPS 2018]
+	-- Stability-inspired algorithms for seeking flatter minima: [https://arxiv.org/abs/2405.20763 NeurIPS 2024]
+	--  Discovery of the *edge of stability (EoS)* phenomenon: [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective NeurIPS 2018]  (Table 2)
 
-- Approximation theory for machine learning 
-	-- Kernel and random features: [https://arxiv.org/abs/2305.05642 AoS 2025], [https://arxiv.org/abs/2402.15718 arXiv 2024]
-	-- Barron space theory for neural networks: [https://arxiv.org/abs/1810.06397 CMS 2019], [https://arxiv.org/abs/1906.08039 Contr. Appr. 2021],  [https://arxiv.org/abs/2108.04964 JMLR 2022], [https://arxiv.org/abs/2305.19082 JML 2023], [https://arxiv.org/abs/2305.05642 AoS 2025]
+- *Approximation theory for machine learning*
+	-- Approximation is the dual of estimation, and vice versa: [https://arxiv.org/abs/2305.05642 AoS 2025]
+	-- Kernel and random features: [https://arxiv.org/abs/2402.15718 arXiv 2024]
+	-- *Barron space* theory for neural networks: [https://arxiv.org/abs/1810.06397 CMS 2019], [https://arxiv.org/abs/1906.08039 Contr. Appr. 2021]
+		--- A spectral analysis: [https://arxiv.org/abs/2108.04964 JMLR 2022]
+		--- Embedding theorems: [https://arxiv.org/abs/2305.19082 JML 2023]
 	-- Deep CNNs: [https://arxiv.org/abs/2305.08404 NeurIPS 2023]
 
+- *Loss landscape analysis*
+	-- [https://arxiv.org/abs/2503.06001 The role of permutation symmetry in linear mode connectivity]
+	-- [https://arxiv.org/abs/2404.06391 Star-shaped and geodesic connectivity]
+	-- [https://arxiv.org/abs/2311.15221 Phase retrieval landscape under limited samples]
 
 
 
