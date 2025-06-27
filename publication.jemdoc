@@ -1,13 +1,11 @@
 # jemdoc: menu{MENU}{publication.html}
 = Publications
 
-* indicates  equal contribution;\n 
-α-β indicates alphabetical author order.
-
+* indicates  equal contribution; α-β indicates alphabetical author order.
 
 - [https://arxiv.org/abs/2505.24275 GradPower: Powering Gradients for Faster Language Model Pre-Training]\n
 Mingze Wang\*, Jinbo Wang\*, Jiaqi Zhang, Wei Wang, Peng Pei, Xunliang Cai, Weinan E, *Lei Wu*\n
-arxiv preprint, 2025.
+arXiv preprint, 2025.
 
 
 - [https://arxiv.org/abs/2501.14475 Point Cloud Neural Operator for Parametric PDEs on Complex and Variable Geometries]\n
@@ -24,7 +22,7 @@ Keyao Zhan\*, Puheng Li\*, *Lei Wu*\n
 
 - [https://arxiv.org/abs/2305.05642 A duality framework for analyzing random feature  and two-layer neural networks]\n
 (α-β) Hongrui Chen, Jihao Long, *Lei Wu*\n
-*Annals of Statistics* (to appear), *2025*.
+*Annals of Statistics 2025*.
 
 - [https://arxiv.org/abs/2410.11474 How Transformers Get Rich: Approximation and Dynamics Analysis]\n
 Mingze Wang, Ruoxi Yu, *Lei Wu*\n
