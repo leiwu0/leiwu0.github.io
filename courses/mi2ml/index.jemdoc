@@ -11,12 +11,12 @@ Machine learning (ML)  has emerged as a cornerstone methodology for addressing a
 == Prerequisites
  - Familiarity with linear algebra, calculus, and probability theory is required. Basic knowledge of Hilbert spaces is also recommended.
 
- - The course will include Python-based exercises and projects. A good short tutorial of Python and Numpy is available  at [http://cs231n.github.io/python-numpy-tutorial http://cs231n.github.io/python-numpy-tutorial]. Particularly, the term project needs to use deep learning packages like [https://pytorch.org, PyTorch].
+ - The course will include Python-based exercises and projects. A good short tutorial of Python and Numpy is available  at [http://cs231n.github.io/python-numpy-tutorial this link]. Particularly, the term project needs to use deep learning packages like [https://pytorch.org, PyTorch].
 
 
 == Lecture Notes
  - Part I: Classical Machine Learning
- 	-- [./lecture-01.pdf Lecture 1: An Overview of Machine Learning]
+ 	-- [./lecture-01.pdf Lecture 1: An Overview of Machine Learning] (updated on 2025-09-20)
  	-- [./lecture-02.pdf Lecture 2: Linear Method for Regression]
  	-- [./lecture-03.pdf Lecture 3: Classification Problems]
  	-- [./lecture-04.pdf Lecture 4: Unsupervised Learning I]
