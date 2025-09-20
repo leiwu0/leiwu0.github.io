@@ -365,3 +365,9 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+.red {
+    color: red;
+    font-weight: bold; 
+}
+
