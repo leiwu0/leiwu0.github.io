@@ -18,8 +18,8 @@ Machine learning (ML)  has emerged as a cornerstone methodology for addressing a
  - Part I: Classical Machine Learning
  	-- [./lecture-01.pdf Lecture 1: An Overview of Machine Learning] (updated on 2025-09-20)
  	-- [./lecture-02.pdf Lecture 2: Linear Method for Regression] (updated on 2025-09-26)
- 	-- [./lecture-03.pdf Lecture 3: Classification Problems]
- 	-- [./lecture-04.pdf Lecture 4: Unsupervised Learning I]
+ 	-- [./lecture-03.pdf Lecture 3: Classification] (updated on 2025-10-14)
+ 	-- [./lecture-04.pdf Lecture 4: Unsupervised Learning]
  	-- [./lecture-05.pdf Lecture 5: Gradient Descent and Momentum Accelerations]
  	-- [./lecture-06.pdf Lecture 6: Stochastic Gradient Descent]
  - Part II: Deep Learning
