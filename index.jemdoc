@@ -38,6 +38,9 @@ We are actively seeking self-motivated postdocs, PhD students and interns to joi
 
 
 == Selected Works
+- *Understanding Scaling Laws*
+  -- [https://arxiv.org/abs/2509.19189 **Functional Scaling Laws (FSL)**]: We develop a *functional perspective* for understanding scaling laws—one that predicts the entire loss trajectory and capture the role of learning-rate schedule.  
+
 - *Understanding and improving LLM pre-training* 
 	-- Optimizer design: 
 		--- [https://arxiv.org/abs/2405.20763 AdmIRE] & [https://arxiv.org/abs/2502.19002 Blockwise LR]: Speed up convergence by amplifying the dynamics along flat directions.
