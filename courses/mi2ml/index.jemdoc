@@ -24,10 +24,10 @@ Machine learning (ML)  has emerged as a cornerstone methodology for addressing a
  	-- [./lecture-06.pdf Lecture 6: Stochastic Gradient Descent] (updated on 2025-11-18)
  - Part II: Deep Learning
  	-- [./lecture-07.pdf Lecture 7: Neural Networks: Architecture Design] (updated on 2025-11-22)
- 	-- [./lecture-08.pdf Lecture 8: Neural Networks: Training Algorithms]
+ 	-- [./lecture-08.pdf Lecture 8: Neural Networks: Training Algorithms] (updated on 2025-12-08)
  	-- [./lecture-09.pdf Lecture 9: A Quick Introduction to PyTorch]
- 	-- [./lecture-10.pdf Lecture 10: Generative Models]
- 	-- [./lecture-11.pdf Lecture 11: Diffusion Model and Score Matching]
+ 	-- [./lecture-10.pdf Lecture 10: Generative Models] (updated on 2025-12-08)
+ 	-- [./lecture-11.pdf Lecture 11: Diffusion Model and Score Matching] (updated on 2025-12-08)
  	-- [./lecture-12.pdf Lecture 12: Transformer and Large Language Models]
  - Part III: Theoretical Foundation
  	-- [./lecture-13.pdf Lecture 13: Concentration Inequalities]
