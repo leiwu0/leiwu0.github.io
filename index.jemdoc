@@ -38,13 +38,20 @@ We are actively seeking self-motivated postdocs, PhD students and interns to joi
 
 
 == Selected Works
-- *Understanding Scaling Laws*
-  -- [https://arxiv.org/abs/2509.19189 **Functional Scaling Laws (FSL)**]: We develop a *functional perspective* for understanding scaling laws—one that predicts the entire loss trajectory and capture the role of learning-rate schedule.  
 
-- *Understanding and improving LLM pre-training* 
-	-- Optimizer design: 
-		--- [https://arxiv.org/abs/2405.20763 AdmIRE] & [https://arxiv.org/abs/2502.19002 Blockwise LR]: Speed up convergence by amplifying the dynamics along flat directions.
-		--- [https://arxiv.org/abs/2505.24275 GradPower]: Make gradients more informative for faster convergence, requiring only a single-line code change.
+- *Understanding and improving LLM pre-training*
+    --  
+       We introduce the [https://arxiv.org/abs/2509.19189 Functional Scaling Laws (FSL)] — a dynamical perspective on *scaling laws* that models the entire loss trajectory rather than only final performance.  
+       FSL provides a unified and principled foundation for:
+        --- Characterizing optimal learning-rate schedules from first principles: [https://arxiv.org/abs/2602.06797 ArXiv 2026].
+        --- Designing  batch-size scheduling: [https://arxiv.org/abs/2602.14208 ICLR 2026].
+    -- Optimizer Design:
+        --- [https://arxiv.org/abs/2405.20763 AdmIRE] &  
+            [https://arxiv.org/abs/2502.19002 Blockwise LR]  
+            Accelerate convergence by amplifying learning dynamics along flat directions.
+        --- [https://arxiv.org/abs/2505.24275 GradPower]  
+            Improves gradient informativeness for faster training, requiring only a single-line code change.
+
 
 - *A stability theory of implicit regularization*
 	-- SGD prefers flat minima via stability: Introduced the *stability-based view of flatness bias*: [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective NeurIPS 2018]

@@ -3,6 +3,15 @@
 
 * indicates  equal contribution; α-β indicates alphabetical author order.
 
+\n
+- [https://arxiv.org/abs/2602.06797 Optimal Learning-Rate Schedules under Functional Scaling Laws: Power Decay and Warmup-Stable-Decay]\n 
+Binghui Li\*, Zilin Wang\*, Fengling Chen, Shiyang Zhao, Ruiheng Zheng, *Lei Wu*\n
+arXiv preprint, 2026.
+
+- [https://arxiv.org/abs/2602.14208 Fast Catch-Up, Late Switching: Optimal Batch Size Scheduling via Functional Scaling Laws]\n
+Jinbo Wang\*, Binghui Li\*, Zhanpeng Zhou, Mingze Wang, Yuxuan Sun, Jiaqi Zhang, Xunliang Cai, *Lei Wu*\n 
+*ICLR 2026*.
+
 - [https://arxiv.org/abs/2505.24275 GradPower: Powering Gradients for Faster Language Model Pre-Training]\n
 Mingze Wang\*, Jinbo Wang\*, Jiaqi Zhang, Wei Wang, Peng Pei, Xunliang Cai, Weinan E, *Lei Wu*\n
 arXiv preprint, 2025.
@@ -13,7 +22,7 @@ Binghui Li\*, Fengling Chen\*, Zixun Huang\*, Lean Wang\*, Lei Wu\n
 
 - [https://arxiv.org/abs/2501.14475 Point Cloud Neural Operator for Parametric PDEs on Complex and Variable Geometries]\n
 Chenyu Zeng, Yanshu Zhang, Jiayi Zhou, Yuhan Wang, Zilin Wang, Yuhao Liu, *Lei Wu*, Daniel Zhengyu Huang\n
-*Comput. Methods Appl. Mech. Eng., 2025*
+*Comput. Methods Appl. Mech. Eng., 2025*.
 
 - [https://arxiv.org/abs/2502.19002 The Sharpness Disparity Principle in Transformers for Accelerating Language Model Pre-Training]\n
 Jinbo Wang\*, Mingze Wang\*, Zhanpeng Zhou\*, Junchi Yan, Weinan E, *Lei Wu*\n 
@@ -65,9 +74,6 @@ Mingze Wang, Zeping Min, *Lei Wu*\n
 Mingze Wang, *Lei Wu*\n 
 arXiv preprint, 2023.
 
-- [https://arxiv.org/abs/2306.02833 The L^\infty learnability of reproducing kernel Hilbert spaces]\n
-(α-β) Hongrui Chen, Jihao Long, *Lei Wu*\n
-arXiv preprint, 2023.
 
 - [https://arxiv.org/abs/2305.19082 Embedding inequalities for Barron-type spaces]\n 
 *Lei Wu*\n
