@@ -70,7 +70,7 @@ If you are interested in collaborating with me, please email me your CV, transcr
 == Recent News
 
 - 2026-02: [https://arxiv.org/abs/2602.19691 Constant-depth network with smooth activations] released on arXiv.
-  -- establishes smooth activations (e.g., GELU, SiLU) enable smoothness adaptivity for constant-depth networks .
+  -- Establishes that smooth activations (e.g., GELU, SiLU) enable smoothness adaptivity in constant-depth neural networks, achieving optimal approximation and statistical rates.
 
 - 2026-02: [https://arxiv.org/abs/2602.06797 Optimal learning-rate schedules under FSL] released on arXiv.
   -- proves that the optimal learning-rate schedule follows a warmup–stable–decay (WSD) structure.
