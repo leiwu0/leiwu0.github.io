@@ -1,5 +1,6 @@
 /* Default css file for jemdoc. */
 
+
 table#tlayout {
     border: none;
     border-collapse: separate;
@@ -371,3 +372,9 @@ table.imgtable, table.imgtable td {
     font-weight: bold; 
 }
 
+
+
+div.infoblock strong {
+  color: #c0392b;
+  font-weight: 600;
+}

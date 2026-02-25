@@ -2,8 +2,13 @@
 = Publications
 
 * indicates  equal contribution; α-β indicates alphabetical author order.
+\n 
 
-\n
+- [https://arxiv.org/abs/2602.19691 Smoothness Adaptivity in Constant-Depth Neural Networks: Optimal Rates via Smooth Activations]\n 
+(α-β)  Yuhao Liu, Zilin Wang, *Lei Wu*, Shaobo Zhang\n
+arXiv preprint, 2026.
+
+
 - [https://arxiv.org/abs/2602.06797 Optimal Learning-Rate Schedules under Functional Scaling Laws: Power Decay and Warmup-Stable-Decay]\n 
 Binghui Li\*, Zilin Wang\*, Fengling Chen, Shiyang Zhao, Ruiheng Zheng, *Lei Wu*\n
 arXiv preprint, 2026.
@@ -78,8 +83,6 @@ arXiv preprint, 2023.
 - [https://arxiv.org/abs/2305.19082 Embedding inequalities for Barron-type spaces]\n 
 *Lei Wu*\n
 *Journal of Machine Learning*, 2023.
-
-
 
 
 - [https://arxiv.org/abs/2305.08404 Theoretical analysis of inductive biases in deep convolutional networks]\n

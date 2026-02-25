@@ -1,8 +1,7 @@
 # jemdoc: menu{MENU}{index.html}
 # jemdoc: addcss{jemdoc.css}, notime
+
 = Lei Wu (吴磊)
-
-
 
 ~~~
 {}{img_left}{leiwu.jpeg}{Lei Wu}{120 px}{160 px}
@@ -18,58 +17,66 @@ Email: leiwu (at) math (dot) pku (dot) edu (dot) cn\n
 [https://scholar.google.com/citations?user=CMweeYcAAAAJ&hl=en Google Scholar] ~~~ [https://github.com/leiwu0 Github]~~~~~ [./cv.pdf CV]\n
 ~~~
 
-
 == About Me
-I am  currently an Assistant Professor in the [https://www.math.pku.edu.cn School of Mathematical Sciences] and  [https://cmlr.pku.edu.cn Center for Machine Learning Research] at [https://www.pku.edu.cn/ Peking University]. 
+I am currently an Assistant Professor in the [https://www.math.pku.edu.cn School of Mathematical Sciences] and
+[https://cmlr.pku.edu.cn Center for Machine Learning Research] at [https://www.pku.edu.cn/ Peking University].
 
-Previously, I was a postdoc in PACM  at  Princeton University and in the Wharton Statistics and Data Science Department at the University of Pennsylvania.  I completed my Ph.D. in computational mathematics at Peking University in 2018, advised by  Prof. Weinan E. I received my B.S. degree in  mathematics from  Nankai University in 2012. 
-
+Previously, I was a postdoc in PACM at Princeton University and in the Wharton Statistics and Data Science Department at the University of Pennsylvania.
+I completed my Ph.D. in computational mathematics at Peking University in 2018, advised by Prof. Weinan E.
+I received my B.S. degree in mathematics from Nankai University in 2012.
 
 My research aims to understand the mechanisms behind the success of deep learning, with a particular focus on:
-
 - The approximation and representation power of neural networks
-
 - The dynamical behavior of popular optimization algorithms such as SGD and Adam
-
 - Emergent phenomena in the training of large language models (LLMs)
 
+
+
 == Recruiting
-We are actively seeking self-motivated postdocs, PhD students and interns to join our team. If you are interested in collaborating with me, please send an email to me with your CV and transcript as well as a brief description of your research interests.
-
-
-== Selected Works
-
-- *Understanding and improving LLM pre-training*
-    --  
-       We introduce the [https://arxiv.org/abs/2509.19189 Functional Scaling Laws (FSL)] — a dynamical perspective on *scaling laws* that models the entire loss trajectory rather than only final performance.  
-       FSL provides a unified and principled foundation for:
-        --- Characterizing optimal learning-rate schedules from first principles: [https://arxiv.org/abs/2602.06797 ArXiv 2026].
-        --- Designing  batch-size scheduling: [https://arxiv.org/abs/2602.14208 ICLR 2026].
-    -- Optimizer Design:
-        --- [https://arxiv.org/abs/2405.20763 AdmIRE] &  
-            [https://arxiv.org/abs/2502.19002 Blockwise LR]  
-            Accelerate convergence by amplifying learning dynamics along flat directions.
-        --- [https://arxiv.org/abs/2505.24275 GradPower]  
-            Improves gradient informativeness for faster training, requiring only a single-line code change.
-
-
-- *A stability theory of implicit regularization*
-	-- SGD prefers flat minima via stability: Introduced the *stability-based view of flatness bias*: [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective NeurIPS 2018]
-	--  The anisotropic  SGD noise is crucial for sharpness control.: [https://arxiv.org/abs/2207.02628 NeurIPS 2022]
-	-- Flat minima provably generalize well for two-layer ReLU and diagonal linear nets: [https://arxiv.org/abs/2305.17490 ICML 2023]
-	-- Stability-inspired algorithms for seeking flatter minima: [https://arxiv.org/abs/2405.20763 NeurIPS 2024]
-	--  Discovery of the *edge of stability (EoS)* phenomenon: [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective NeurIPS 2018]  (Table 2)
-
-
-
-- *Approximation theory for machine learning*
-	-- Approximation is the dual of estimation, and vice versa: [https://arxiv.org/abs/2305.05642 AoS 2025]
-	-- Kernel and random features: [https://arxiv.org/abs/2402.15718 arXiv 2024]
-	-- *Barron space* theory for neural networks: [https://arxiv.org/abs/1810.06397 CMS 2019], [https://arxiv.org/abs/1906.08039 Contr. Appr. 2021]
-		--- A spectral analysis: [https://arxiv.org/abs/2108.04964 JMLR 2022]
-		--- Embedding theorems: [https://arxiv.org/abs/2305.19082 JML 2023]
-	-- Deep CNNs: [https://arxiv.org/abs/2305.08404 NeurIPS 2023]
+We are actively seeking self-motivated {{<span class="red">postdocs</span>}}, *PhD students*, and *undergraduate interns* to join our team.
+If you are interested in collaborating with me, please email me your CV, transcript, and a brief description of your research interests.
 
 
 
 
+
+== Research Highlights
+(See also: [publication.html Full publication list])
+
+- *Understanding scaling laws.*
+  -- [https://arxiv.org/abs/2509.19189 Functional scaling laws (FSL) for kernel regression and LLM pre-training (NeurIPS 2025, Spotlight)]
+  -- [https://arxiv.org/abs/2602.14208 Optimal batch-size scheduling under FSL (ICLR 2026)]
+  -- [https://arxiv.org/abs/2602.06797 Optimal learning-rate scheduling under FSL (arXiv 2026)]
+
+- *LLM pre-training.*
+  -- [https://arxiv.org/abs/2502.19002 Accelerate training via the sharpness disparity in transformer] 
+  
+
+- *Implicit regularization, dynamical stability, and flatness bias.*\n
+  -- [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective A dynamical stability perspective of implicit regularization (NeurIPS 2018)] (Discover the *edge of stability (EoS)* phenomenon; see Table 2)
+  -- [https://arxiv.org/abs/2207.02628 Alignment property of SGD noise & flat minima selection (NeurIPS 2022)]
+  -- [https://arxiv.org/abs/2305.17490 Stable and flat minima provably generalize well (ICML 2023)]
+  -- [https://arxiv.org/abs/2405.20763 Enhancing implicit regularization for generalization & convergence (NeurIPS 2024)]
+
+- *Approximation theory of  machine learning.*\n
+  -- [https://arxiv.org/abs/1810.06397 A priori population-risk estimates for two-layer networks (CMS 2019)]
+  --  [https://arxiv.org/abs/1906.08039 Barron space and flow-induced function spaces (Constructive Approximation 2021)]
+  -- [https://arxiv.org/abs/2305.08404 Inductive biases in deep convolutional networks (NeurIPS 2023)]
+  -- [https://arxiv.org/abs/2402.15718 Sobolev-norm convergence of kernel ridge regression (arXiv 2024)]
+  -- [https://arxiv.org/abs/2305.05642 Duality framework for random features and two-layer networks (AoS 2025)]
+
+ 
+
+== Recent News
+
+- 2026-02: [https://arxiv.org/abs/2602.19691 Constant-depth network with smooth activations] released on arXiv.
+  -- establishes smooth activations (e.g., GELU, SiLU) enable smoothness adaptivity for constant-depth networks .
+
+- 2026-02: [https://arxiv.org/abs/2602.06797 Optimal learning-rate schedules under FSL] released on arXiv.
+  -- proves that the optimal learning-rate schedule follows a warmup–stable–decay (WSD) structure.
+
+- 2026-02: [https://arxiv.org/abs/2602.14208 Fast catch-up, late switching] accepted to *ICLR 2026*.
+  -- reveals a fast catch-up effect in batch-size scheduling, which holds across linear regression and LLM pre-training.
+
+- 2025-09: [https://arxiv.org/abs/2509.19189 Functional Scaling Laws] accepted to *NeurIPS 2025 (Spotlight)*.
+  -- introduces the FSL framework, characterizing the entire loss trajectory rather than only the final-step scaling behavior, from linear regression to LLM pre-training.
