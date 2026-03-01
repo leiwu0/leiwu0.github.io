@@ -73,10 +73,10 @@ If you are interested in collaborating with me, please email me your CV, transcr
   -- Establishes that smooth activations (e.g., GELU, SiLU) enable smoothness adaptivity in constant-depth neural networks, achieving optimal approximation and statistical rates.
 
 - 2026-02: [https://arxiv.org/abs/2602.06797 Optimal learning-rate schedules under FSL] released on arXiv.
-  -- proves that the optimal learning-rate schedule follows a warmup–stable–decay (WSD) structure.
+  -- proves that the optimal learning-rate schedule depends explicitly on task difficulty; in the hard-task regime, the optimal schedule necessarily exhibits a [https://arxiv.org/abs/2404.06395  warmup–stable–decay (WSD)] structure.
 
 - 2026-02: [https://arxiv.org/abs/2602.14208 Fast catch-up, late switching] accepted to *ICLR 2026*.
-  -- reveals a fast catch-up effect in batch-size scheduling, which holds across linear regression and LLM pre-training.
+  -- studies batch-size scheduling, revealing a fast catch-up effect, which holds across linear regression and LLM pre-training.
 
 - 2025-09: [https://arxiv.org/abs/2509.19189 Functional Scaling Laws] accepted to *NeurIPS 2025 (Spotlight)*.
-  -- introduces the FSL framework, characterizing the entire loss trajectory rather than only the final-step scaling behavior, from linear regression to LLM pre-training.
+  -- introduces a functional scaling laws (FSL) framework that—in contrast to classical scaling laws, which only describe final-step behavior—characterizes the entire loss trajectory, spanning from linear regression to LLM pre-training.
