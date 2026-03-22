@@ -44,17 +44,17 @@ This perspective is organized around three themes:
   -- [https://arxiv.org/abs/2602.06797 Optimal learning-rate scheduling under FSL (arXiv 2026)]
   
 
-- *Learning dynamics and implicit regularization:* Analyze the stability, dynamics, and implicit bias of stochastic optimization algorithms.
+- *Learning dynamics and implicit regularization:* Study stochastic optimization as a high-dimensional random dynamical system, with emphasis on stability, phase transitions, and implicit bias.
   -- [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective A dynamical stability perspective of implicit regularization (NeurIPS 2018)] 
   -- [https://arxiv.org/abs/2207.02628 Alignment property of SGD noise and flat minima selection (NeurIPS 2022)]
   -- [https://arxiv.org/abs/2305.17490 Stable and flat minima provably generalize well (ICML 2023)]
 
-- *Approximation theory and representation:* Study neural network representations and their inductive biases in function spaces.
+- *Approximation theory and representation:* Quantify neural network expressivity and inductive biases through function approximation.
   --  [https://arxiv.org/abs/1906.08039 Barron space and flow-induced function spaces (Constructive Approximation 2021)]
   -- [https://arxiv.org/abs/2305.08404 Inductive biases in deep convolutional networks (NeurIPS 2023)]
   -- [https://arxiv.org/abs/2305.05642 Duality framework for random features and two-layer networks (AoS 2025)]
 
-- *Applications to large-Scale training:*   Translate theoretical insights into practical improvements.
+- *Applications to large-scale training:*   Translate theoretical insights into principled algorithmic designs.
   -- [https://arxiv.org/abs/2502.19002 Accelerate transformer training via  sharpness disparity  (ICML 2025)]
 
 
