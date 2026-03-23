@@ -20,43 +20,42 @@ Email: leiwu (at) math (dot) pku (dot) edu (dot) cn\n
 == About Me
 I am  an Assistant Professor in the School of Mathematical Sciences and Center for Machine Learning Research at Peking University.
 
-Previously, I was a postdoctoral researcher at PACM, Princeton University, and at the Wharton School, University of Pennsylvania.
+Previously, I was a postdoctoral researcher at PACM, Princeton University and at the Wharton School, University of Pennsylvania.
 I received my Ph.D. in Computational Mathematics from Peking University in 2018, advised by Prof. Weinan E, and my B.S. in Mathematics from Nankai University in 2012.
 
 == Research Vision
 
-My research develops a mathematical understanding of modern machine learning,
-focusing on how representation, optimization, and scale jointly determine performance:
+My research studies the interplay between representation, optimization, and generalization in modern machine learning, viewed through the *lens of scaling*.
 
-This perspective is organized around three themes:
-- Approximation and representation: what functions can neural networks efficiently represent?
-- Learning dynamics: how do optimization algorithms such as SGD and Adam behave?
-- Scaling laws: how does performance depend on data, model size, and compute?
+- *Representation (function spaces):*  
+  Characterize neural networks via their induced function spaces, including expressivity,  approximation, and inductive bias.
 
+- *Optimization (stochastic dynamical systems):*  
+  Analyze training algorithms as high-dimensional stochastic dynamical systems, focusing on stability, implicit bias, and critical phenomena.
 
+- *Generalization (statistical learning):*  
+  Quantify finite-sample generalization and its underlying mechanisms.
 
 == Research Highlights
 (See also: [publication.html Full publication list])
 
-- *Scaling laws and large-scale optimization*: Characterize scaling laws that quantify performance as a function of data, model size, and compute.
+- *Scaling laws (large-scale regime):* 
   -- [https://arxiv.org/abs/2509.19189 Functional scaling laws (FSL) for kernel regression and LLM pre-training (NeurIPS 2025, Spotlight)]
   -- [https://arxiv.org/abs/2602.14208 Optimal batch-size scheduling under FSL (ICLR 2026)]
   -- [https://arxiv.org/abs/2602.06797 Optimal learning-rate scheduling under FSL (arXiv 2026)]
-  
 
-- *Learning dynamics and implicit regularization:* Study stochastic optimization as a high-dimensional random dynamical system, with emphasis on stability, phase transitions, and implicit bias.
+- *Optimization (stochastic dynamical systems):*  
   -- [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective A dynamical stability perspective of implicit regularization (NeurIPS 2018)] 
-  -- [https://arxiv.org/abs/2207.02628 Alignment property of SGD noise and flat minima selection (NeurIPS 2022)]
-  -- [https://arxiv.org/abs/2305.17490 Stable and flat minima provably generalize well (ICML 2023)]
+  -- [https://arxiv.org/abs/2207.02628 Stable minima must be flat due to anisotropic noise geometry (NeurIPS 2022)]
+  -- [https://arxiv.org/abs/2305.17490 Flat minima generalize well (ICML 2023)]
 
-- *Approximation theory and representation:* Quantify neural network expressivity and inductive biases through function approximation.
-  --  [https://arxiv.org/abs/1906.08039 Barron space and flow-induced function spaces (Constructive Approximation 2021)]
+- *Representation (function spaces):*  
+  --  [https://arxiv.org/abs/1906.08039 Barron spaces and flow-induced function spaces (Constructive Approximation 2021)]
   -- [https://arxiv.org/abs/2305.08404 Inductive biases in deep convolutional networks (NeurIPS 2023)]
-  -- [https://arxiv.org/abs/2305.05642 Duality framework for random features and two-layer networks (AoS 2025)]
+  -- [https://arxiv.org/abs/2305.05642 A duality framework for random features and two-layer networks (AoS 2025)]
 
-- *Applications to large-scale training:*   Translate theoretical insights into principled algorithmic designs.
-  -- [https://arxiv.org/abs/2502.19002 Accelerate transformer training via  sharpness disparity  (ICML 2025)]
-
+- *Applications (theory to practice):*  
+  -- [https://arxiv.org/abs/2502.19002 Accelerating transformer training via sharpness disparity (ICML 2025)]
 
 == Recruiting
 We are actively seeking self-motivated {{<span class="red">postdocs</span>}}, *Ph.D. students*, and *undergraduate interns* to join my group.
@@ -68,7 +67,7 @@ If you are interested, please email me your CV, transcript, and a brief descript
   -- Establishes that smooth activations (e.g., GELU, SiLU) enable smoothness adaptivity in constant-depth neural networks, achieving optimal approximation and statistical rates.
 
 - 2026-02: [https://arxiv.org/abs/2602.06797 Optimal learning-rate schedules under FSL] released on arXiv.
-  -- Proves that the optimal learning-rate schedule depends  on task difficulty; in the hard-task regime, the optimal schedule necessarily exhibits a [https://arxiv.org/abs/2404.06395  warmup–stable–decay (WSD)] structure.
+  -- Proves that the optimal learning-rate schedule depends  on task difficulty; in the hard-task regime, the optimal schedule  exhibits a [https://arxiv.org/abs/2404.06395  warmup–stable–decay (WSD)] structure.
 
 - 2026-02: [https://arxiv.org/abs/2602.14208 Fast catch-up, late switching] accepted to *ICLR 2026*.
   -- Studies batch-size scheduling under FSL, revealing a fast catch-up effect, which holds across linear regression and LLM pre-training.
