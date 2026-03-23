@@ -39,21 +39,23 @@ My research studies the interplay between representation, optimization, and gene
 == Research Highlights
 (See also: [publication.html Full publication list])
 
-- *Scaling laws (large-scale regime):* 
+- *Scaling laws:* 
   -- [https://arxiv.org/abs/2509.19189 Functional scaling laws (FSL) for kernel regression and LLM pre-training (NeurIPS 2025, Spotlight)]
   -- [https://arxiv.org/abs/2602.14208 Optimal batch-size scheduling under FSL (ICLR 2026)]
   -- [https://arxiv.org/abs/2602.06797 Optimal learning-rate scheduling under FSL (arXiv 2026)]
 
-- *Optimization (stochastic dynamical systems):*  
+
+
+- *Optimization:*  
   -- [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective A dynamical stability perspective of implicit regularization (NeurIPS 2018)] 
   -- [https://arxiv.org/abs/2207.02628 Stable minima must be flat due to anisotropic noise geometry (NeurIPS 2022)]
   -- [https://arxiv.org/abs/2305.17490 Flat minima generalize well (ICML 2023)]
 
-- *Representation (function spaces):*  
+- *Representation:*  
   --  [https://arxiv.org/abs/1906.08039 Barron spaces and flow-induced function spaces (Constructive Approximation 2021)]
   -- [https://arxiv.org/abs/2305.08404 Inductive biases in deep convolutional networks (NeurIPS 2023)]
   -- [https://arxiv.org/abs/2305.05642 A duality framework for random features and two-layer networks (AoS 2025)]
-
+  
 - *Applications (theory to practice):*  
   -- [https://arxiv.org/abs/2502.19002 Accelerating transformer training via sharpness disparity (ICML 2025)]
 
