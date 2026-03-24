@@ -18,8 +18,8 @@ This course builds a rigorous theoretical foundation for modern machine learning
 
 == Lecture Notes
  - Part I: Foundational Framework
- 	-- [./lecture-00.pdf Lecture 0: Concentration Inequalities]
- 	-- [./lecture-01.pdf Lecture 1: Generalization via Uniform Concentration]
+ 	-- [./lecture-00.pdf Lecture 0: Concentration Inequalities] (updated on 2026-03-24)
+ 	-- [./lecture-01.pdf Lecture 1: Generalization via Uniform Concentration] (updated on 2026-03-24)
  - Part II: Classical  Theory
  	-- [./lecture-02.pdf Lecture 2: Linear Methods for Regression]
  	-- [./lecture-03.pdf Lecture 3: Reproducing Kernel Hilbert Spaces]
