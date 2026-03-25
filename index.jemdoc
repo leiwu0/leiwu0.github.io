@@ -25,16 +25,19 @@ I received my Ph.D. in Computational Mathematics from Peking University in 2018,
 
 == Research Vision
 
-My research studies the interplay between representation, optimization, and generalization in modern machine learning, viewed through the *lens of scaling*.
-
+My research studies the interplay between representation, optimization, and generalization in modern machine learning  through the *lens of scaling*. 
 - *Representation (function spaces):*  
   Characterize neural networks via their induced function spaces, including expressivity,  approximation, and inductive bias.
 
-- *Optimization (stochastic dynamical systems):*  
+- *Optimization (stochastic dynamics):*  
   Analyze training algorithms as high-dimensional stochastic dynamical systems, focusing on stability, implicit bias, and critical phenomena.
 
-- *Generalization (statistical learning):*  
-  Quantify finite-sample generalization and its underlying mechanisms.
+- *Generalization (statistical behavior):*  
+  Quantify how  generalization  depends on representation and optimization, particularly in large-scale regimes.
+
+Along these axes, I develop predictive, mathematically grounded theories aimed at explaining and guiding real-world training 
+across  models ranging from kernel methods and neural networks to modern large-scale systems—particularly *LLM pre-training*.
+
 
 == Research Highlights
 (See also: [publication.html Full publication list])
