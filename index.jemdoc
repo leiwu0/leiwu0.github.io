@@ -30,7 +30,7 @@ My research studies the interplay between representation, optimization, and gene
   Characterize neural networks via their induced function spaces, including expressivity,  approximation, and inductive bias.
 
 - *Optimization (stochastic dynamics):*  
-  Analyze training algorithms as high-dimensional stochastic dynamical systems, focusing on stability, implicit bias, and critical phenomena.
+  Analyze training algorithms as high-dimensional stochastic dynamical systems, focusing on stability, implicit bias, and convergence.
 
 - *Generalization (statistical behavior):*  
   Quantify how  generalization  depends on representation and optimization, particularly in large-scale regimes.
