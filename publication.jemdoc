@@ -11,7 +11,11 @@ arXiv preprint, 2026.
 
 - [https://arxiv.org/abs/2602.06797 Optimal Learning-Rate Schedules under Functional Scaling Laws: Power Decay and Warmup-Stable-Decay]\n 
 Binghui Li\*, Zilin Wang\*, Fengling Chen, Shiyang Zhao, Ruiheng Zheng, *Lei Wu* \n
-arXiv preprint, 2026.
+COLT 2026.
+
+- [https://arxiv.org/abs/2505.24275 GradPower: Powering Gradients for Faster Language Model Pre-Training]\n
+Jinbo Wang\*, Mingze Wang\*, Jiaqi Zhang, Wei Wang, Peng Pei, Xunliang Cai, Weinan E, *Lei Wu*\n
+ICML 2026.
 
 - [https://arxiv.org/abs/2602.14208 Fast Catch-Up, Late Switching: Optimal Batch Size Scheduling via Functional Scaling Laws]\n
 Jinbo Wang\*, Binghui Li\*, Zhanpeng Zhou, Mingze Wang, Yuxuan Sun, Jiaqi Zhang, Xunliang Cai, *Lei Wu*\n 
