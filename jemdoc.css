@@ -311,7 +311,7 @@ span.comment, span.comment > *, span.string, span.string > * {
 }
 
 #layout-content h1:first-child, #layout-content h2:first-child, #layout-content h3:first-child {
-	margin-top: -0.7em;
+	margin-top: 0.0em;
 }
 
 div#toptitle h1, #layout-content div#toptitle h1 {
