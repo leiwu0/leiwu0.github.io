@@ -11,7 +11,7 @@ Assistant Professor \n
 [https://cmlr.pku.edu.cn Center for Machine Learning Research] \n 
 [https://english.pku.edu.cn Peking University]
 
-Office: 静园6院  205\n
+Office: 静园6院  205 \n
 Email: leiwu (at) math (dot) pku (dot) edu (dot) cn\n
 
 [https://scholar.google.com/citations?user=CMweeYcAAAAJ&hl=en Google Scholar] ~~~ [https://github.com/leiwu0 Github]~~~~~ [./cv.pdf CV]\n
@@ -25,7 +25,8 @@ I received my Ph.D. in Computational Mathematics from Peking University in 2018,
 
 == Research Vision
 
-My research studies the interplay between representation, optimization, and generalization in modern machine learning  through the *lens of scaling*. 
+My research seeks to understand  machine learning through the *lens of scaling*: how representation, optimization, and generalization interact and evolve as models, data, and compute grow.
+
 - *Representation (function spaces):*  
   Characterize neural networks via their induced function spaces, including expressivity,  approximation, and inductive bias.
 
@@ -35,8 +36,7 @@ My research studies the interplay between representation, optimization, and gene
 - *Generalization (statistical behavior):*  
   Quantify how  generalization  depends on representation and optimization, particularly in large-scale regimes.
 
-Along these axes, I develop predictive, mathematically grounded theories aimed at explaining and guiding real-world training 
-across  models ranging from kernel methods and neural networks to modern large-scale systems—particularly *LLM pre-training*.
+Across these directions, I aim to develop a *predictive science of learning* that connects tractable models with real-world training, spanning kernel methods and neural networks to modern *LLM pre-training*.
 
 
 == Research Highlights
@@ -63,7 +63,7 @@ across  models ranging from kernel methods and neural networks to modern large-s
   -- [https://arxiv.org/abs/2502.19002 Accelerating transformer training via sharpness disparity (ICML 2025)]
 
 == Recruiting
-We are actively seeking self-motivated {{<span class="red">postdocs</span>}}, *Ph.D. students*, and *undergraduate interns* to join my group.
+We are actively seeking self-motivated *postdocs*, *Ph.D. students*, and *undergraduate interns* to join my group.
 If you are interested, please email me your CV, transcript, and a brief description of your background and research interests.
 
 == Recent News

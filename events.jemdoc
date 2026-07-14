@@ -1,0 +1,12 @@
+# jemdoc: menu{MENU}{events.html}
+# jemdoc: addcss{jemdoc.css}, notime
+= Events
+
+This page highlights seminars, conferences, and workshops that I organize or help organize.
+
+== Ongoing Seminar
+- [https://pku-fomi.github.io/ Foundations of Modern Intelligence (FoMI) Seminar]: An ongoing seminar series on the mathematical and scientific foundations of modern machine learning. 
+
+== Conferences and Workshops
+- [https://ml-math-2026.github.io/ PKU Workshop on Mathematical Foundations of Modern Machine Learning] (2026)
+- [https://c2sml.cn/c2sml2025/conference.html The 3rd China Conference on Scientific Machine Learning (CSML)] (2025)
