@@ -2,7 +2,7 @@
 # jemdoc: addcss{jemdoc.css}, notime
 = Research
 
-== Research Vision
+== Vision
 
 My research studies representation, optimization, and generalization in machine learning through the *lens of scaling*—how their interaction evolves as models, data, and compute grow.
 
@@ -17,7 +17,7 @@ My research studies representation, optimization, and generalization in machine 
 
 Across these directions, I aim to develop a *predictive science of learning* that connects tractable models with real-world training, ranging from kernel methods and neural networks to modern *LLM pretraining*.
 
-== Research Highlights
+== Highlights
 (See also: [publication.html Full publication list])
 
 - *Scaling laws:* 
