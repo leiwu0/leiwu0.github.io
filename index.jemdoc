@@ -1,6 +1,5 @@
 # jemdoc: menu{MENU}{index.html}
 # jemdoc: addcss{jemdoc.css}, notime
-
 = Lei Wu (吴磊)
 
 ~~~
@@ -25,9 +24,12 @@ I received my Ph.D. in Computational Mathematics from Peking University in 2018,
 
 I aim to develop a *predictive science of learning* that bridges tractable models and real-world training, from kernel methods to neural networks and modern *LLM pretraining*. See [research.html Research] for my research vision and selected highlights.
 
+
 == Recruiting
-We are actively seeking self-motivated *postdocs*, *PhD students*, and *undergraduate interns* to join my group.
-If you are interested, please email me your CV, transcript, and a brief description of your background and research interests.
+
+We are actively seeking self-motivated *postdocs*, *PhD*, and *undergraduate* students interested in the scientific foundations of modern machine learning, particularly approximation, optimization, scaling laws, and *LLM pretraining*.
+
+If you are interested in joining our group, please email me your CV, transcript (for student applicants), and a brief description of your background and research interests.
 
 == Recent News
 
