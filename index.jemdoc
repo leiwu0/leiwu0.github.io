@@ -22,25 +22,29 @@ I am  an Assistant Professor in the School of Mathematical Sciences and Center f
 Previously, I was a postdoctoral researcher at PACM, Princeton University and at the Wharton School, University of Pennsylvania.
 I received my Ph.D. in Computational Mathematics from Peking University in 2018, advised by Prof. Weinan E, and my B.S. in Mathematics from Nankai University in 2012.
 
-I aim to develop a *predictive science of learning* that bridges tractable models and real-world training, from kernel methods to neural networks and modern *LLM pretraining*. See [research.html Research] for my research vision and selected highlights.
+I aim to develop a *predictive science of deep learning* by connecting insights from tractable surrogate models with real-world training, spanning kernel methods, neural networks, and modern *LLM pretraining*. See [research.html Research] for my research vision and selected highlights.
 
 
 == Recruiting
 
-We are actively seeking self-motivated *postdocs*, *PhD*, and *undergraduate* students interested in the scientific foundations of modern machine learning, particularly approximation, optimization, scaling laws, and *LLM pretraining*.
+We are actively seeking self-motivated postdocs, PhD students, and undergraduate students interested in the *scientific foundations of deep learning*, particularly approximation, optimization, *scaling laws*, and *LLM pretraining*.
 
 If you are interested in joining our group, please email me your CV, transcript (for student applicants), and a brief description of your background and research interests.
 
-== Recent News
 
-- 2026-02: [https://arxiv.org/abs/2602.19691 Constant-depth network with smooth activations] released on arXiv.
-  -- Establishes that smooth activations (e.g., GELU, SiLU) enable smoothness adaptivity in constant-depth neural networks, achieving optimal approximation and statistical rates.
 
-- 2026-02: [https://arxiv.org/abs/2602.06797 Optimal learning-rate schedules under FSL] released on arXiv.
-  -- Proves that the optimal learning-rate schedule depends  on task difficulty; in the hard-task regime, the optimal schedule  exhibits a [https://arxiv.org/abs/2404.06395  warmup–stable–decay (WSD)] structure.
+== Recent Updates
 
-- 2026-02: [https://arxiv.org/abs/2602.14208 Fast catch-up, late switching] accepted to *ICLR 2026*.
-  -- Studies batch-size scheduling under FSL, revealing a fast catch-up effect, which holds across linear regression and LLM pretraining.
+- 2026-07: I will teach a short course on *Foundations of Deep Learning: Approximation, Generalization, and Scaling* at [https://yingzhouli.com/others/FDUSS2026/index-mass-en.html 2026 Fudan University International Summer School on AI in Math].
 
-- 2025-09: [https://arxiv.org/abs/2509.19189 Functional Scaling Laws] accepted to *NeurIPS 2025 (Spotlight)*.
-  -- Introduces a functional scaling law (FSL) framework that—in contrast to classical scaling laws, which only describe final-step behavior—characterizes the entire loss trajectory, spanning from linear regression to LLM pretraining.
+- 2026-07: Co-organized the [https://ml-math-2026.github.io/ 2026 PKU Workshop on Mathematical Foundations of Modern Machine Learning] with [https://www.lfhsgre.org/ Fanghui Liu] and [https://kunyuan827.github.io/ Kun Yuan].
+
+- 2026-06: [https://arxiv.org/abs/2602.06797 Optimal Learning-Rate Schedules under Functional Scaling Laws: Power Decay and Warmup-Stable-Decay] accepted to *COLT 2026*.
+
+- 2026-06: [https://arxiv.org/abs/2505.24275 GradPower: Powering Gradients for Faster Language Model Pre-Training] accepted to *ICML 2026*.
+
+- 2026-02: [https://arxiv.org/abs/2602.19691 Smoothness Adaptivity in Constant-Depth Neural Networks: Optimal Rates via Smooth Activations] released on arXiv.
+
+- 2026-02: [https://arxiv.org/abs/2602.14208 Fast Catch-Up, Late Switching: Optimal Batch Size Scheduling via Functional Scaling Laws] accepted to *ICLR 2026*.
+
+- 2025-09: [https://arxiv.org/abs/2509.19189 Functional Scaling Laws in Kernel Regression: Loss Dynamics and Learning Rate Schedules] accepted to *NeurIPS 2025 (Spotlight)*.
