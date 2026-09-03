@@ -4,6 +4,15 @@
 * indicates  equal contribution; α-β indicates alphabetical author order.
 \n 
 
+
+- [https://arxiv.org/abs/2609.02728 Momentum in large-batch training: Polyak enlarges the critical batch size, Nesterov improves data efficiency]\n
+Jia-Nan Wang\*, Zixun Huang\*, Kairui Li\*, *Lei Wu*\n
+arXiv preprint, 2026.
+
+- [https://arxiv.org/abs/2608.24814 Effective Learning Rate Governs Loss Dynamics in Language Model Pretraining]\n
+Zihan Liu\*, Ruiheng Zheng\*, Shaobo Zhang, Changxin Tian, Kunlong Chen, Zhiqiang Zhang, *Lei Wu*\n
+arXiv preprint, 2026.
+
 - [https://arxiv.org/abs/2602.19691 Smoothness Adaptivity in Constant-Depth Neural Networks: Optimal Rates via Smooth Activations]\n 
 (α-β)  Yuhao Liu, Zilin Wang, *Lei Wu*, Shaobo Zhang\n
 arXiv preprint, 2026.
