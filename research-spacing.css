@@ -1,0 +1,79 @@
+/* Research-page spacing; loaded after the shared jemdoc stylesheet. */
+#layout-content {
+  padding-top: 0.4em;
+  padding-bottom: 2em;
+}
+
+#layout-content h1 {
+  line-height: 1.2;
+  padding-bottom: 0.35em;
+  margin-bottom: 0.6em;
+}
+
+#layout-content h2 {
+  line-height: 1.25;
+  margin-top: 1.15em;
+  padding-top: 0.15em;
+  margin-bottom: 0.5em;
+}
+
+#layout-content p {
+  line-height: 1.4;
+  margin-bottom: 0.7em;
+}
+
+#layout-content ul,
+#layout-content ol {
+  margin-top: 0.3em;
+  margin-bottom: 0.65em;
+}
+
+#layout-content li p {
+  margin-bottom: 0.3em;
+}
+
+#layout-content li + li {
+  margin-top: 0.4em;
+}
+
+#layout-content .research-figure {
+  margin: 1.1em 0;
+  text-align: center;
+}
+
+/* Current focus: text and figure side by side on wide screens. */
+#layout-content .research-focus-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  gap: 3rem;
+  align-items: start;
+  max-width: 1700px;
+  margin: 0.8em 0;
+}
+#layout-content .research-focus-text {
+  min-width: 0;
+}
+#layout-content .research-focus-text > :first-child {
+  margin-top: 0;
+}
+#layout-content .research-focus-text > :last-child {
+  margin-bottom: 0;
+}
+#layout-content .research-focus-figure {
+  min-width: 0;
+  margin: 0;
+  align-self: center;
+}
+#layout-content .research-focus-figure img {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  margin: 0 auto;
+}
+@media (max-width: 1350px) {
+  #layout-content .research-focus-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1em;
+  }
+}

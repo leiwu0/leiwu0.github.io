@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1960" height="630" viewBox="0 0 1960 630" role="img" aria-labelledby="figure-title figure-description">
+  <title id="figure-title">Different scales, different effective theories</title>
+  <desc id="figure-description">Two schematic scale diagrams. Physics progresses from quantum mechanics through molecular dynamics and kinetic theory to continuum mechanics, along time and spatial scales. Deep learning progresses from perceptrons through shallow and deep networks to LLM pretraining, along model and data sizes. Each region has a separate, uniform pale fill.</desc>
+  <rect width="1960" height="630" fill="#FFFFFF"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#18212B">
+    <text x="980" y="58" font-size="50" font-weight="700" text-anchor="middle">Different scales, different effective theories</text>
+    <text x="60" y="125" font-size="43" font-weight="700" text-anchor="start">Physics</text>
+    <path d="M 60 194 V 554 H 811" fill="none" stroke="#18212B" stroke-width="3" stroke-linejoin="miter"/>
+    <path d="M 60 182 L 52 200 L 60 196 L 68 200 Z" fill="#18212B"/>
+    <path d="M 820 554 L 802 546 L 806 554 L 802 562 Z" fill="#18212B"/>
+    <text x="77" y="185" font-size="30" font-weight="400" text-anchor="start">Time scale</text>
+    <text x="820" y="598" font-size="30" font-weight="400" text-anchor="end">Spatial scale</text>
+    <ellipse cx="195" cy="475" rx="125" ry="54" fill="#F5F9FD"/>
+    <text x="195" y="466" font-size="33" font-weight="400" text-anchor="middle">Quantum</text>
+    <text x="195" y="506" font-size="33" font-weight="400" text-anchor="middle">mechanics</text>
+    <ellipse cx="365" cy="389" rx="125" ry="54" fill="#F8F9FA"/>
+    <text x="365" y="380" font-size="33" font-weight="400" text-anchor="middle">Molecular</text>
+    <text x="365" y="420" font-size="33" font-weight="400" text-anchor="middle">dynamics</text>
+    <ellipse cx="535" cy="303" rx="125" ry="54" fill="#F8F9FA"/>
+    <text x="535" y="294" font-size="33" font-weight="400" text-anchor="middle">Kinetic</text>
+    <text x="535" y="334" font-size="33" font-weight="400" text-anchor="middle">theory</text>
+    <ellipse cx="705" cy="217" rx="125" ry="54" fill="#FDF5F5"/>
+    <text x="705" y="208" font-size="33" font-weight="400" text-anchor="middle">Continuum</text>
+    <text x="705" y="248" font-size="33" font-weight="400" text-anchor="middle">mechanics</text>
+    <text x="1140" y="125" font-size="43" font-weight="700" text-anchor="start">Deep learning</text>
+    <path d="M 1140 194 V 554 H 1891" fill="none" stroke="#18212B" stroke-width="3" stroke-linejoin="miter"/>
+    <path d="M 1140 182 L 1132 200 L 1140 196 L 1148 200 Z" fill="#18212B"/>
+    <path d="M 1900 554 L 1882 546 L 1886 554 L 1882 562 Z" fill="#18212B"/>
+    <text x="1157" y="185" font-size="30" font-weight="400" text-anchor="start">Data size</text>
+    <text x="1900" y="598" font-size="30" font-weight="400" text-anchor="end">Model size</text>
+    <ellipse cx="1275" cy="475" rx="125" ry="54" fill="#F5F9FD"/>
+    <text x="1275" y="486" font-size="33" font-weight="400" text-anchor="middle">Perceptrons</text>
+    <ellipse cx="1445" cy="389" rx="125" ry="54" fill="#F8F9FA"/>
+    <text x="1445" y="380" font-size="33" font-weight="400" text-anchor="middle">Shallow</text>
+    <text x="1445" y="420" font-size="33" font-weight="400" text-anchor="middle">networks</text>
+    <ellipse cx="1615" cy="303" rx="125" ry="54" fill="#F8F9FA"/>
+    <text x="1615" y="294" font-size="33" font-weight="400" text-anchor="middle">Deep</text>
+    <text x="1615" y="334" font-size="33" font-weight="400" text-anchor="middle">networks</text>
+    <ellipse cx="1785" cy="217" rx="125" ry="54" fill="#FDF5F5"/>
+    <text x="1785" y="228" font-size="33" font-weight="400" text-anchor="middle">LLM pretraining</text>
+  </g>
+</svg>

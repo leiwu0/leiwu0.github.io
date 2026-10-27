@@ -17,6 +17,10 @@ arXiv preprint, 2026.
 (α-β)  Yuhao Liu, Zilin Wang, *Lei Wu*, Shaobo Zhang\n
 arXiv preprint, 2026.
 
+- [https://neurips.cc/virtual/2026/loc/sydney/poster/150706 When and How signSGD Outperform SGD: A Functional Scaling Law Perspective]\n
+Zilin Wang\*, Binghui Li\*, Jia-Nan Wang\*, Lean Wang\*, Jinbo Wang\*, *Lei Wu*\n
+NeurIPS 2026 (*Spotlight*).
+
 
 - [https://arxiv.org/abs/2602.06797 Optimal Learning-Rate Schedules under Functional Scaling Laws: Power Decay and Warmup-Stable-Decay]\n 
 Binghui Li\*, Zilin Wang\*, Fengling Chen, Shiyang Zhao, Ruiheng Zheng, *Lei Wu* \n
@@ -29,6 +33,11 @@ ICML 2026.
 - [https://arxiv.org/abs/2602.14208 Fast Catch-Up, Late Switching: Optimal Batch Size Scheduling via Functional Scaling Laws]\n
 Jinbo Wang\*, Binghui Li\*, Zhanpeng Zhou, Mingze Wang, Yuxuan Sun, Jiaqi Zhang, Xunliang Cai, *Lei Wu*\n 
 ICLR 2026.
+
+- [https://openreview.net/forum?id=F6wmIilZXG 
+The Noise Geometry of Stochastic Gradient Descent]\n
+Mingze Wang, *Lei Wu*\n 
+Transactions on Machine Learning Research, 2026.
 
 
 - [https://arxiv.org/abs/2509.19189 Functional Scaling Laws in Kernel Regression: Loss Dynamics and Learning Rate Schedules] \n 
@@ -82,9 +91,6 @@ IEEE Transactions on Information Theory, 2024.
 Mingze Wang, Zeping Min, *Lei Wu*\n 
 ICML 2024.
 
-- [https://arxiv.org/abs/2310.00692 The noise geometry of stochastic gradient descent: A quantitative and analytical characterization]\n
-Mingze Wang, *Lei Wu*\n 
-arXiv preprint, 2023.
 
 
 - [https://arxiv.org/abs/2305.19082 Embedding inequalities for Barron-type spaces]\n 

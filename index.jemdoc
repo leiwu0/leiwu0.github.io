@@ -10,32 +10,35 @@ Assistant Professor \n
 [https://cmlr.pku.edu.cn Center for Machine Learning Research] \n 
 [https://english.pku.edu.cn Peking University]
 
-Office: 静园6院  205 \n
+Office: 智华楼372 \n
 Email: leiwu (at) math (dot) pku (dot) edu (dot) cn\n
 
 [https://scholar.google.com/citations?user=CMweeYcAAAAJ&hl=en Google Scholar] ~~~ [https://github.com/leiwu0 Github]~~~~~ [./cv.pdf CV]\n
 ~~~
 
 == About Me
-I am  an Assistant Professor in the School of Mathematical Sciences and Center for Machine Learning Research at Peking University.
+I am an Assistant Professor in the School of Mathematical Sciences and Center for Machine Learning Research at Peking University.
 
-Previously, I was a postdoctoral researcher at PACM, Princeton University and at the Wharton School, University of Pennsylvania.
-I received my Ph.D. in Computational Mathematics from Peking University in 2018, advised by Prof. Weinan E, and my B.S. in Mathematics from Nankai University in 2012.
+Previously, I was a postdoctoral researcher at  Princeton University and the University of Pennsylvania.
+I received my Ph.D. in Computational Mathematics from Peking University in 2018, advised by Prof. [https://web.math.princeton.edu/~weinan/ Weinan E], and my B.S. in Mathematics from Nankai University in 2012.
 
-I aim to develop a *predictive science of deep learning* by connecting insights from tractable surrogate models with real-world training, spanning kernel methods, neural networks, and modern *LLM pretraining*. See [research.html Research] for my research vision and selected highlights.
+I aim to develop a *predictive science of deep learning*, connecting mathematical analysis of tractable models with empirical studies of large-scale training. My current focus is on understanding and improving *LLM pretraining*. See [research.html Research] for details.
 
 
 == Recruiting
 
-We are actively seeking self-motivated postdocs, PhD students, and undergraduate students interested in the *scientific foundations of deep learning*, particularly approximation, optimization, *scaling laws*, and *LLM pretraining*.
+We are actively seeking self-motivated postdocs, PhD students, and undergraduates  interested in the *scientific foundations of deep learning*.
 
-If you are interested in joining our group, please email me your CV, transcript (for student applicants), and a brief description of your background and research interests.
-
+To apply, please email me your CV, a transcript, and a brief description of your research interests and relevant experience.
 
 
 == Recent Updates
 
-- 2026-07: I will teach a short course on ***Foundations of Deep Learning: Approximation, Generalization, and Scaling*** at [https://yingzhouli.com/others/FDUSS2026/index-mass-en.html 2026 Fudan University International Summer School on AI in Math].
+- 2026-09:  +When and How signSGD Outperform SGD: A Functional Scaling Law Perspective+ accepted to *NeurIPS 2026 (Spotlight)*. 
+
+- 2026-08: New preprints on [https://arxiv.org/abs/2608.24814 effective learning rate (ELR) collapse] and [https://arxiv.org/abs/2609.02728 momentum in large-batch training] are now available on arXiv.
+
+- 2026-07: I taught a short course on +Foundations of Deep Learning: Approximation, Generalization, and Scaling+ at [https://yingzhouli.com/others/FDUSS2026/index-mass-en.html 2026 Fudan University International Summer School on AI in Math].
 
 - 2026-07: Co-organized the [https://ml-math-2026.github.io/ 2026 PKU Workshop on Mathematical Foundations of Modern Machine Learning] with [https://www.lfhsgre.org/ Fanghui Liu] and [https://kunyuan827.github.io/ Kun Yuan].
 
@@ -48,3 +51,8 @@ If you are interested in joining our group, please email me your CV, transcript 
 - 2026-02: [https://arxiv.org/abs/2602.14208 Fast Catch-Up, Late Switching: Optimal Batch Size Scheduling via Functional Scaling Laws] accepted to *ICLR 2026*.
 
 - 2025-09: [https://arxiv.org/abs/2509.19189 Functional Scaling Laws in Kernel Regression: Loss Dynamics and Learning Rate Schedules] accepted to *NeurIPS 2025 (Spotlight)*.
+
+- 2025-06: [https://arxiv.org/abs/2502.19002 The Sharpness Disparity Principle in Transformers for Accelerating Language Model Pre-Training] accepted to *ICML 2025*.
+
+- 2025-02: [https://arxiv.org/abs/2305.05642 A duality framework for analyzing random feature and two-layer neural networks] accepted to *Annals of Statistics*.
+

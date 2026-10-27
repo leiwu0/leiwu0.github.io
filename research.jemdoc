@@ -1,39 +1,83 @@
 # jemdoc: menu{MENU}{research.html}
-# jemdoc: addcss{jemdoc.css}, notime
-= Research
+# jemdoc: addcss{research-spacing.css}, addjs{https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml}, notime
 
-== Vision
+= Research: Toward a predictive science of deep learning
 
-My research studies representation, optimization, and generalization in machine learning through the *lens of scaling*—how their interaction evolves as models, data, and compute grow.
+My goal is to uncover the principles governing deep learning and use them to explain mechanisms, make quantitative predictions, and inform algorithm design. I pursue this goal through three complementary perspectives:
 
-- *Representation (function spaces):*  
-  Characterize neural networks via their induced function spaces, including expressivity, approximation, and inductive bias.
+- *Physics.* Finding the right level of description: deciding which details matter at a given scale and building toy models to isolate the underlying mechanisms.
 
-- *Optimization (stochastic dynamics):*  
-  Analyze training algorithms as high-dimensional stochastic dynamical systems, focusing on stability, implicit bias, and convergence.
+- *Mathematics.* Establishing rigorous results under explicit conditions and clarifying the scope of a theory.
 
-- *Generalization (statistical behavior):*  
-  Quantify how generalization depends on representation and optimization, particularly in large-scale regimes.
+- *Engineering.* Stress-testing theory in real-world systems and refining it through discrepancies between predictions and observations.
 
-Across these directions, I aim to develop a *predictive science of learning* that connects tractable models with real-world training, ranging from kernel methods and neural networks to modern *LLM pretraining*.
+Inspired by physics, I view *scale as an organizing principle for deep learning*. I do not expect a single theory to capture learning across all scales; different scales require different [https://en.wikipedia.org/wiki/Effective_theory effective theories].
 
-== Highlights
-(See also: [publication.html Full publication list])
+~~~
+{}{raw}
+<div class="research-figure">
+<img src="./doc/physics-dl.svg" alt="Different scales, different effective theories in physics and deep learning" style="display: block; width: 100%; max-width: 1000px; height: auto; margin: 0 auto;" />
+</div>
+~~~
 
-- *Scaling laws:* 
-  -- [https://arxiv.org/abs/2509.19189 Functional scaling laws (FSL) for kernel regression and LLM pretraining (NeurIPS 2025, Spotlight)]
-  -- [https://arxiv.org/abs/2602.14208 Understanding batch-size scheduling under FSL (ICLR 2026)]
-  -- [https://arxiv.org/abs/2602.06797 Optimal learning-rate scheduling under FSL (COLT 2026)]
+This perspective suggests two complementary routes toward understanding deep learning:
 
-- *Optimization:*  
-  -- [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective A dynamical stability perspective of implicit regularization (NeurIPS 2018)] 
-  -- [https://arxiv.org/abs/2207.02628 Stable minima must be flat due to anisotropic noise geometry (NeurIPS 2022)]
-  -- [https://arxiv.org/abs/2305.17490 Flat minima generalize well (ICML 2023)]
+- *Bottom-up.* Starting from simple models and microscopic mechanisms and working toward more complex learning systems.
+- *Top-down.* Starting from macroscopic laws and using them to guide the study of underlying mechanisms and intermediate-scale dynamics.
 
-- *Representation:*  
-  -- [https://arxiv.org/abs/1906.08039 Barron spaces and flow-induced function spaces (Constructive Approximation 2021)]
-  -- [https://arxiv.org/abs/2305.08404 Inductive biases in deep convolutional networks (NeurIPS 2023)]
-  -- [https://arxiv.org/abs/2305.05642 A duality framework for random features and two-layer networks (AoS 2025)]
-  
-- *Applications (theory to practice):*  
-  -- [https://arxiv.org/abs/2502.19002 Accelerating transformer training via sharpness disparity (ICML 2025)]
+Much of my earlier work followed the bottom-up route. I have come to see a limitation of developing theory from microscopic models alone: without constraints from macroscopic observations, it is difficult to determine which modeling choices and mechanisms are relevant to real-world training. I am now exploring the top-down route, using observed regularities to guide toy model construction and analysis, with the hope that the two approaches will eventually inform one another.
+
+== Current focus: Starting from LLM pretraining
+
+~~~
+{}{raw}
+<div class="research-focus-grid">
+<div class="research-focus-text">
+~~~
+
+LLM pretraining minimizes the next-token prediction loss over vast text corpora:
+
+\(
+  \min_{\theta} \mathcal{R}(\theta),\qquad
+  \mathcal{R}(\theta)=\mathbb{E}_{\mathbf{x}\sim\mathcal{D}}
+  \left[-\sum_{k=2}^{L}\log P_{\theta}(x_k\mid x_1,\dots,x_{k-1})\right],
+\)
+
+where $P_\theta$ is a conditional token distribution parameterized by a large Transformer, and $\mathcal{D}$ is a distribution over sequences from internet-scale corpora.
+Despite its apparent complexity, pretraining exhibits simple macroscopic regularities, such as [https://en.wikipedia.org/wiki/Neural_scaling_law neural scaling laws]. My research aims to understand how these regularities emerge and how they can guide more efficient training from three perspectives:
+
+
+
+- *Macroscopic laws.* Identify collective variables that capture training dynamics and quantitative laws that govern their evolution.
+
+- *Microscopic mechanisms.* Understand how high-dimensional learning dynamics give rise to these laws and how optimization algorithms shape them. When does momentum help, and why can Adam outperform SGD?
+
+- *Practical training.* Use these laws and mechanisms to design more efficient training methods and guide hyperparameter scaling.
+
+For an overview, see my [./doc/LLM-pretraining-theory.pdf talk slides]. Selected work includes:
+
+- *Functional scaling law (FSL).* [https://arxiv.org/abs/2509.19189 NeurIPS 2025], [https://arxiv.org/abs/2602.14208 ICLR 2026],  [https://arxiv.org/abs/2602.06797 COLT 2026].
+
+- *Effective learning rate (ELR) collapse.*  [https://arxiv.org/abs/2608.24814 arXiv 2026].
+
+- *Optimization mechanisms and algorithm design.*  [https://arxiv.org/abs/2609.02728 arXiv 2026],  [https://arxiv.org/abs/2502.19002 ICML 2025].
+
+~~~
+{}{raw}
+</div>
+<div class="research-figure research-focus-figure">
+<img src="./doc/llm-pretraining-overview.svg" alt="Macroscopic laws guide microscopic models, which inform practical training; experiments test and refine the laws." />
+</div>
+</div>
+~~~
+
+
+== Earlier work
+
+My earlier work developed mathematical perspectives on neural-network function spaces and SGD dynamics. These studies helped shape my current approach to understanding large-scale learning.
+
+- *Dynamical stability of SGD.* We studied how dynamical stability and the geometry of SGD noise shape SGD's selection among solutions that fit the data, helping explain implicit regularization in overparameterized learning. See [https://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective NeurIPS 2018], [https://arxiv.org/abs/2207.02628 NeurIPS 2022], [https://arxiv.org/abs/2305.17490 ICML 2023], and [https://openreview.net/forum?id=F6wmIilZXG TMLR 2026].
+
+- *Function-space theory of neural networks.* What can neural networks approximate and learn, and how do these capabilities differ from those of kernel and random-feature methods? We studied these questions through the function spaces associated with neural networks, connecting approximation properties, architectural inductive biases, and generalization. See [https://arxiv.org/abs/1906.08039 Constructive Approximation 2021], [https://arxiv.org/abs/2108.04964 JMLR 2022], [https://arxiv.org/abs/2305.08404 NeurIPS 2023], and [https://arxiv.org/abs/2305.05642 AoS 2025].
+
+
