@@ -57,49 +57,32 @@
 </ul>
 <p>Much of my earlier work followed the bottom-up route. I have come to see a limitation of developing theory from microscopic models alone: without constraints from macroscopic observations, it is difficult to determine which modeling choices and mechanisms are relevant to real-world training. I am now exploring the top-down route, using observed regularities to guide toy model construction and analysis, with the hope that the two approaches will eventually inform one another.
 </p>
-<h2>Current focus: Starting from LLM pretraining</h2>
+<h2>Current focus:  LLM pretraining</h2>
 <div class="research-focus-grid">
 <div class="research-focus-text">
-<p>LLM pretraining minimizes the next-token prediction loss over vast text corpora:
+<p>LLM pretraining optimizes a simple prediction objective at an enormous scale:
 </p>
 <p style="text-align:center">
 \[
   \min_{\theta} \mathcal{R}(\theta),\qquad
   \mathcal{R}(\theta)=\mathbb{E}_{\mathbf{x}\sim\mathcal{D}}
-  \left[-\sum_{k=2}^{L}\log P_{\theta}(x_k\mid x_1,\dots,x_{k-1})\right],
+  \left[-\sum_{k=2}^{L}\log P_{\theta}(x_k\mid x_1,\dots,x_{k-1})\right].
 \]
-</p><p>where \(P_\theta\) is a conditional token distribution parameterized by a large Transformer, and \(\mathcal{D}\) is a distribution over sequences from internet-scale corpora.
-Despite its apparent complexity, pretraining exhibits simple macroscopic regularities, such as <a href="https://en.wikipedia.org/wiki/Neural_scaling_law" target=&ldquo;blank&rdquo;>neural scaling laws</a>. My research aims to understand how these regularities emerge and how they can guide more efficient training from three perspectives:
+</p><p>Here, \(P_\theta\) is typically parameterized by a large Transformer, and \(\mathcal{D}\) represents an internet-scale dataset.
+Despite its apparent complexity, pretraining exhibits striking  macroscopic regularities, such as <a href="https://en.wikipedia.org/wiki/Neural_scaling_law" target=&ldquo;blank&rdquo;>scaling laws</a>. My research seeks to explain these regularities and use them to improve training, focusing on three connected levels:
 </p>
 <ul>
-<li><p><b>Macroscopic laws.</b> Identify collective variables that capture training dynamics and quantitative laws that govern their evolution.
+<li><p><b>Macroscopic laws.</b> Identify collective variables that capture pretraining and quantitative laws relating them across scales.
 </p>
 </li>
 </ul>
 <ul>
-<li><p><b>Microscopic mechanisms.</b> Understand how high-dimensional learning dynamics give rise to these laws and how optimization algorithms shape them. When does momentum help, and why can Adam outperform SGD?
+<li><p><b>Microscopic mechanisms.</b> Understand how these laws emerge from high-dimensional learning dynamics.
 </p>
 </li>
 </ul>
 <ul>
-<li><p><b>Practical training.</b> Use these laws and mechanisms to design more efficient training methods and guide hyperparameter scaling.
-</p>
-</li>
-</ul>
-<p>For an overview, see my <a href="./doc/LLM-pretraining-theory.pdf" target=&ldquo;blank&rdquo;>talk slides</a>. Selected work includes:
-</p>
-<ul>
-<li><p><b>Functional scaling law (FSL).</b> <a href="https://arxiv.org/abs/2509.19189" target=&ldquo;blank&rdquo;>NeurIPS 2025</a>, <a href="https://arxiv.org/abs/2602.14208" target=&ldquo;blank&rdquo;>ICLR 2026</a>,  <a href="https://arxiv.org/abs/2602.06797" target=&ldquo;blank&rdquo;>COLT 2026</a>.
-</p>
-</li>
-</ul>
-<ul>
-<li><p><b>Effective learning rate (ELR) collapse.</b>  <a href="https://arxiv.org/abs/2608.24814" target=&ldquo;blank&rdquo;>arXiv 2026</a>.
-</p>
-</li>
-</ul>
-<ul>
-<li><p><b>Optimization mechanisms and algorithm design.</b>  <a href="https://arxiv.org/abs/2609.02728" target=&ldquo;blank&rdquo;>arXiv 2026</a>,  <a href="https://arxiv.org/abs/2502.19002" target=&ldquo;blank&rdquo;>ICML 2025</a>.
+<li><p><b>Training principles.</b>  Guide optimizer and architecture design and hyperparameter selection as training scales up.
 </p>
 </li>
 </ul>
@@ -108,22 +91,60 @@ Despite its apparent complexity, pretraining exhibits simple macroscopic regular
 <img src="./doc/llm-pretraining-overview.svg" alt="Macroscopic laws guide microscopic models, which inform practical training; experiments test and refine the laws." />
 </div>
 </div>
+<p>For an overview, see my <a href="./doc/LLM-pretraining-theory.pdf" target=&ldquo;blank&rdquo;>talk slides</a>. Selected work includes:
+</p>
+<ul>
+<li><p><b>Functional scaling law (FSL).</b> Modeling loss dynamics as a functional of hyperparameter schedules:
+<a href="https://arxiv.org/abs/2509.19189" target=&ldquo;blank&rdquo;>NeurIPS 2025</a>, <a href="https://arxiv.org/abs/2602.14208" target=&ldquo;blank&rdquo;>ICLR 2026</a>, <a href="https://arxiv.org/abs/2602.06797" target=&ldquo;blank&rdquo;>COLT 2026</a>.
+</p>
+</li>
+</ul>
+<ul>
+<li><p><b>ELR collapse.</b> Pretraining  dynamics are governed primarily by the effective learning rate (ELR), rather than the nominal learning rate alone:
+<a href="https://arxiv.org/abs/2608.24814" target=&ldquo;blank&rdquo;>arXiv 2026</a>.
+</p>
+</li>
+</ul>
+<ul>
+<li><p><b>Optimization mechanisms.</b> Understanding how optimizer design shapes training dynamics:
+<a href="https://arxiv.org/abs/2609.02728" target=&ldquo;blank&rdquo;>arXiv 2026</a>, <a href="https://arxiv.org/abs/2502.19002" target=&ldquo;blank&rdquo;>ICML 2025</a>.
+</p>
+</li>
+</ul>
 <h2>Earlier work</h2>
 <p>My earlier work developed mathematical perspectives on neural-network function spaces and SGD dynamics. These studies helped shape my current approach to understanding large-scale learning.
 </p>
 <ul>
-<li><p><b>Dynamical stability of SGD.</b> We studied how dynamical stability and the geometry of SGD noise shape SGD's selection among solutions that fit the data, helping explain implicit regularization in overparameterized learning. See <a href="https://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective" target=&ldquo;blank&rdquo;>NeurIPS 2018</a>, <a href="https://arxiv.org/abs/2207.02628" target=&ldquo;blank&rdquo;>NeurIPS 2022</a>, <a href="https://arxiv.org/abs/2305.17490" target=&ldquo;blank&rdquo;>ICML 2023</a>, and <a href="https://openreview.net/forum?id=F6wmIilZXG" target=&ldquo;blank&rdquo;>TMLR 2026</a>.
+<li><p><b>Dynamical stability of SGD.</b> Why does SGD favor some solutions over others that fit the data equally well? We studied this question through dynamical stability and the geometry of SGD noise, shedding light on implicit regularization in overparameterized learning.
+</p>
+<ul>
+<li><p><a href="doc/dynamical-stability.pdf" target=&ldquo;blank&rdquo;>Talk slides</a>
+</p>
+</li>
+<li><p>Selected papers: <a href="https://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective" target=&ldquo;blank&rdquo;>NeurIPS 2018</a>, <a href="https://arxiv.org/abs/2207.02628" target=&ldquo;blank&rdquo;>NeurIPS 2022</a>, <a href="https://arxiv.org/abs/2305.17490" target=&ldquo;blank&rdquo;>ICML 2023</a>, and <a href="https://openreview.net/forum?id=F6wmIilZXG" target=&ldquo;blank&rdquo;>TMLR 2026</a>.
 </p>
 </li>
 </ul>
+
+</li>
+</ul>
 <ul>
-<li><p><b>Function-space theory of neural networks.</b> What can neural networks approximate and learn, and how do these capabilities differ from those of kernel and random-feature methods? We studied these questions through the function spaces associated with neural networks, connecting approximation properties, architectural inductive biases, and generalization. See <a href="https://arxiv.org/abs/1906.08039" target=&ldquo;blank&rdquo;>Constructive Approximation 2021</a>, <a href="https://arxiv.org/abs/2108.04964" target=&ldquo;blank&rdquo;>JMLR 2022</a>, <a href="https://arxiv.org/abs/2305.08404" target=&ldquo;blank&rdquo;>NeurIPS 2023</a>, and <a href="https://arxiv.org/abs/2305.05642" target=&ldquo;blank&rdquo;>AoS 2025</a>.
+<li><p><b>Function-space theory of neural networks.</b> When and why can neural networks efficiently approximate and learn functions in high dimensions, and how do these capabilities differ from those of kernel and random-feature methods? We studied these questions through the function spaces associated with neural networks, connecting approximation properties, architectural inductive biases, and generalization. 
 </p>
+<ul>
+<li><p><a href="doc/function-space.pdf" target=&ldquo;blank&rdquo;>Talk slides</a>
+</p>
+</li>
+<li><p>Selected papers: <a href="https://arxiv.org/abs/1906.08039" target=&ldquo;blank&rdquo;>Constructive Approximation 2021</a>, <a href="https://arxiv.org/abs/2108.04964" target=&ldquo;blank&rdquo;>JMLR 2022</a>, <a href="https://arxiv.org/abs/2305.08404" target=&ldquo;blank&rdquo;>NeurIPS 2023</a>, and <a href="https://arxiv.org/abs/2305.05642" target=&ldquo;blank&rdquo;>AoS 2025</a>.
+</p>
+</li>
+</ul>
+
 </li>
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2026-10-27, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2026-10-28, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>

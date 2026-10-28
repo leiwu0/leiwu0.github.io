@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
-<title id="title">LLM pretraining: macroscopic laws, microscopic mechanisms, and practical training</title>
-<desc id="desc">Macroscopic laws constrain models of microscopic mechanisms. These explain and improve practical training, which tests and refines the laws. Central next-token probabilities and scaling-law fit and validation points are schematic, not empirical data.</desc>
+<title id="title">LLM pretraining: macroscopic laws, microscopic mechanisms, and training principles</title>
+<desc id="desc">Macroscopic laws constrain models of microscopic mechanisms; these mechanisms explain the laws and inform training principles. Training guided by these principles tests and refines the laws. Central next-token probabilities and scaling-law fit and validation points are schematic, not empirical data.</desc>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#18212B" stroke-width="1.3"/></marker><marker id="small" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#52606D" stroke-width="1.3"/></marker></defs>
 <rect width="1000" height="600" fill="white"/><g font-family="Arial, Helvetica, sans-serif" fill="#18212B">
 <ellipse cx="500" cy="45" rx="170" ry="40" fill="#FDF5F5"/>
@@ -9,13 +9,15 @@
 <text x="500" y="54" font-size="30" font-weight="600" fill="#18212B" text-anchor="middle" >Macroscopic laws</text>
 <text x="150" y="540" font-size="28" font-weight="600" fill="#18212B" text-anchor="middle" >Microscopic</text>
 <text x="150" y="568" font-size="28" font-weight="600" fill="#18212B" text-anchor="middle" >mechanisms</text>
-<text x="850" y="554" font-size="28" font-weight="600" fill="#18212B" text-anchor="middle" >Practical training</text>
-<path d="M345 98 L120 490" stroke="#18212B" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
-<text x="211" y="285" font-size="25" font-weight="400" fill="#35424E" text-anchor="middle" transform="rotate(-60.1 211 285)">Constrain models</text>
+<text x="850" y="554" font-size="28" font-weight="600" fill="#18212B" text-anchor="middle" >Training principles</text>
+<path d="M318 98 L93 490" stroke="#18212B" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="182" y="285" font-size="25" font-weight="400" fill="#35424E" text-anchor="middle" transform="rotate(-60.1 182 285)">Constrain models</text>
+<path d="M120 490 L345 98" stroke="#18212B" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="237" y="375" font-size="25" font-weight="400" fill="#35424E" text-anchor="middle" transform="rotate(-60.1 237 375)">Explain laws</text>
 <path d="M880 490 L655 98" stroke="#18212B" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
 <text x="797" y="285" font-size="25" font-weight="400" fill="#35424E" text-anchor="middle" transform="rotate(60.1 797 285)">Test &amp; refine</text>
 <path d="M309 545 L691 545" stroke="#18212B" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
-<text x="500" y="577" font-size="25" font-weight="400" fill="#35424E" text-anchor="middle" >Explain &amp; improve</text>
+<text x="500" y="577" font-size="25" font-weight="400" fill="#35424E" text-anchor="middle" >Inform design</text>
 <text x="500" y="224" font-size="36" font-weight="600" fill="#18212B" text-anchor="middle" >LLM pretraining</text>
 <text x="375" y="280" font-size="24" font-weight="600" fill="#18212B" text-anchor="middle" >Next-token prediction</text>
 <text x="647" y="280" font-size="26" font-weight="600" fill="#18212B" text-anchor="middle" >Scaling laws</text>
