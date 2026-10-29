@@ -35,7 +35,7 @@ Much of my earlier work followed the bottom-up route. I have come to see a limit
 <div class="research-focus-text">
 ~~~
 
-LLM pretraining optimizes a simple prediction objective at an enormous scale:
+[https://en.wikipedia.org/wiki/Large_language_model Large language model (LLM)] pretraining optimizes a next-token prediction objective at an enormous scale:
 
 \(
   \min_{\theta} \mathcal{R}(\theta),\qquad
@@ -43,9 +43,7 @@ LLM pretraining optimizes a simple prediction objective at an enormous scale:
   \left[-\sum_{k=2}^{L}\log P_{\theta}(x_k\mid x_1,\dots,x_{k-1})\right].
 \)
 
-Here, $P_\theta$ is typically parameterized by a large Transformer, and $\mathcal{D}$ represents an internet-scale dataset.
-Despite its apparent complexity, pretraining exhibits striking  macroscopic regularities, such as [https://en.wikipedia.org/wiki/Neural_scaling_law scaling laws]. My research seeks to explain these regularities and use them to improve training, focusing on three connected levels:
-
+Here, $P_\theta$ is a Transformer language model, and $\mathcal{D}$ is an internet-scale text corpus. Despite its complex training dynamics, pretraining exhibits simple macroscopic regularities, such as [https://en.wikipedia.org/wiki/Neural_scaling_law scaling laws]. My research seeks to explain these regularities and use them to guide training through three connected levels:
 
 
 - *Macroscopic laws.* Identify collective variables that capture pretraining and quantitative laws relating them across scales.

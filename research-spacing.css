@@ -41,13 +41,14 @@
   text-align: center;
 }
 
-/* Current focus: text and figure side by side on wide screens. */
+/* Current focus: bounded reading width and an undistorted, centered figure. */
 #layout-content .research-focus-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
-  gap: 3rem;
-  align-items: start;
-  max-width: 1700px;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  column-gap: clamp(2rem, 4vw, 6rem);
+  row-gap: 1.25rem;
+  align-items: center;
+  max-width: 1440px;
   margin: 0.8em 0;
 }
 #layout-content .research-focus-text {
@@ -62,18 +63,35 @@
 #layout-content .research-focus-figure {
   min-width: 0;
   margin: 0;
-  align-self: center;
 }
 #layout-content .research-focus-figure img {
   display: block;
   width: 100%;
-  max-width: 640px;
   height: auto;
   margin: 0 auto;
 }
-@media (max-width: 1350px) {
+/* Give the diagram enough width on laptop-sized windows. */
+@media (max-width: 1400px) {
+  #layout-content .research-focus-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+/* Stack before the formula and diagram become too small to read. */
+@media (max-width: 1150px) {
   #layout-content .research-focus-grid {
     grid-template-columns: minmax(0, 1fr);
-    gap: 1em;
+    gap: 1.25rem;
+  }
+  #layout-content .research-focus-figure img {
+    max-width: 600px;
+  }
+}
+
+/* On large displays, add breathing room without squeezing either column. */
+@media (min-width: 1600px) {
+  #layout-content .research-focus-grid {
+    --wide-space: clamp(0px, calc(50vw - 800px), 160px);
+    max-width: calc(1440px + var(--wide-space));
+    column-gap: calc(4rem + var(--wide-space));
   }
 }

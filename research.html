@@ -60,7 +60,7 @@
 <h2>Current focus:  LLM pretraining</h2>
 <div class="research-focus-grid">
 <div class="research-focus-text">
-<p>LLM pretraining optimizes a simple prediction objective at an enormous scale:
+<p><a href="https://en.wikipedia.org/wiki/Large_language_model" target=&ldquo;blank&rdquo;>Large language model (LLM)</a> pretraining optimizes a next-token prediction objective at an enormous scale:
 </p>
 <p style="text-align:center">
 \[
@@ -68,8 +68,7 @@
   \mathcal{R}(\theta)=\mathbb{E}_{\mathbf{x}\sim\mathcal{D}}
   \left[-\sum_{k=2}^{L}\log P_{\theta}(x_k\mid x_1,\dots,x_{k-1})\right].
 \]
-</p><p>Here, \(P_\theta\) is typically parameterized by a large Transformer, and \(\mathcal{D}\) represents an internet-scale dataset.
-Despite its apparent complexity, pretraining exhibits striking  macroscopic regularities, such as <a href="https://en.wikipedia.org/wiki/Neural_scaling_law" target=&ldquo;blank&rdquo;>scaling laws</a>. My research seeks to explain these regularities and use them to improve training, focusing on three connected levels:
+</p><p>Here, \(P_\theta\) is a Transformer language model, and \(\mathcal{D}\) is an internet-scale text corpus. Despite its complex training dynamics, pretraining exhibits simple macroscopic regularities, such as <a href="https://en.wikipedia.org/wiki/Neural_scaling_law" target=&ldquo;blank&rdquo;>scaling laws</a>. My research seeks to explain these regularities and use them to guide training through three connected levels:
 </p>
 <ul>
 <li><p><b>Macroscopic laws.</b> Identify collective variables that capture pretraining and quantitative laws relating them across scales.
@@ -144,7 +143,7 @@ Despite its apparent complexity, pretraining exhibits striking  macroscopic regu
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2026-10-28, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2026-10-29, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
