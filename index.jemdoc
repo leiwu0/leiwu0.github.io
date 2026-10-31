@@ -27,8 +27,7 @@ I aim to develop a *predictive science of deep learning*, connecting mathematica
 
 == Recruiting
 
-We welcome postdocs, PhD students, and undergraduates interested in the scientific foundations of AI. Please read my [doc/LLM-pretraining-theory.pdf talk slides] before contacting me. In your email, include your CV and a brief description of your research interests.
-
+We welcome postdocs, PhD students, and undergraduates interested in the scientific foundations of AI. If you are interested in joining us, please email me your CV and a brief description of your research interests.
 
 == Recent Updates
 
@@ -36,7 +35,7 @@ We welcome postdocs, PhD students, and undergraduates interested in the scientif
 
 - 2026-08: New preprints on [https://arxiv.org/abs/2608.24814 effective learning rate (ELR) collapse] and [https://arxiv.org/abs/2609.02728 momentum in large-batch training] are now available on arXiv.
 
-- 2026-07: I taught a short course on +Foundations of Deep Learning: Approximation, Generalization, and Scaling+ at [https://yingzhouli.com/others/FDUSS2026/index-mass-en.html 2026 Fudan University International Summer School on AI in Math].
+- 2026-07: I taught a short course on /Foundations of Deep Learning: Approximation, Generalization, and Scaling/ at [https://yingzhouli.com/others/FDUSS2026/index-mass-en.html 2026 Fudan University International Summer School on AI in Math].
 
 - 2026-07: Co-organized the [https://ml-math-2026.github.io/ 2026 PKU Workshop on Mathematical Foundations of Modern Machine Learning] with [https://www.lfhsgre.org/ Fanghui Liu] and [https://kunyuan827.github.io/ Kun Yuan].
 
