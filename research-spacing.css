@@ -95,3 +95,50 @@
     column-gap: calc(4rem + var(--wide-space));
   }
 }
+
+/* Research overview: summaries stay visible; details expand independently. */
+#layout-content {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#layout-content .research-details {
+  margin: 0.65em 0 1.2em;
+}
+#layout-content .research-details > summary {
+  color: #224b8d;
+  cursor: pointer;
+  padding: 0.45em 0;
+  line-height: 1.45;
+}
+#layout-content .research-details > summary:hover {
+  color: #022b6d;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+#layout-content .research-details > summary:focus-visible {
+  outline: 2px solid #527bbd;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+#layout-content .research-details-body {
+  padding: 0.65em 0 0.15em 1.1em;
+  border-left: 2px solid #dde4ed;
+}
+#layout-content .research-details-body > :last-child {
+  margin-bottom: 0;
+}
+#layout-content .research-current {
+  display: inline-block;
+  margin-left: 0.7em;
+  font-family: Arial, sans-serif;
+  font-size: 0.85em;
+  font-weight: normal;
+  color: #596575;
+  vertical-align: middle;
+}
+@media (max-width: 600px) {
+  #layout-content .research-details-body { padding-left: 0.7em; }
+  #layout-content .research-current { margin-left: 0; display: block; margin-top: 0.4em; }
+  #layout-content { overflow-wrap: anywhere; }
+}

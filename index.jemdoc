@@ -22,7 +22,7 @@ I am an Assistant Professor in the School of Mathematical Sciences and Center fo
 Previously, I was a postdoctoral researcher at  Princeton University and the University of Pennsylvania.
 I received my Ph.D. in Computational Mathematics from Peking University in 2018, advised by Prof. [https://web.math.princeton.edu/~weinan/ Weinan E], and my B.S. in Mathematics from Nankai University in 2012.
 
-I aim to develop a *predictive science of deep learning*, connecting mathematical analysis of tractable models with empirical studies of large-scale training. My current focus is on understanding and improving *LLM pretraining*. See [research.html Research] for details.
+I aim to develop a *predictive science of deep learning*, connecting mathematical analysis of tractable models with empirical studies of large-scale training. My current focus is on understanding and improving *LLM pretraining*. For more, see my [research.html research overview] and [doc/LLM-pretraining-theory.pdf talk slides on functional scaling laws].
 
 
 == Recruiting
