@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="research-spacing.css" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" type="text/javascript"></script>
+<title>LLM Pretraining | Lei Wu</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Lei Wu</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="research.html" class="current">Research</a></div>
+<div class="menu-item"><a href="publication.html">Publications</a></div>
+<div class="menu-item"><a href="group.html">Group</a></div>
+<div class="menu-item"><a href="course.html">Courses</a></div>
+<div class="menu-item"><a href="events.html">Events</a></div>
+</td>
+<td id="layout-content">
+<h1>LLM pretraining: modeling, prediction, and control</h1>
+<p class="research-links"><a href="research.html">Research overview</a> · <a href="doc/LLM-pretraining-theory.pdf">Talk slides</a></p>
+<p>My goal is to make LLM pretraining more predictable and efficient. Inspired by <b>aerodynamics</b>, I combine controlled experiments, empirical modeling, and mathematical analysis to identify key macroscopic variables and formulate effective equations that describe training dynamics in these variables.
+</p>
+<h2>Current questions</h2>
+<h3>Predicting training across scales</h3>
+<p>How can small-scale experiments predict a larger training run? This involves fitting models of loss dynamics, testing how their predictions transfer across scales, and identifying when the models need to be refined. Functional scaling laws provide one framework for connecting training schedules to loss trajectories.
+</p>
+<h3>Identifying the variables that govern training</h3>
+<p>Which macroscopic variables capture training progress and its response to optimization choices? Our work on <b>effective learning rate (ELR) collapse</b> shows that LLM loss dynamics are governed primarily by the learning rate divided by parameter norm, rather than the nominal learning rate (<a href="https://arxiv.org/abs/2608.24814" target=&ldquo;blank&rdquo;>arXiv 2026</a>).
+</p>
+<h3>Improving training methods</h3>
+<p>How do optimizer and schedule choices change training efficiency under a fixed compute budget? We study how optimizer design shapes training dynamics, including the roles of momentum (<a href="https://arxiv.org/abs/2609.02728" target=&ldquo;blank&rdquo;>arXiv 2026</a>) and blockwise sharpness (<a href="https://arxiv.org/abs/2502.19002" target=&ldquo;blank&rdquo;>ICML 2025</a>).
+</p>
+<h2>A concrete framework: functional scaling laws</h2>
+<p>We introduced <b>functional scaling laws (FSL)</b>: explicit functionals mapping learning-rate and batch-size schedules to loss dynamics. Derived in power-law kernel regression, the framework separates signal learning from noise forgetting (<a href="https://arxiv.org/abs/2509.19189" target=&ldquo;blank&rdquo;>NeurIPS 2025</a>). Schematically,
+</p>
+<div class="fsl-equation">
+<p style="text-align:center">
+\[
+\begin{aligned}
+\mathcal{E}_t &amp;= S(t) + \int_0^t K(t-\tau)\,n(\tau)\,\mathrm{d}\tau,\\[0.35em]
+S(t) &amp;\sim t^{-\alpha}, \qquad K(t)\sim t^{-\nu}.
+\end{aligned}
+\]
+</p></div>
+<p>Here \(t_k=\sum_{j=1}^k\eta_j\) is the intrinsic clock set by the learning-rate schedule. The noise intensity \(n(t)\), measured per unit intrinsic time, is modulated by learning rate and batch size. The macroscopic responses \(S\) and \(K\) capture signal learning and noise forgetting, with exponents \(\alpha\) and \(\nu\), respectively.
+</p>
+<p>The framework characterizes optimal batch-size schedules (<a href="https://arxiv.org/abs/2602.14208" target=&ldquo;blank&rdquo;>ICLR 2026</a>) and learning-rate schedules (<a href="https://arxiv.org/abs/2602.06797" target=&ldquo;blank&rdquo;>COLT 2026</a>).
+</p>
+<h2>Ways to contribute</h2>
+<p>Students can approach these questions through several complementary kinds of work:
+</p>
+<ul>
+<li><p><b>Training experiments.</b> Design controlled comparisons, analyze training trajectories, and test predictions across scales.
+</p>
+</li>
+<li><p><b>Modeling and analysis.</b> Identify macroscopic variables, fit effective models, and study their mechanisms and limits.
+</p>
+</li>
+<li><p><b>Optimizer development.</b> Implement and evaluate optimization methods and training schedules, connecting their behavior to training efficiency.
+</p>
+</li>
+</ul>
+<p>For information about joining the group, see <a href="index.html" target=&ldquo;blank&rdquo;>my homepage</a>.
+</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2026-11-07, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

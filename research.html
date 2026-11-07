@@ -5,9 +5,7 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<link rel="stylesheet" href="research-spacing.css" type="text/css" />
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" type="text/javascript"></script>
-<title></title>
+<title>Research | Lei Wu</title>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -22,163 +20,87 @@
 <div class="menu-item"><a href="events.html">Events</a></div>
 </td>
 <td id="layout-content">
-<h1>Research: Toward a predictive science of deep learning</h1>
-<p>My goal is to uncover the principles governing deep learning and use them to explain mechanisms, make quantitative predictions, and inform algorithm design. 
-</p>
-<details class="research-details" id="research-perspective">
-<summary>Research perspective: scales and effective theories</summary>
-<div class="research-details-body">
-<p>My approach draws on three complementary perspectives:
-</p>
-<ul>
-<li><p><b>Physics.</b> Finding the right level of description: deciding which details matter at a given scale and building toy models to isolate the underlying mechanisms.
-</p>
-</li>
-</ul>
-<ul>
-<li><p><b>Mathematics.</b> Establishing rigorous results under explicit conditions and clarifying the scope of a theory.
-</p>
-</li>
-</ul>
-<ul>
-<li><p><b>Engineering.</b> Stress-testing theory in real-world systems and refining it through discrepancies between predictions and observations.
-</p>
-</li>
-</ul>
-<p>Inspired by physics, I view <b>scale as an organizing principle for deep learning</b>. I do not expect a single theory to capture learning across all scales; different scales require different <a href="https://en.wikipedia.org/wiki/Effective_theory" target=&ldquo;blank&rdquo;>effective theories</a>.
-</p>
-<div class="research-figure">
-<img src="./doc/physics-dl.svg" alt="Different scales, different effective theories in physics and deep learning" style="display: block; width: 100%; max-width: 1000px; height: auto; margin: 0 auto;" />
+<div id="toptitle">
+<h1>Research</h1>
 </div>
-<p>This perspective suggests two complementary routes toward understanding deep learning:
+<p>I work toward a <b>predictive science of deep learning</b>: explaining learning mechanisms, predicting training dynamics, and guiding algorithm design. My research moves between mathematical analysis of tractable models and large-scale experiments, with each informing and challenging the other.
+</p>
+<h2>LLM Pretraining: Modeling, Prediction, and Control</h2>
+<p>We seek a macroscopic description of LLM pretraining through effective equations that capture the mechanisms governing loss dynamics. This approach helps explain training behavior and improve training efficiency.
 </p>
 <ul>
-<li><p><b>Bottom-up.</b> Starting from simple models and microscopic mechanisms and working toward more complex learning systems.
+<li><p><b>Functional scaling laws (FSL).</b> We introduced FSL: effective equations that describe learning dynamics through the competition between signal learning and noise forgetting  (<a href="https://arxiv.org/abs/2509.19189" target=&ldquo;blank&rdquo;>NeurIPS 2025</a>).  By analyzing how training choices alter this competition, we can explain and predict their effects:
+</p>
+<ul>
+<li><p>Momentum (<a href="https://arxiv.org/abs/2609.02728" target=&ldquo;blank&rdquo;>arXiv 2026</a>)
 </p>
 </li>
-<li><p><b>Top-down.</b> Starting from macroscopic laws and using them to guide the study of underlying mechanisms and intermediate-scale dynamics.
+<li><p>SignSGD versus SGD (<a href="https://neurips.cc/virtual/2026/loc/sydney/poster/150706" target=&ldquo;blank&rdquo;>NeurIPS 2026</a>)
+</p>
+</li>
+<li><p>Batch-size schedules (<a href="https://arxiv.org/abs/2602.14208" target=&ldquo;blank&rdquo;>ICLR 2026</a>)
+</p>
+</li>
+<li><p>Learning-rate schedules (<a href="https://arxiv.org/abs/2602.06797" target=&ldquo;blank&rdquo;>COLT 2026</a>).
 </p>
 </li>
 </ul>
-<p>Much of my earlier work followed the bottom-up route, but connecting simplified models to real-world training often proved difficult. Different assumptions and regimes can lead to very different conclusions, without revealing which mechanisms matter in practice. I am now exploring the top-down route: using macroscopic regularities to guide the construction and analysis of microscopic models, so that the two approaches can inform one another.
-</p>
-</div>
-</details>
-<h2>Functional scaling laws: toward an effective theory of LLM pretraining</h2>
-<p>We introduced functional scaling laws (FSL): explicit functionals mapping learning-rate and batch-size schedules to loss trajectories. Schematically,
-</p>
-<p style="text-align:center">
-\[
-  \underbrace{\mathcal{L}_t}_{\text{loss dynamics}}
-  \approx \mathcal{F}_t\!\left[
-  \underbrace{\eta(\cdot)}_{\text{learning-rate schedule}},\,
-  \underbrace{B(\cdot)}_{\text{batch-size schedule}}
-  \right].
-\]
-</p><p>Derived in power-law kernel regression, FSL reveals how signal learning and noise forgetting jointly shape learning dynamics. We use these mechanisms to predict and steer LLM pretraining.
-</p>
+
+</li>
+</ul>
 <ul>
-<li><p><b>Functional scaling laws.</b> We developed the FSL framework and used it to characterize optimal learning-rate and batch-size schedules:
-<a href="https://arxiv.org/abs/2509.19189" target=&ldquo;blank&rdquo;>NeurIPS 2025</a>, <a href="https://arxiv.org/abs/2602.14208" target=&ldquo;blank&rdquo;>ICLR 2026</a>, <a href="https://arxiv.org/abs/2602.06797" target=&ldquo;blank&rdquo;>COLT 2026</a>.
+<li><p><b>ELR collapse.</b> We identify the effective learning rate&#8201;&mdash;&#8201;the learning rate divided by parameter norm&#8201;&mdash;&#8201;as a more fundamental variable than the nominal learning rate for describing LLM loss dynamics (<a href="https://arxiv.org/abs/2608.24814" target=&ldquo;blank&rdquo;>arXiv 2026</a>).
 </p>
 </li>
 </ul>
 <ul>
-<li><p><b>ELR collapse.</b> We systematically show that the loss dynamics of LLM pretraining are governed primarily by the effective learning rate (ELR), the ratio of learning rate to parameter norm, rather than the nominal learning rate:
-<a href="https://arxiv.org/abs/2608.24814" target=&ldquo;blank&rdquo;>arXiv 2026</a>.
+<li><p><b>Optimizer design.</b> We develop optimizers for efficient LLM pretraining (<a href="https://arxiv.org/abs/2502.19002" target=&ldquo;blank&rdquo;>ICML 2025</a>, <a href="https://arxiv.org/abs/2505.24275" target=&ldquo;blank&rdquo;>ICML 2026</a>).
 </p>
 </li>
 </ul>
-<ul>
-<li><p><b>Optimizer mechanisms and design.</b> We study how optimizer design shapes training dynamics and efficiency, with recent work on momentum <a href="https://arxiv.org/abs/2609.02728" target=&ldquo;blank&rdquo;>arXiv 2026</a> and blockwise sharpness <a href="https://arxiv.org/abs/2502.19002" target=&ldquo;blank&rdquo;>ICML 2025</a>.
+<p>For more on FSL, see my <a href="doc/LLM-pretraining-theory.pdf" target=&ldquo;blank&rdquo;>talk slides</a>.
 </p>
-</li>
-</ul>
-<p>For an overview, see my <a href="./doc/LLM-pretraining-theory.pdf" target=&ldquo;blank&rdquo;>talk slides</a>.
-</p>
-<details class="research-details" id="fsl-context">
-<summary>Broader research context</summary>
-<div class="research-details-body">
-<div class="research-focus-grid">
-<div class="research-focus-text">
-<p><a href="https://en.wikipedia.org/wiki/Large_language_model" target=&ldquo;blank&rdquo;>Large language model (LLM)</a> pretraining optimizes a next-token prediction objective at an enormous scale:
-</p>
-<p style="text-align:center">
-\[
-  \min_{\theta} \mathcal{R}(\theta),\qquad
-  \mathcal{R}(\theta)=\mathbb{E}_{\mathbf{x}\sim\mathcal{D}}
-  \left[-\sum_{k=2}^{L}\log P_{\theta}(x_k\mid x_1,\dots,x_{k-1})\right].
-\]
-</p><p>Here, \(P_\theta\) is a Transformer language model, and \(\mathcal{D}\) is an internet-scale text corpus. Despite the complexity of this process, pretraining exhibits simple macroscopic regularities, such as <a href="https://en.wikipedia.org/wiki/Neural_scaling_law" target=&ldquo;blank&rdquo;>scaling laws</a>. I study these regularities at three connected levels:
+<h2>SGD Dynamics: Stability, Sharpness, and Generalization</h2>
+<p>Why does SGD always find minima that generalize well, even when the model is overparameterized? We introduced <b>dynamical stability</b> as a mechanism for SGD's implicit regularization. Our work links stability constraints and SGD's noise geometry to minima selection, sharpness, and generalization.
 </p>
 <ul>
-<li><p><b>Macroscopic laws.</b> Identify the variables that capture training progress and the quantitative laws relating them across scales.
+<li><p>Dynamical stability and minima selection (<a href="https://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective" target=&ldquo;blank&rdquo;>NeurIPS 2018</a>).
+</p>
+</li>
+<li><p>Noise alignment and flat minima (<a href="https://arxiv.org/abs/2207.02628" target=&ldquo;blank&rdquo;>NeurIPS 2022</a>).
+</p>
+</li>
+<li><p>Stability and generalization (<a href="https://arxiv.org/abs/2305.17490" target=&ldquo;blank&rdquo;>ICML 2023</a>).
+</p>
+</li>
+<li><p>SGD noise geometry (<a href="https://openreview.net/forum?id=F6wmIilZXG" target=&ldquo;blank&rdquo;>TMLR 2026</a>).
 </p>
 </li>
 </ul>
-<ul>
-<li><p><b>Microscopic mechanisms.</b> Understand how these laws emerge from high-dimensional learning dynamics.
+<p>For an overview of this line of work, see my <a href="doc/dynamical-stability.pdf" target=&ldquo;blank&rdquo;>talk slides</a>.
 </p>
-</li>
-</ul>
-<ul>
-<li><p><b>Training principles.</b> Use these insights to guide optimizer and architecture design, as well as hyperparameter selection, as training scales up.
-</p>
-</li>
-</ul>
-</div>
-<div class="research-figure research-focus-figure">
-<img src="./doc/llm-pretraining-overview.svg" alt="Macroscopic laws guide microscopic models, which inform practical training; experiments test and refine the laws." />
-</div>
-</div>
-</div>
-</details>
-</section>
-<section aria-labelledby="sgd-heading">
-<h2 id="sgd-heading">Dynamical stability of SGD</h2>
-<p>We pioneered the dynamical-stability perspective on SGD's implicit regularization to understand why SGD favors some minima over others. Our work connects the dynamical stability of minima to their sharpness and generalization properties.
+<h2>Neural Network Theory: Approximation and Estimation</h2>
+<p>We introduced and named <b>Barron spaces</b> for two-layer neural networks, establishing approximation and generalization results within this function-space framework. Our broader work studies how neural networks efficiently learn <b>high-dimensional functions</b> and when and why they outperform linear methods.
 </p>
 <ul>
-<li><p><b>Minima selection through dynamical stability.</b> <a href="https://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective" target=&ldquo;blank&rdquo;>NeurIPS 2018</a>.
+<li><p>Barron and flow-induced spaces (<a href="https://arxiv.org/abs/1906.08039" target=&ldquo;blank&rdquo;>Constructive Approximation 2021</a>).
 </p>
 </li>
-<li><p><b>SGD noise alignment and flat-minimum selection.</b> <a href="https://arxiv.org/abs/2207.02628" target=&ldquo;blank&rdquo;>NeurIPS 2022</a>.
+<li><p>Approximation–estimation duality (<a href="https://arxiv.org/abs/2305.05642" target=&ldquo;blank&rdquo;>AoS 2025</a>).
 </p>
 </li>
-<li><p><b>Stability-induced implicit regularization and generalization.</b> <a href="https://arxiv.org/abs/2305.17490" target=&ldquo;blank&rdquo;>ICML 2023</a>.
+<li><p>Neural networks versus linear methods (<a href="https://arxiv.org/abs/2108.04964" target=&ldquo;blank&rdquo;>JMLR 2022</a>).
 </p>
 </li>
-<li><p><b>The noise geometry of SGD.</b> <a href="https://openreview.net/forum?id=F6wmIilZXG" target=&ldquo;blank&rdquo;>TMLR 2026</a>.
-</p>
-</li>
-</ul>
-<p>For an overview, see my <a href="doc/dynamical-stability.pdf" target=&ldquo;blank&rdquo;>talk slides</a>.
-</p>
-</section>
-<section aria-labelledby="barron-heading">
-<h2 id="barron-heading">Barron spaces and neural-network function spaces</h2>
-<p>We introduced and named Barron spaces for two-layer neural networks, establishing approximation and generalization results within this function-space framework. Our broader work studies how neural networks <b>efficiently</b> approximate and learn high-dimensional functions, and how their capabilities differ from kernel and random-feature methods.
-</p>
-<ul>
-<li><p><b>Barron spaces and flow-induced function spaces: direct and inverse approximation theorems.</b> <a href="https://arxiv.org/abs/1906.08039" target=&ldquo;blank&rdquo;>Constructive Approximation 2021</a>.
-</p>
-</li>
-<li><p><b>Two-layer neural networks versus linear methods.</b> <a href="https://arxiv.org/abs/2108.04964" target=&ldquo;blank&rdquo;>JMLR 2022</a>.
-</p>
-</li>
-<li><p><b>Inductive biases in deep convolutional networks.</b> <a href="https://arxiv.org/abs/2305.08404" target=&ldquo;blank&rdquo;>NeurIPS 2023</a>.
-</p>
-</li>
-<li><p><b>A duality framework linking approximation and estimation.</b> <a href="https://arxiv.org/abs/2305.05642" target=&ldquo;blank&rdquo;>AoS 2025</a>.
+<li><p>Inductive biases of convolutional networks (<a href="https://arxiv.org/abs/2305.08404" target=&ldquo;blank&rdquo;>NeurIPS 2023</a>).
 </p>
 </li>
 </ul>
-<p>For an overview, see my <a href="doc/function-space.pdf" target=&ldquo;blank&rdquo;>talk slides</a>.
+<p>For more on approximation–estimation duality, see my <a href="doc/function-space.pdf" target=&ldquo;blank&rdquo;>talk slides</a>.
 </p>
-</section>
 <div id="footer">
 <div id="footer-text">
-Page generated 2026-11-03, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2026-11-07, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>

@@ -1,0 +1,58 @@
+# jemdoc: menu{MENU}{research.html}, title{LLM Pretraining | Lei Wu}
+# jemdoc: addcss{research-spacing.css}, addjs{https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml}, notime
+
+= LLM pretraining: modeling, prediction, and control
+
+~~~
+{}{raw}
+<p class="research-links"><a href="research.html">Research overview</a> · <a href="doc/LLM-pretraining-theory.pdf">Talk slides</a></p>
+~~~
+
+My goal is to make LLM pretraining more predictable and efficient. Inspired by *aerodynamics*, I combine controlled experiments, empirical modeling, and mathematical analysis to identify key macroscopic variables and formulate effective equations that describe training dynamics in these variables.
+
+== Current questions
+
+=== Predicting training across scales
+
+How can small-scale experiments predict a larger training run? This involves fitting models of loss dynamics, testing how their predictions transfer across scales, and identifying when the models need to be refined. Functional scaling laws provide one framework for connecting training schedules to loss trajectories.
+
+=== Identifying the variables that govern training
+
+Which macroscopic variables capture training progress and its response to optimization choices? Our work on *effective learning rate (ELR) collapse* shows that LLM loss dynamics are governed primarily by the learning rate divided by parameter norm, rather than the nominal learning rate ([https://arxiv.org/abs/2608.24814 arXiv 2026]).
+
+=== Improving training methods
+
+How do optimizer and schedule choices change training efficiency under a fixed compute budget? We study how optimizer design shapes training dynamics, including the roles of momentum ([https://arxiv.org/abs/2609.02728 arXiv 2026]) and blockwise sharpness ([https://arxiv.org/abs/2502.19002 ICML 2025]).
+
+== A concrete framework: functional scaling laws
+
+We introduced *functional scaling laws (FSL)*: explicit functionals mapping learning-rate and batch-size schedules to loss dynamics. Derived in power-law kernel regression, the framework separates signal learning from noise forgetting ([https://arxiv.org/abs/2509.19189 NeurIPS 2025]). Schematically,
+
+~~~
+{}{raw}
+<div class="fsl-equation">
+~~~
+\(
+\begin{aligned}
+\mathcal{E}_t &= S(t) + \int_0^t K(t-\tau)\,n(\tau)\,\mathrm{d}\tau,\\[0.35em]
+S(t) &\sim t^{-\alpha}, \qquad K(t)\sim t^{-\nu}.
+\end{aligned}
+\)
+~~~
+{}{raw}
+</div>
+~~~
+
+Here $t_k=\sum_{j=1}^k\eta_j$ is the intrinsic clock set by the learning-rate schedule. The noise intensity $n(t)$, measured per unit intrinsic time, is modulated by learning rate and batch size. The macroscopic responses $S$ and $K$ capture signal learning and noise forgetting, with exponents $\alpha$ and $\nu$, respectively.
+
+The framework characterizes optimal batch-size schedules ([https://arxiv.org/abs/2602.14208 ICLR 2026]) and learning-rate schedules ([https://arxiv.org/abs/2602.06797 COLT 2026]).
+
+== Ways to contribute
+
+Students can approach these questions through several complementary kinds of work:
+
+- *Training experiments.* Design controlled comparisons, analyze training trajectories, and test predictions across scales.
+- *Modeling and analysis.* Identify macroscopic variables, fit effective models, and study their mechanisms and limits.
+- *Optimizer development.* Implement and evaluate optimization methods and training schedules, connecting their behavior to training efficiency.
+
+For information about joining the group, see [index.html my homepage].

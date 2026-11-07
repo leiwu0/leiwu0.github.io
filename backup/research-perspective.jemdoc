@@ -1,0 +1,45 @@
+# jemdoc: menu{MENU}{research.html}, title{Research Perspective | Lei Wu}
+# jemdoc: addcss{research-spacing.css}, notime
+
+= Research Perspective
+
+~~~
+{}{raw}
+<p><a href="research.html">Research Overview</a></p>
+~~~
+
+My approach to deep learning theory centers on *finding the right level of description*. I seek effective theories that explain macroscopic training behavior, make testable predictions, and guide training design. Tractable models help uncover mechanisms; experiments establish whether those mechanisms remain relevant in real training.
+
+== Finding the Right Level of Description
+
+I view scale as an organizing principle for deep learning, but distinguish *system size* from *level of description*. Model and data size characterize a training system. Microscopic and macroscopic descriptions characterize how we study it: the same system can be described through individual parameter updates or through aggregate behavior such as loss dynamics.
+
+The appropriate description depends on the question. Approximation and learning theory ask which functions neural networks can represent and learn from finite data. For LLM pretraining, I also ask how loss evolves and responds to training choices. Answering this question calls for effective descriptions that retain the mechanisms relevant to that response without tracking every parameter.
+
+~~~
+{}{raw}
+<div class="research-figure">
+<img src="doc/physics-dl.svg" alt="A schematic analogy between effective descriptions in physics and regimes of deep learning" style="display: block; width: 100%; max-width: 1000px; height: auto; margin: 0 auto;" />
+<p style="font-size: 0.9em; color: #596575;">A schematic analogy about the choice of effective description: physical length and time scales are distinct from model and data size.</p>
+</div>
+~~~
+
+== From Tractable Models to Real Training
+
+Much of my earlier work began with simplified models and rigorous analysis. This route reveals mechanisms and makes assumptions explicit. Yet a theorem within a model does not by itself establish which mechanisms govern real training. Conclusions can depend strongly on assumptions, and a mathematically convenient simplification may discard features essential to the phenomenon of interest.
+
+Adding complexity to a toy model is therefore not, by itself, a reliable route to predictive accuracy. The crucial question is *what the model must preserve*. I look for mechanisms whose consequences can be tested in real training, rather than treating structural similarity to a neural network as sufficient evidence of relevance.
+
+== Building Effective Theories from Macroscopic Behavior
+
+I am increasingly pursuing a top-down route: start from reproducible patterns in real training, identify effective quantities and response functions, and formulate equations that describe their relationships. These observations constrain the construction of tractable models; analysis then explains possible mechanisms and yields new predictions.
+
+A toy model and a real training system may share a useful macroscopic description despite differing in microscopic detail. This is the connection I seek to establish. A bottom-up derivation can explain how such a description arises, while top-down evidence helps determine which features it needs to capture. The two routes inform one another; a macroscopic theory need not wait for a complete microscopic account.
+
+*Functional scaling laws* illustrate this approach. In power-law kernel regression, loss dynamics are described through a signal function and a forgetting kernel, capturing signal learning and noise forgetting. These are macroscopic functions, with scaling exponents characterizing their behavior. Their relevance to LLM pretraining must be assessed through predictions of how loss responds to changes in training, beyond the model in which the equations were derived.
+
+== Prediction as a Test of Understanding
+
+I judge an effective theory by whether it makes useful predictions beyond the observations used to construct it. Can it predict the effect of changing a schedule or optimizer? Can a description calibrated at one scale remain informative at another? Can it guide a training decision? These tests should also identify the regimes in which the theory breaks down.
+
+Physics, mathematics, and engineering play complementary roles in this process. Physics motivates the choice of description and the search for mechanisms. Mathematics establishes what follows under explicit assumptions. Engineering supplies controlled experiments and practical design problems. Discrepancies between predictions and observations help refine both the theory and the experiments.

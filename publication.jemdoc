@@ -9,46 +9,46 @@
 Jia-Nan Wang\*, Zixun Huang\*, Kairui Li\*, Zilin Wang, *Lei Wu*\n
 arXiv preprint, 2026.
 
-- [https://arxiv.org/abs/2608.24814 Effective Learning Rate Governs Loss Dynamics in Language Model Pretraining]\n
+- [https://arxiv.org/abs/2608.24814 Effective learning rate governs loss dynamics in language model pretraining]\n
 Zihan Liu\*, Ruiheng Zheng\*, Shaobo Zhang, Changxin Tian, Kunlong Chen, Zhiqiang Zhang, *Lei Wu*\n
 arXiv preprint, 2026.
 
-- [https://arxiv.org/abs/2602.19691 Smoothness Adaptivity in Constant-Depth Neural Networks: Optimal Rates via Smooth Activations]\n 
+- [https://arxiv.org/abs/2602.19691 Smoothness adaptivity in constant-depth neural networks: optimal rates via smooth activations]\n 
 (α-β)  Yuhao Liu, Zilin Wang, *Lei Wu*, Shaobo Zhang\n
 arXiv preprint, 2026.
 
-- [https://neurips.cc/virtual/2026/loc/sydney/poster/150706 When and How signSGD Outperform SGD: A Functional Scaling Law Perspective]\n
+- [https://neurips.cc/virtual/2026/loc/sydney/poster/150706 When and how signSGD outperforms SGD: a functional scaling law perspective]\n
 Zilin Wang\*, Binghui Li\*, Jia-Nan Wang\*, Lean Wang\*, Jinbo Wang\*, *Lei Wu*\n
 NeurIPS 2026 (*Spotlight*).
 
 
-- [https://arxiv.org/abs/2602.06797 Optimal Learning-Rate Schedules under Functional Scaling Laws: Power Decay and Warmup-Stable-Decay]\n 
+- [https://arxiv.org/abs/2602.06797 Optimal learning-rate schedules under functional scaling laws: power decay and warmup-stable-decay]\n 
 Binghui Li\*, Zilin Wang\*, Fengling Chen, Shiyang Zhao, Ruiheng Zheng, *Lei Wu* \n
 COLT 2026.
 
-- [https://arxiv.org/abs/2505.24275 GradPower: Powering Gradients for Faster Language Model Pre-Training]\n
+- [https://arxiv.org/abs/2505.24275 GradPower: powering gradients for faster language model pre-training]\n
 Jinbo Wang\*, Mingze Wang\*, Jiaqi Zhang, Wei Wang, Peng Pei, Xunliang Cai, Weinan E, *Lei Wu*\n
 ICML 2026.
 
-- [https://arxiv.org/abs/2602.14208 Fast Catch-Up, Late Switching: Optimal Batch Size Scheduling via Functional Scaling Laws]\n
+- [https://arxiv.org/abs/2602.14208 Fast catch-up, late switching: optimal batch size scheduling via functional scaling laws]\n
 Jinbo Wang\*, Binghui Li\*, Zhanpeng Zhou, Mingze Wang, Yuxuan Sun, Jiaqi Zhang, Xunliang Cai, *Lei Wu*\n 
 ICLR 2026.
 
 - [https://openreview.net/forum?id=F6wmIilZXG 
-The Noise Geometry of Stochastic Gradient Descent]\n
+The noise geometry of stochastic gradient descent]\n
 Mingze Wang, *Lei Wu*\n 
 Transactions on Machine Learning Research, 2026.
 
 
-- [https://arxiv.org/abs/2509.19189 Functional Scaling Laws in Kernel Regression: Loss Dynamics and Learning Rate Schedules] \n 
+- [https://arxiv.org/abs/2509.19189 Functional scaling laws in kernel regression: loss dynamics and learning rate schedules] \n 
 Binghui Li\*, Fengling Chen\*, Zixun Huang\*, Lean Wang\*, *Lei Wu*\n 
 NeurIPS 2025 (*Spotlight*).
 
-- [https://arxiv.org/abs/2501.14475 Point Cloud Neural Operator for Parametric PDEs on Complex and Variable Geometries]\n
+- [https://arxiv.org/abs/2501.14475 Point cloud neural operator for parametric PDEs on complex and variable geometries]\n
 Chenyu Zeng, Yanshu Zhang, Jiayi Zhou, Yuhan Wang, Zilin Wang, Yuhao Liu, *Lei Wu*, Daniel Zhengyu Huang\n
 Comput. Methods Appl. Mech. Eng., 2025.
 
-- [https://arxiv.org/abs/2502.19002 The Sharpness Disparity Principle in Transformers for Accelerating Language Model Pre-Training]\n
+- [https://arxiv.org/abs/2502.19002 The sharpness disparity principle in transformers for accelerating language model pre-training]\n
 Jinbo Wang\*, Mingze Wang\*, Zhanpeng Zhou\*, Junchi Yan, Weinan E, *Lei Wu*\n 
 ICML 2025.
 
@@ -56,7 +56,7 @@ ICML 2025.
 Keyao Zhan\*, Puheng Li\*, *Lei Wu*\n 
 AISTATS 2025.
 
-- [https://arxiv.org/abs/2305.05642 A duality framework for analyzing random feature  and two-layer neural networks]\n
+- [https://arxiv.org/abs/2305.05642 A duality framework for analyzing random feature and two-layer neural networks]\n
 (α-β) Hongrui Chen, Jihao Long, *Lei Wu*\n
 Annals of Statistics,  2025.
 
@@ -70,7 +70,7 @@ NeurIPS 2024.
 Zhanran Lin\*, Puheng Li\*, *Lei Wu*\n
 arXiv preprint, 2024.
 
-- [https://arxiv.org/abs/2402.15718 Optimal Rates and Saturation for Noiseless Kernel Ridge Regression]\n
+- [https://arxiv.org/abs/2402.15718 Optimal rates and saturation for noiseless kernel ridge regression]\n
 (α-β) Jihao Long, Xiaojun Peng, *Lei Wu*\n
 arXiv preprint, 2024.
 
@@ -106,7 +106,7 @@ NeurIPS 2023.
 *Lei Wu*, Weijie J. Su\n
 ICML 2023.
 
-- [https://arxiv.org/abs/2207.02628 The alignment property of SGD noise and how it helps select flat minima: A stability analysis]\n
+- [https://arxiv.org/abs/2207.02628 The alignment property of SGD noise and how it helps select flat minima: a stability analysis]\n
 *Lei Wu*, Mingze Wang, Weijie J. Su\n
 NeurIPS 2022.
 
@@ -178,11 +178,11 @@ NeurIPS 2019.
 (α-β) Weinan E, Chao Ma, Lei Wu\n 
 Communications in Mathematical Sciences, 2019.
 
-- [https://arxiv.org/abs/1803.00195 The anisotropic noise in stochastic gradient descent: Its behavior of escaping from minima and regularization effects] \n
+- [https://arxiv.org/abs/1803.00195 The anisotropic noise in stochastic gradient descent: its behavior of escaping from minima and regularization effects] \n
 Zhanxing Zhu, Jingfeng Wu, Bing Yu, *Lei Wu*, Jinwen Ma\n
 ICML 2019.
 
-- [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective How SGD selects the global minima in over-parameterized learning: A dynamical stability perspective] \n
+- [http://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective How SGD selects the global minima in over-parameterized learning: a dynamical stability perspective] \n
 *Lei Wu*, Chao Ma, Weinan E\n 
 NeurIPS 2018.
 
