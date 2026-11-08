@@ -112,8 +112,14 @@ em {
 	font-style: italic;
 }
 
-strong {
+b, strong {
 	font-weight: bold;
+	color: #222222;
+}
+
+/* Preserve link and heading colors when their text is explicitly bold. */
+a b, a strong, h1 b, h1 strong, h2 b, h2 strong, h3 b, h3 strong {
+	color: inherit;
 }
 
 
