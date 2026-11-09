@@ -11,17 +11,17 @@ I work toward a *predictive science of deep learning*: explaining learning mecha
 
 We seek a macroscopic description of LLM pretraining through effective equations that capture the mechanisms governing loss dynamics. This approach helps explain training behavior and improve training efficiency.
 
-- *Functional scaling laws (FSL).* We introduced FSL: effective equations that describe learning dynamics through the competition between signal learning and noise forgetting  ([https://arxiv.org/abs/2509.19189 NeurIPS 2025]).  By analyzing how training choices alter this competition, we can explain and predict their effects:
+- +Functional scaling laws (FSL).+ We introduced FSL: effective equations that describe learning dynamics through the competition between signal learning and noise forgetting  ([https://arxiv.org/abs/2509.19189 NeurIPS 2025]).  By analyzing how training choices alter this competition, we can explain and predict their effects:
   -- Momentum ([https://arxiv.org/abs/2609.02728 arXiv 2026])
   -- SignSGD versus SGD ([https://neurips.cc/virtual/2026/loc/sydney/poster/150706 NeurIPS 2026])
   -- Batch-size schedules ([https://arxiv.org/abs/2602.14208 ICLR 2026])
   -- Learning-rate schedules ([https://arxiv.org/abs/2602.06797 COLT 2026]).
 
-- *ELR collapse.* We identify the effective learning rate---the learning rate divided by parameter norm---as a more fundamental variable than the nominal learning rate for describing LLM loss dynamics ([https://arxiv.org/abs/2608.24814 arXiv 2026]).
+- +ELR collapse.+ We identify the effective learning rate---the learning rate divided by parameter norm---as a more fundamental variable than the nominal learning rate for describing LLM loss dynamics ([https://arxiv.org/abs/2608.24814 arXiv 2026]).
 
-- *Optimizer design.* We develop optimizers for efficient LLM pretraining ([https://arxiv.org/abs/2502.19002 ICML 2025], [https://arxiv.org/abs/2505.24275 ICML 2026]).
+- +Optimizer design.+ We develop optimizers for efficient LLM pretraining ([https://arxiv.org/abs/2502.19002 ICML 2025], [https://arxiv.org/abs/2505.24275 ICML 2026]).
 
-For more on FSL, see my [doc/LLM-pretraining-theory.pdf talk slides].
+For more on FSL, see my *[doc/LLM-pretraining-theory.pdf talk slides]*.
 
 
 == SGD Dynamics: Stability, Sharpness, and Generalization
