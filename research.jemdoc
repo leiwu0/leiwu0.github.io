@@ -7,7 +7,7 @@ I work toward a *predictive science of deep learning*: explaining learning mecha
 # For broader reflections on deep learning theory, see my [./research-perspective.html research perspective].
 
 
-== LLM Pretraining: Modeling, Prediction, and Design
+== LLM pretraining: modeling, prediction, and design
 
 We seek a macroscopic description of LLM pretraining through effective equations that capture the mechanisms governing loss dynamics. This approach helps explain training behavior and improve training efficiency.
 
@@ -24,7 +24,7 @@ We seek a macroscopic description of LLM pretraining through effective equations
 For more on FSL, see my *[doc/LLM-pretraining-theory.pdf talk slides]*.
 
 
-== SGD Dynamics: Stability, Sharpness, and Generalization
+== SGD dynamics: stability, sharpness, and generalization
 
 Why does SGD often find minima that generalize well, even when the model is overparameterized? We introduced *dynamical stability* as a mechanism for SGD's implicit regularization. Our work links stability constraints and SGD's noise geometry to minima selection, sharpness, and generalization.
 
@@ -34,7 +34,7 @@ Why does SGD often find minima that generalize well, even when the model is over
 
 For an overview of this line of work, see my [doc/dynamical-stability.pdf talk slides].
 
-== Function Space Theory of Neural Networks: Approximation and Estimation
+== Function space theory of neural networks: approximation and estimation
 
 We develop a function-space theory of neural networks to characterize the functions they can efficiently approximate and learn. Our work establishes direct and inverse approximation theorems and quantifies approximation rates and statistical estimation errors.
 
