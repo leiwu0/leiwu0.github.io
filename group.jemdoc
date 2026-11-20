@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{group.html}
+# jemdoc: menu{MENU}{group.html}, title{Group | Lei Wu}
 # jemdoc: addcss{jemdoc.css}, notime
 = Group
 
@@ -33,7 +33,7 @@
 - Zihan Liu (2025 - 2026) -> PhD at PKU
 - Fengling Chen (2024 - 2026) -> PhD at PKU
 - [https://alexhuang13.github.io/ Zixun Huang] (2023 - 2026) -> PhD at UPenn
-- [https://drzfct.github.io/ Kaizhao Liu] (2023 - 2025, 国自然青年学生基础研究项目(本科生))-> PhD at MIT
+- [https://drzfct.github.io/ Kaizhao Liu] (2023 - 2025, 国自然青年学生基础研究项目(本科生)) -> PhD at MIT
 - Zilin Wang (2022 - 2024, 北京市自然科学基金本科生项目) -> PhD at PKU
 - Liming Liu (2022 - 2024) -> PhD at Georgia Tech
 - [https://zihaowang0810.github.io/ Zihao Wang] (2022 - 2024) -> PhD at Stanford

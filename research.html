@@ -29,7 +29,7 @@
 <p>We seek a macroscopic description of LLM pretraining through effective equations that capture the mechanisms governing loss dynamics. This approach helps explain training behavior and improve training efficiency.
 </p>
 <ul>
-<li><p><tt>Functional scaling laws (FSL).</tt> We introduced FSL: effective equations that describe learning dynamics through the competition between signal learning and noise forgetting  (<a href="https://arxiv.org/abs/2509.19189" target=&ldquo;blank&rdquo;>NeurIPS 2025</a>).  By analyzing how training choices alter this competition, we can explain and predict their effects:
+<li><p><b>Functional scaling laws (FSL)</b>. We introduced FSL: effective equations that describe learning dynamics through the competition between signal learning and noise forgetting  (<a href="https://arxiv.org/abs/2509.19189" target=&ldquo;blank&rdquo;>NeurIPS 2025</a>).  By analyzing how training choices alter this competition, we can explain and predict their effects:
 </p>
 <ul>
 <li><p>Momentum (<a href="https://arxiv.org/abs/2609.02728" target=&ldquo;blank&rdquo;>arXiv 2026</a>)
@@ -49,19 +49,19 @@
 </li>
 </ul>
 <ul>
-<li><p><tt>ELR collapse.</tt> We identify the effective learning rate&#8201;&mdash;&#8201;the learning rate divided by parameter norm&#8201;&mdash;&#8201;as a more fundamental variable than the nominal learning rate for describing LLM loss dynamics (<a href="https://arxiv.org/abs/2608.24814" target=&ldquo;blank&rdquo;>arXiv 2026</a>).
+<li><p><b>ELR collapse.</b> We identify the effective learning rate&#8201;&mdash;&#8201;the learning rate divided by parameter norm&#8201;&mdash;&#8201;as a more fundamental variable than the nominal learning rate for describing LLM loss dynamics (<a href="https://arxiv.org/abs/2608.24814" target=&ldquo;blank&rdquo;>arXiv 2026</a>).
 </p>
 </li>
 </ul>
 <ul>
-<li><p><tt>Optimizer design.</tt> We develop optimizers for efficient LLM pretraining (<a href="https://arxiv.org/abs/2502.19002" target=&ldquo;blank&rdquo;>ICML 2025</a>, <a href="https://arxiv.org/abs/2505.24275" target=&ldquo;blank&rdquo;>ICML 2026</a>).
+<li><p><b>Optimizer design.</b> We develop optimizers for efficient LLM pretraining (<a href="https://arxiv.org/abs/2502.19002" target=&ldquo;blank&rdquo;>ICML 2025</a>, <a href="https://arxiv.org/abs/2505.24275" target=&ldquo;blank&rdquo;>ICML 2026</a>).
 </p>
 </li>
 </ul>
 <p>For more on FSL, see my <b><a href="doc/LLM-pretraining-theory.pdf" target=&ldquo;blank&rdquo;>talk slides</a></b>.
 </p>
 <h2>SGD Dynamics: Stability, Sharpness, and Generalization</h2>
-<p>Why does SGD always find minima that generalize well, even when the model is overparameterized? We introduced <b>dynamical stability</b> as a mechanism for SGD's implicit regularization. Our work links stability constraints and SGD's noise geometry to minima selection, sharpness, and generalization.
+<p>Why does SGD often find minima that generalize well, even when the model is overparameterized? We introduced <b>dynamical stability</b> as a mechanism for SGD's implicit regularization. Our work links stability constraints and SGD's noise geometry to minima selection, sharpness, and generalization.
 </p>
 <ul>
 <li><p>Dynamical stability and minima selection (<a href="https://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective" target=&ldquo;blank&rdquo;>NeurIPS 2018</a>, <a href="https://arxiv.org/abs/2207.02628" target=&ldquo;blank&rdquo;>NeurIPS 2022</a>).
@@ -76,20 +76,20 @@
 </ul>
 <p>For an overview of this line of work, see my <a href="doc/dynamical-stability.pdf" target=&ldquo;blank&rdquo;>talk slides</a>.
 </p>
-<h2>Neural Network Theory: Approximation and Estimation</h2>
-<p>We introduced and named <b>Barron spaces</b> for two-layer neural networks, establishing approximation and generalization results within this function-space framework. Our broader work studies how neural networks efficiently learn <b>high-dimensional functions</b> and when and why they outperform linear methods.
+<h2>Function Space Theory of Neural Networks: Approximation and Estimation</h2>
+<p>We develop a function-space theory of neural networks to characterize the functions they can efficiently approximate and learn. Our work establishes direct and inverse approximation theorems and quantifies approximation rates and statistical estimation errors.
 </p>
 <ul>
-<li><p>Barron and flow-induced spaces (<a href="https://arxiv.org/abs/1906.08039" target=&ldquo;blank&rdquo;>Constructive Approximation 2021</a>).
+<li><p><b>Barron spaces</b>: direct and inverse approximation theorems (<a href="https://arxiv.org/abs/1906.08039" target=&ldquo;blank&rdquo;>Constructive Approximation 2021</a>, <a href="https://arxiv.org/abs/2305.19082" target=&ldquo;blank&rdquo;>JML 2023</a> ).
 </p>
 </li>
 <li><p>Approximation–estimation duality (<a href="https://arxiv.org/abs/2305.05642" target=&ldquo;blank&rdquo;>AoS 2025</a>).
 </p>
 </li>
-<li><p>Neural networks versus linear methods (<a href="https://arxiv.org/abs/2108.04964" target=&ldquo;blank&rdquo;>JMLR 2022</a>).
+<li><p>Approximation separations between neural networks and linear methods (<a href="https://arxiv.org/abs/2108.04964" target=&ldquo;blank&rdquo;>JMLR 2022</a>).
 </p>
 </li>
-<li><p>Inductive biases of convolutional networks (<a href="https://arxiv.org/abs/2305.08404" target=&ldquo;blank&rdquo;>NeurIPS 2023</a>).
+<li><p>Inductive biases and sample efficiency of deep CNNs (<a href="https://arxiv.org/abs/2305.08404" target=&ldquo;blank&rdquo;>NeurIPS 2023</a>).
 </p>
 </li>
 </ul>
@@ -97,7 +97,7 @@
 </p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2026-11-14, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2026-11-20, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
