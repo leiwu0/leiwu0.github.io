@@ -128,6 +128,10 @@ AISTATS 2022.
 Chao Ma\*, *Lei Wu*\*, Weinan E\n
 Mathematical and Scientific Machine Learning (MSML), 2021.
 
+- [https://arxiv.org/abs/1906.08039 The Barron space and flow-induced function spaces for neural network models] \n
+(α-β) Weinan E, Chao Ma, *Lei Wu* \n 
+Constructive Approximation, 2021.
+
 - [https://arxiv.org/abs/2009.10713 Towards a mathematical understanding of neural network-based machine learning: what we know and what we don't] \n
 (α-β) Weinan E, Chao Ma, Stephan Wojtowytsch, *Lei Wu* \n
 CSIAM Transactions on Applied Mathematics, 2020.
@@ -148,9 +152,6 @@ Science China Mathematics, 2020.
 Chao Ma\*, *Lei Wu*\*, Weinan E\n
 Mathematical and Scientific Machine Learning (MSML), 2020.
 
-- [https://arxiv.org/abs/1906.08039 The Barron space and flow-induced function spaces for neural network models] \n
-(α-β) Weinan E, Chao Ma, *Lei Wu* \n 
-Constructive Approximation, 2021.
 
 - [https://arxiv.org/abs/2009.06132 Complexity measures for neural networks with general activation functions using path-based norms] \n
 (α-β) Zhong Li, Chao Ma, *Lei Wu* \n
@@ -169,6 +170,10 @@ arXiv preprint, 2019.
 (α-β) Weinan E, Chao Ma, *Lei Wu* \n
 Journal of Pure and Applied Functional Analysis, 2020.
 
+- [http://proceedings.mlr.press/v129/wu20a.html Towards understanding and improving the transferability of adversarial examples in deep neural networks] \n
+*Lei Wu*, Zhanxing Zhu\n
+ACML, 2020 \[[https://arxiv.org/abs/1802.09707 arXiv version]\].
+
 
 - [https://arxiv.org/abs/1911.00645 Global convergence of gradient descent for deep linear residual networks] \n
 *Lei Wu*\*, Qingcan Wang\*, Chao Ma\n
@@ -186,9 +191,6 @@ ICML 2019.
 *Lei Wu*, Chao Ma, Weinan E\n 
 NeurIPS 2018.
 
-- [http://proceedings.mlr.press/v129/wu20a.html Towards understanding and improving the transferability of adversarial examples in deep neural networks] \n
-*Lei Wu*, Zhanxing Zhu\n
-ACML, 2020 \[[https://arxiv.org/abs/1802.09707 arXiv version]\].
 
 - [https://arxiv.org/abs/1608.05973 Irreversible samplers from jump and continuous Markov processes] \n
 Yi-An Ma, Emily B Fox, Tianqi Chen, *Lei Wu*\n

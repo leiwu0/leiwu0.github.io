@@ -33,25 +33,24 @@ If you are interested in joining us, please email me your CV and a brief descrip
 
 == Recent Updates
 
-- 2026-09:  [https://arxiv.org/abs/2611.16560 When and how signSGD outperforms SGD: a functional scaling law perspective] accepted to NeurIPS 2026 (*Spotlight*). 
+- 2026-09: Our work on [https://arxiv.org/abs/2611.16560 when and how SignSGD outperforms SGD] was accepted to NeurIPS 2026 (*Spotlight*).
 
-- 2026-08: New preprints on [https://arxiv.org/abs/2608.24814 effective learning rate (ELR) collapse] and [https://arxiv.org/abs/2609.02728 momentum in large-batch training] are now available on arXiv.
+- 2026-08: New preprints on [https://arxiv.org/abs/2608.24814 effective learning rate (ELR) collapse] and [https://arxiv.org/abs/2609.02728 momentum in large-batch training] are available on arXiv.
 
-- 2026-07: I taught a short course on /Foundations of Deep Learning: Approximation, Generalization, and Scaling/ at [https://yingzhouli.com/others/FDUSS2026/index-mass-en.html 2026 Fudan University International Summer School on AI in Math].
+- 2026-07: I taught a short course on scientific foundations of deep learning at [https://yingzhouli.com/others/FDUSS2026/index-mass-en.html Fudan University International Summer School on AI in Math], covering approximation, generalization, and scaling.
 
-- 2026-07: Co-organized the [https://ml-math-2026.github.io/ 2026 PKU Workshop on Mathematical Foundations of Modern Machine Learning] with [https://www.lfhsgre.org/ Fanghui Liu] and [https://kunyuan827.github.io/ Kun Yuan].
+- 2026-07: I co-organized the [https://ml-math-2026.github.io/ PKU Workshop on Mathematical Foundations of Modern Machine Learning] with [https://www.lfhsgre.org/ Fanghui Liu] and [https://kunyuan827.github.io/ Kun Yuan].
 
-- 2026-06: [https://arxiv.org/abs/2602.06797 Optimal learning-rate schedules under functional scaling laws: power decay and warmup-stable-decay] accepted to COLT 2026.
+- 2026-06: Our work on [https://arxiv.org/abs/2602.06797 optimal learning-rate schedules under functional scaling laws] was accepted to COLT 2026.
 
-- 2026-06: [https://arxiv.org/abs/2505.24275 GradPower: powering gradients for faster language model pre-training] accepted to ICML 2026.
+- 2026-06: Our work [https://arxiv.org/abs/2505.24275 GradPower: powering gradients for faster LLM pretraining] was accepted to ICML 2026.
 
-- 2026-02: [https://arxiv.org/abs/2602.19691 Smoothness adaptivity in constant-depth neural networks: optimal rates via smooth activations] released on arXiv.
+- 2026-02: Our preprint on [https://arxiv.org/abs/2602.19691 smoothness adaptivity in constant-depth neural networks] is available on arXiv.
 
-- 2026-02: [https://arxiv.org/abs/2602.14208 Fast catch-up, late switching: optimal batch size scheduling via functional scaling laws] accepted to ICLR 2026.
+- 2026-02: Our work on [https://arxiv.org/abs/2602.14208 optimal batch-size schedules under functional scaling laws] was accepted to ICLR 2026.
 
-- 2025-09: [https://arxiv.org/abs/2509.19189 Functional scaling laws in kernel regression: loss dynamics and learning rate schedules] accepted to NeurIPS 2025 (*Spotlight*).
+- 2025-09: Our work on [https://arxiv.org/abs/2509.19189 functional scaling laws for learning dynamics] was accepted to NeurIPS 2025 (*Spotlight*).
 
-- 2025-06: [https://arxiv.org/abs/2502.19002 The sharpness disparity principle in transformers for accelerating language model pre-training] accepted to ICML 2025.
+- 2025-06: Our work on [https://arxiv.org/abs/2502.19002 accelerating transformer pretraining through sharpness disparities] was accepted to ICML 2025.
 
-- 2025-02: [https://arxiv.org/abs/2305.05642 A duality framework for analyzing random feature and two-layer neural networks] accepted to *Annals of Statistics*.
-
+- 2025-02: Our [https://arxiv.org/abs/2305.05642 duality framework for random feature and two-layer neural networks] was accepted to *Annals of Statistics*.
