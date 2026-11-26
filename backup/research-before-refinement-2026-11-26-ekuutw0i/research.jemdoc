@@ -1,0 +1,50 @@
+# jemdoc: menu{MENU}{research.html}, title{Research | Lei Wu}
+# jemdoc: notime
+= Research
+
+I work toward a *predictive science of deep learning*: explaining learning mechanisms, predicting training dynamics, and guiding algorithm design. My research moves between mathematical analysis of tractable models and large-scale experiments, with each informing and challenging the other.
+
+# For broader reflections on deep learning theory, see my [./research-perspective.html research perspective].
+
+
+== LLM pretraining: modeling, prediction, and design
+
+We seek a macroscopic description of large-scale pretraining through effective equations that capture the mechanisms governing loss dynamics. This approach helps explain training behavior and improve training efficiency.
+
+*1. Functional scaling laws (FSL).*  We introduced FSL: effective equations describing learning dynamics through the competition between signal learning and noise forgetting ([https://arxiv.org/abs/2509.19189 NeurIPS 2025]). We use this framework to study universality across optimizers and guide hyperparameter scaling:
+  - Universality of FSL: SignSGD ([https://neurips.cc/virtual/2026/loc/sydney/poster/150706 NeurIPS 2026])
+  - Hyperparameter scaling:
+    -- Momentum ([https://arxiv.org/abs/2609.02728 arXiv 2026])
+    -- Batch-size schedules ([https://arxiv.org/abs/2602.14208 ICLR 2026])
+    -- Learning-rate schedules ([https://arxiv.org/abs/2602.06797 COLT 2026]).
+
+For more on FSL, see my [doc/LLM-pretraining-theory.pdf talk slides].
+
+*2. ELR collapse.*  We identify the effective learning rate---the learning rate divided by parameter norm---as a more fundamental variable than the nominal learning rate for describing LLM loss dynamics ([https://arxiv.org/abs/2608.24814 arXiv 2026]).
+
+*3. Optimizer design.*  We develop optimizers for efficient LLM pretraining ([https://arxiv.org/abs/2502.19002 ICML 2025], [https://arxiv.org/abs/2505.24275 ICML 2026]).
+
+
+
+
+== SGD dynamics: stability, sharpness, and generalization
+
+Why does SGD often find minima that generalize well, even when the model is overparameterized? We introduced *dynamical stability* as a mechanism for SGD's implicit regularization. Our work links stability constraints and SGD's noise geometry to minima selection, sharpness, and generalization.
+
+- Dynamical stability and minima selection ([https://papers.nips.cc/paper/8049-how-sgd-selects-the-global-minima-in-over-parameterized-learning-a-dynamical-stability-perspective NeurIPS 2018], [https://arxiv.org/abs/2207.02628 NeurIPS 2022]).
+- Stability and generalization ([https://arxiv.org/abs/2305.17490 ICML 2023]).
+- Noise geometry of SGD ([https://arxiv.org/abs/2207.02628 NeurIPS 2022], [https://openreview.net/forum?id=F6wmIilZXG TMLR 2026]).
+
+For an overview of this line of work, see my [doc/dynamical-stability.pdf talk slides].
+
+== Function space theory of neural networks: approximation and estimation
+
+We develop *high-dimensional* function-space theories of neural networks to characterize the functions they can efficiently approximate and learn. Our work establishes direct and inverse approximation theorems and quantifies approximation rates and statistical estimation errors.
+
+- *Barron spaces*: approximation and embedding theorems ([https://arxiv.org/abs/1906.08039 Constructive Approximation 2021], [https://arxiv.org/abs/2305.19082 JML 2023] ).
+- Approximation–estimation *duality* ([https://arxiv.org/abs/2305.05642 AoS 2025]).
+- Approximation separations between neural networks and linear methods ([https://arxiv.org/abs/2108.04964 JMLR 2022]).
+- Inductive biases and sample efficiency of deep CNNs ([https://arxiv.org/abs/2305.08404 NeurIPS 2023]).
+
+For more on approximation–estimation duality, see my [doc/function-space.pdf talk slides].
+

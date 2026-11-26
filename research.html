@@ -26,16 +26,15 @@
 <p>I work toward a <b>predictive science of deep learning</b>: explaining learning mechanisms, predicting training dynamics, and guiding algorithm design. My research moves between mathematical analysis of tractable models and large-scale experiments, with each informing and challenging the other.
 </p>
 <h2>LLM pretraining: modeling, prediction, and design</h2>
-<p>We seek a macroscopic description of LLM pretraining through effective equations that capture the mechanisms governing loss dynamics. This approach helps explain training behavior and improve training efficiency.
+<p>We seek a macroscopic description of large-scale pretraining through effective equations that capture the mechanisms governing loss dynamics. This approach helps explain training behavior and improve training efficiency.
+</p>
+<p><b>1. Functional scaling laws (FSL).</b>  We introduced FSL: an effective law that characterizes the learning dynamics through the competition between signal learning and noise forgetting (<a href="https://arxiv.org/abs/2509.19189" target=&ldquo;blank&rdquo;>NeurIPS 2025</a>). By analyzing how training choices alter this competition, we can explain and predict their effects:
 </p>
 <ul>
-<li><p><b>Functional scaling laws (FSL)</b>. We introduced FSL: effective equations that describe learning dynamics through the competition between signal learning and noise forgetting  (<a href="https://arxiv.org/abs/2509.19189" target=&ldquo;blank&rdquo;>NeurIPS 2025</a>).  By analyzing how training choices alter this competition, we can explain and predict their effects:
-</p>
-<ul>
-<li><p>Momentum (<a href="https://arxiv.org/abs/2609.02728" target=&ldquo;blank&rdquo;>arXiv 2026</a>)
+<li><p>SignSGD vs. SGD (<a href="https://neurips.cc/virtual/2026/loc/sydney/poster/150706" target=&ldquo;blank&rdquo;>NeurIPS 2026</a>)
 </p>
 </li>
-<li><p>SignSGD versus SGD (<a href="https://neurips.cc/virtual/2026/loc/sydney/poster/150706" target=&ldquo;blank&rdquo;>NeurIPS 2026</a>)
+<li><p>Momentum (<a href="https://arxiv.org/abs/2609.02728" target=&ldquo;blank&rdquo;>arXiv 2026</a>)
 </p>
 </li>
 <li><p>Batch-size schedules (<a href="https://arxiv.org/abs/2602.14208" target=&ldquo;blank&rdquo;>ICLR 2026</a>)
@@ -45,20 +44,11 @@
 </p>
 </li>
 </ul>
-
-</li>
-</ul>
-<ul>
-<li><p><b>ELR collapse.</b> We identify the effective learning rate&#8201;&mdash;&#8201;the learning rate divided by parameter norm&#8201;&mdash;&#8201;as a more fundamental variable than the nominal learning rate for describing LLM loss dynamics (<a href="https://arxiv.org/abs/2608.24814" target=&ldquo;blank&rdquo;>arXiv 2026</a>).
-</p>
-</li>
-</ul>
-<ul>
-<li><p><b>Optimizer design.</b> We develop optimizers for efficient LLM pretraining (<a href="https://arxiv.org/abs/2502.19002" target=&ldquo;blank&rdquo;>ICML 2025</a>, <a href="https://arxiv.org/abs/2505.24275" target=&ldquo;blank&rdquo;>ICML 2026</a>).
-</p>
-</li>
-</ul>
 <p>For more on FSL, see my <a href="doc/LLM-pretraining-theory.pdf" target=&ldquo;blank&rdquo;>talk slides</a>.
+</p>
+<p><b>2. ELR collapse.</b> We uncover ELR collapse: learning rate (LR) and parameter norm govern loss dynamics primarily through their ratio, the effective learning rate (ELR) (<a href="https://arxiv.org/abs/2608.24814" target=&ldquo;blank&rdquo;>arXiv 2026</a>).
+</p>
+<p><b>3. Optimizer design.</b>  We develop optimizers for efficient LLM pretraining (<a href="https://arxiv.org/abs/2502.19002" target=&ldquo;blank&rdquo;>ICML 2025</a>, <a href="https://arxiv.org/abs/2505.24275" target=&ldquo;blank&rdquo;>ICML 2026</a>).
 </p>
 <h2>SGD dynamics: stability, sharpness, and generalization</h2>
 <p>Why does SGD often find minima that generalize well, even when the model is overparameterized? We introduced <b>dynamical stability</b> as a mechanism for SGD's implicit regularization. Our work links stability constraints and SGD's noise geometry to minima selection, sharpness, and generalization.
@@ -97,7 +87,7 @@
 </p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2026-11-21, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2026-11-26, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
